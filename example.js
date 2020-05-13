@@ -120,15 +120,15 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
         hb.set_title("Watch TV");
         this.set_titlebar(hb);
 
-        let button = new Gtk.Button();
-        let icon = new Gio.ThemedIcon({name: "mail-send-receive-symbolic"});
-        let image = Gtk.Image.new_from_gicon(icon, Gtk.IconSize.BUTTON);
-        button.add(image);
+        // let button = new Gtk.Button();
+        // let icon = new Gio.ThemedIcon({name: "mail-send-receive-symbolic"});
+        // let image = Gtk.Image.new_from_gicon(icon, Gtk.IconSize.BUTTON);
+        // button.add(image);
         hb.pack_end(stackSwitcher);
 
         let hbox = new Gtk.Box({orientation: Gtk.Orientation.HORIZONTAL});
 
-        button = new Gtk.Button();
+        let button = new Gtk.Button();
         button.add(new Gtk.Arrow({arrow_type: Gtk.ArrowType.LEFT, shadow_type: Gtk.ShadowType.NONE}));
         hbox.add(button);
 
