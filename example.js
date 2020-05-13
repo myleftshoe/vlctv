@@ -91,13 +91,9 @@ const views = [
 const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
     _init() {
         super._init({ title: "Hello World", decorated: true });
-        this.fullscreen()
+        // this.fullscreen()
         // this.set_border_width(10);
         this.set_default_size(1920, 1200);
-
-
-        const box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL, spacing: 6});
-        this.add(box);
 
 
         const stack = new Gtk.Stack();
@@ -114,7 +110,9 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
 
         let stackSwitcher = new Gtk.StackSwitcher();
         stackSwitcher.stack = stack;
+        const box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL, spacing: 6});
         box.pack_start(stack, true, true, 0);
+        this.add(box);
 
 
         let hb = new Gtk.HeaderBar();
