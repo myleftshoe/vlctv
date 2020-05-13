@@ -3,6 +3,7 @@
 imports.gi.versions.Gtk = '3.0';
 imports.gi.versions.GdkX11 = '3.0';
 const {GObject, Gtk, GLib, GdkX11, Gdk} = imports.gi;
+const Gio = imports.gi.Gio;
 const Webkit = imports.gi.WebKit2;
 // const {Webkit} = imports.webkit
 // GI.GdkX11.x11WindowGetXid
@@ -79,27 +80,67 @@ class Player {
 const player = new Player()
 
 
+const views = [
+    { name: 'freeview', url: 'https://www.freeview.com.au/' },
+    { name: 'SBS OnDemand', url: 'https://www.sbs.com.au/ondemand/' },
+    { name: 'ABC iView', url: 'https://iview.abc.net.au/' },
+    { name: 'YouTube', url: 'https://www.youtube.com/' }
+]
+
+
 const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
     _init() {
-        super._init({ title: "Hello World", decorated: false });
+        super._init({ title: "Hello World", decorated: true });
         this.fullscreen()
-
-        this.box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL, spacing: 6});
-        this.add(this.box);
-
-        this.webView = new Webkit.WebView();
-        this.webView.load_uri ("https://www.freeview.com.au/", null);
-
-        this.webView2 = new Webkit.WebView();
-        this.webView2.load_uri ("https://www.sbs.com.au/ondemand/", null);
+        // this.set_border_width(10);
+        this.set_default_size(1920, 1200);
 
 
-        this.box.pack_start(this.webView, true, true, 0);
-        this.box.pack_start(this.webView2, true, true, 0);
+        const box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL, spacing: 6});
+        this.add(box);
 
-        // this.add(this.webView)
-        // this.show_all()
-        // player.start()
+
+        const stack = new Gtk.Stack();
+        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
+        stack.transition_duration = 300;
+
+
+        views.forEach(view => {
+            const webView = new Webkit.WebView();
+            webView.load_uri (view.url, null);
+            stack.add_titled(webView, view.name, view.name);
+        })
+
+
+        let stackSwitcher = new Gtk.StackSwitcher();
+        stackSwitcher.stack = stack;
+        box.pack_start(stack, true, true, 0);
+
+
+        let hb = new Gtk.HeaderBar();
+        hb.set_show_close_button(true);
+        hb.set_title("Watch TV");
+        this.set_titlebar(hb);
+
+        let button = new Gtk.Button();
+        let icon = new Gio.ThemedIcon({name: "mail-send-receive-symbolic"});
+        let image = Gtk.Image.new_from_gicon(icon, Gtk.IconSize.BUTTON);
+        button.add(image);
+        hb.pack_end(stackSwitcher);
+
+        let hbox = new Gtk.Box({orientation: Gtk.Orientation.HORIZONTAL});
+
+        button = new Gtk.Button();
+        button.add(new Gtk.Arrow({arrow_type: Gtk.ArrowType.LEFT, shadow_type: Gtk.ShadowType.NONE}));
+        hbox.add(button);
+
+        button = new Gtk.Button();
+        button.add(new Gtk.Arrow({arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE}));
+        hbox.add(button);
+
+        hb.pack_start(hbox);
+
+
     }
 
     static onButtonClicked() {
