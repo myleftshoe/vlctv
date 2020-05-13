@@ -3,7 +3,7 @@
 imports.gi.versions.Gtk = '3.0';
 imports.gi.versions.GdkX11 = '3.0';
 const {GObject, Gtk, GLib, GdkX11, Gdk} = imports.gi;
-const WebKit = imports.gi.WebKit2;
+const Webkit = imports.gi.WebKit2;
 // const {Webkit} = imports.webkit
 // GI.GdkX11.x11WindowGetXid
 const home = GLib.get_current_dir()
@@ -81,47 +81,25 @@ const player = new Player()
 
 const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
     _init() {
-        super._init({ title: "Hello World" });
+        super._init({ title: "Hello World", decorated: false });
+        this.fullscreen()
 
         this.box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL, spacing: 6});
         this.add(this.box);
 
-        this.button = new Gtk.Button({ label: "Play/Pause" });
-        this.button.connect("clicked", MyWindow.onButtonClicked);
-        
-        this.button2 = new Gtk.Button({ label: "Toggle Fullscreen" });
-        this.button2.connect("clicked", MyWindow.onButton2Clicked);
-        
-        this.box.pack_start(this.button, true, true, 0);
-        this.box.pack_start(this.button2, true, true, 0);        
+        this.webView = new Webkit.WebView();
+        this.webView.load_uri ("https://www.freeview.com.au/", null);
 
-        let listbox2 = new Gtk.ListBox();
-        let items = "rn radio tv".split(' ');
+        this.webView2 = new Webkit.WebView();
+        this.webView2.load_uri ("https://www.sbs.com.au/ondemand/", null);
 
-        items.forEach(
-            item => listbox2.add(new ListBoxRowWithData(item))
-        );
 
-        let sortFunc = function(row1, row2, data, notifyDestroy) {
-            return row1.data.toLowerCase() > row2.data.toLowerCase();
-        };
+        this.box.pack_start(this.webView, true, true, 0);
+        this.box.pack_start(this.webView2, true, true, 0);
 
-        let filterFunc = function(row, data, notifyDestroy) {
-            return (row.data != 'Fail');
-        };
-
-        listbox2.set_sort_func(sortFunc);
-        listbox2.set_filter_func(filterFunc);
-        
-        listbox2.connect("row-activated", (widget, row) => {
-            print(row.data)
-            player.open(`${home}/${row.data}.xspf`)
-        });
-
-        this.box.pack_start(listbox2, true, true, 0);
-        listbox2.show_all();        
-
-        player.start()
+        // this.add(this.webView)
+        // this.show_all()
+        // player.start()
     }
 
     static onButtonClicked() {
@@ -142,4 +120,5 @@ win.connect("delete-event", () => {
     Gtk.main_quit()
 });
 win.show_all();
+
 Gtk.main();
