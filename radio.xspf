@@ -35,6 +35,7 @@
 		<track>
 			<title>SBS Radio 2</title>
 			<location>dvb-t://frequency=184500000</location>
+			<image>file:///home/paul/radio/sbs-radio-1.png</image>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
 				<vlc:option>dvb-ts-id=784</vlc:option>

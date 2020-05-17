@@ -198,6 +198,7 @@
 				<vlc:option>dvb-guard=1/16</vlc:option>
 				<vlc:id>15</vlc:id>
 				<vlc:option>program=790</vlc:option>
+				<vlc:option>live-caching=20000</vlc:option>
 			</extension>
 		</track>
 		<track>
