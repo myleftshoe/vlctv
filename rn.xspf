@@ -6,6 +6,7 @@
 	<trackList>
 		<track>
 			<title>ABC RN</title>
+			<image>file:///home/paul/vlc/rn.png</image>
 			<location>dvb-t://frequency=226500000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>

@@ -26,6 +26,21 @@ function sendCommand(string) {
 }
 
 
+const channelsFolder = Gio.File.new_for_path("/home/paul/Development/gjs")
+
+channelFilesEnumerator = channelsFolder.enumerate_children('*', Gio.FileQueryInfoFlags.NOFOLLOW_SYMLINKS, null)
+
+const playlistFiles = [];
+let file = channelFilesEnumerator.next_file(null);
+while (file) {
+    const filename = file.get_name()
+    const [extension] = filename.split('.').slice(-1);
+    if (extension === 'xspf')
+        playlistFiles.push(filename)
+    file = channelFilesEnumerator.next_file(null);
+} 
+print(playlistFiles)
+
 const channels = [
     {
         "track" : "16",
@@ -399,7 +414,7 @@ class Player {
     }
     start() {
         // GLib.spawn_command_line_async(`vlc --no-video-deco --no-qt-bgcone --qt-minimal-view --extraintf="oldrc" --rc-unix="${socket}" --rc-fake-tty --one-instance  --no-playlist-enqueue /home/paul/vlc/tv.xspf`);
-        GLib.spawn_command_line_async(`${vlcCommandLine} /home/paul/vlc/tv.xspf`);
+        GLib.spawn_command_line_async(`vlc -I dummy --drawable-xid=${win.drawingArea.window.get_xid()} --extraintf="oldrc" --rc-unix="${socket}" --rc-fake-tty --one-instance --no-playlist-enqueue /home/paul/vlc/tv.xspf`);
     }
     quit() {
         sendCommand("quit")
@@ -409,8 +424,8 @@ class Player {
         const gdk_display = Gdk.Display.get_default()
         const xid = GdkX11.X11Window.lookup_for_display(gdk_display, win)
         print(gdk_display)
-        print(xid)
-        const gdk11_display = Gdk.Display.get_xdisplay()
+        print("eeee", xid)
+        print("ffff", win.drawingArea.window.get_xid())
     }
     open(uri) {
         sendCommand("clear")
@@ -458,17 +473,12 @@ const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
 const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
     _init() {
         super._init({ title: "Hello World", decorated: true });
-        // this.fullscreen()
-        // this.set_border_width(10);
         this.set_default_size(1920, 1200);
-
-
-        const stack = new Gtk.Stack();
-        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-        stack.transition_duration = 300;
 
         const flowbox = new Gtk.FlowBox()
 
+        const vbutton = new Gtk.Button();
+        vbutton.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
 
         channels.forEach((channel, index) => {
             // print(channel.icon["@src"])
@@ -476,15 +486,22 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
             const channelButton = new BoxedImage(fname)
             flowbox.add(channelButton)
             channelButton.connect('clicked', () => {
+                // player.playpause()
                 sendCommand(`goto ${channel.track}`)
             })
         })
 
+        this.drawingArea = new Gtk.DrawingArea()
+        this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
+        this.drawingArea.connect('button_press_event', () => {
+            print('drawing area clicked')
+            player.playpause()
+        })
 
-        // image.connect('clicked', () => sendCommand("goto 1"))
-
-
-        // this.add(flowbox)
+        const stack = new Gtk.Stack();
+        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
+        stack.transition_duration = 300;
+        stack.add_titled(this.drawingArea, "watch", "watch" );
         stack.add_titled(flowbox, "Terrestrial", "Terrestrial");
 
         views.forEach(view => {
@@ -493,13 +510,11 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
             stack.add_titled(webView, view.name, view.name);
         })
 
-
         let stackSwitcher = new Gtk.StackSwitcher();
         stackSwitcher.stack = stack;
         const box = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 6 });
         box.pack_start(stack, true, true, 0);
         this.add(box);
-
 
         let hb = new Gtk.HeaderBar();
         hb.set_show_close_button(true);
@@ -521,6 +536,7 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
         button = new Gtk.Button();
         button.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
         hbox.add(button);
+        button.connect('clicked', () => player.start())
 
         hb.pack_start(hbox);
 
@@ -545,6 +561,6 @@ win.connect("delete-event", () => {
     Gtk.main_quit()
 });
 win.show_all();
-player.start()
+// player.start()
 
 Gtk.main();
