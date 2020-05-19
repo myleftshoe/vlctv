@@ -28,7 +28,7 @@ function sendCommand(string) {
 
 const channelsFolder = Gio.File.new_for_path("/home/paul/Development/gjs")
 
-channelFilesEnumerator = channelsFolder.enumerate_children('*', Gio.FileQueryInfoFlags.NOFOLLOW_SYMLINKS, null)
+const channelFilesEnumerator = channelsFolder.enumerate_children('*', Gio.FileQueryInfoFlags.NOFOLLOW_SYMLINKS, null)
 
 const playlistFiles = [];
 let file = channelFilesEnumerator.next_file(null);
@@ -479,14 +479,17 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
         this.set_default_size(1920, 1200);
 
         const flowbox = new Gtk.FlowBox()
+        flowbox.set_opacity(0.5)
 
         const vbutton = new Gtk.Button();
         vbutton.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
+
 
         channels.forEach((channel, index) => {
             // print(channel.icon["@src"])
             const fname = `img/${channel.lcn}.png`
             const channelButton = new BoxedImage(fname)
+            channelButton.set_opacity(0.5)
             flowbox.add(channelButton)
             channelButton.connect('clicked', () => {
                 // player.playpause()
@@ -501,11 +504,18 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
             player.playpause()
         })
 
+
+
+        const overlay = new Gtk.Overlay()
+        overlay.add(this.drawingArea)
+        overlay.add_overlay(flowbox)
+        overlay.set_opacity(0.5)        
+
         const stack = new Gtk.Stack();
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
         stack.transition_duration = 300;
-        stack.add_titled(this.drawingArea, "watch", "watch" );
-        stack.add_titled(flowbox, "Terrestrial", "Terrestrial");
+        // stack.add_titled(this.drawingArea, "watch", "watch" );
+        stack.add_titled(overlay, "Terrestrial", "Terrestrial");
 
         views.forEach(view => {
             const webView = new Webkit.WebView();
