@@ -418,7 +418,10 @@ class Player {
             `rc-unix="${socket}"`,
             `rc-fake-tty`,
             `one-instance`,
-            `no-playlist-enqueue`
+            `no-playlist-enqueue`,
+            `sub-source logo`,
+            `logo-file dab.png`
+            // `sub-source=marq --marq-marquee="%Y-%m-%d,%H:%M:%S" --marq-position=9 --marq-color=0xFFFFFF --marq-size=48 --marq-timeout=1000`             
             // `no-video`
         ].join(' --')
         // GLib.spawn_command_line_async(`vlc --no-video-deco --no-qt-bgcone --qt-minimal-view --extraintf="oldrc" --rc-unix="${socket}" --rc-fake-tty --one-instance  --no-playlist-enqueue /home/paul/vlc/tv.xspf`);
@@ -479,7 +482,6 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
         this.set_default_size(1920, 1200);
 
         const flowbox = new Gtk.FlowBox()
-        flowbox.set_opacity(0.5)
 
         const vbutton = new Gtk.Button();
         vbutton.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
@@ -489,7 +491,6 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
             // print(channel.icon["@src"])
             const fname = `img/${channel.lcn}.png`
             const channelButton = new BoxedImage(fname)
-            channelButton.set_opacity(0.5)
             flowbox.add(channelButton)
             channelButton.connect('clicked', () => {
                 // player.playpause()
@@ -504,12 +505,10 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
             player.playpause()
         })
 
-
-
         const overlay = new Gtk.Overlay()
         overlay.add(this.drawingArea)
         overlay.add_overlay(flowbox)
-        overlay.set_opacity(0.5)        
+        overlay.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({red:1,green:.5,blue:.5,alpha:0}))
 
         const stack = new Gtk.Stack();
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
