@@ -507,7 +507,7 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
 
         const overlay = new Gtk.Overlay()
         overlay.add(this.drawingArea)
-        overlay.add_overlay(flowbox)
+        // overlay.add_overlay(flowbox)
         overlay.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({red:1,green:.5,blue:.5,alpha:0}))
 
         const stack = new Gtk.Stack();
@@ -544,6 +544,10 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
         let button = new Gtk.Button();
         button.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.LEFT, shadow_type: Gtk.ShadowType.NONE }));
         hbox.add(button);
+        button.connect('clicked', () => {
+            print('show')
+            this.showChannels()
+        })
 
         button = new Gtk.Button();
         button.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
@@ -552,7 +556,55 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
 
         hb.pack_start(hbox);
 
+        this._dialog = new Gtk.Dialog ({ 
+            transient_for: this,
+            modal: false,
+            decorated: false,
+            opacity:0.9,
+            title: "Terrestrial Channels",
+        });
+        this._dialog.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({red:0,green:0,blue:0,alpha:0}))
+        
+        this._dialog.connect('response', () => {
+            this._dialog.hide()
+        })
 
+        this._dialog.connect('delete-event', () => true)
+
+        this._dialog.connect('focus-out-event', () => {
+            print('htf111111111111111')
+            this._dialog.hide()
+        })
+
+
+
+
+        flowbox.set_size_request(1200,600)
+        // Create the dialog's content area, which contains a message
+        this._contentArea = this._dialog.get_content_area();
+        // this._message = new Gtk.Label ({label: "This demonstrates a dialog with a label"});
+        // this._contentArea.add (this._message);
+        // this._dialog.set_default_size(1920, 600);
+        this._contentArea.add(flowbox)
+    
+
+        // // Create the dialog's action area, which contains a stock OK button
+        // this._actionArea = this._dialog.get_action_area();
+        // this._OKButton = Gtk.Button.new_from_stock (Gtk.STOCK_OK);
+        // this._actionArea.add (this._OKButton);
+
+        // // Connect the button to the function that handles what it does
+        // this._OKButton.connect ("clicked", () => print('OK clicked'));
+
+
+        // this._dialog.show_all();
+
+
+
+    }
+
+    showChannels() {
+        this._dialog.show_all()
     }
 
     static onButtonClicked() {
@@ -560,6 +612,7 @@ const MyWindow = GObject.registerClass(class MyWindow extends Gtk.Window {
         player.playpause()
     }
     static onButton2Clicked() {
+        this.showChannels()
         print("Button2 clicked");
         player.toggleFullscreen()
     }
