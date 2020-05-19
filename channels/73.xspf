@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Television</title>
+	<creator>w_scan-20170107</creator>
+	<info>http://wirbel.htpc-forum.de</info>
+	<trackList>
+		<track>
+			<title>7mate Melbourne</title>
+			<location>dvb-t://frequency=177500000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=7</vlc:option>
+				<vlc:option>dvb-ts-id=1283</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/16</vlc:option>
+				<vlc:id>5</vlc:id>
+				<vlc:option>program=1331</vlc:option>
+			</extension>
+		</track>
+    </trackList>
+</playlist>
