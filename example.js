@@ -387,25 +387,22 @@ const channels = [
 
 
 
-const vlc = [
-    `vlc`,
-    //    `marq-marquee="test"`,
-    //    `marq-position=0`,
-    `fullscreen`,
-    `no-video-deco`,
-    `no-qt-bgcone`,
-    `qt-minimal-view`,
-    `extraintf="oldrc"`,
-    `rc-unix="${socket}"`,
-    `rc-fake-tty`,
-    `one-instance`,
-    `no-playlist-enqueue`
-    // `no-video`
-]
+// const vlc = [
+//     `vlc`,
+//     //    `marq-marquee="test"`,
+//     //    `marq-position=0`,
+//     `fullscreen`,
+//     `no-video-deco`,
+//     `no-qt-bgcone`,
+//     `qt-minimal-view`,
+//     `extraintf="oldrc"`,
+//     `rc-unix="${socket}"`,
+//     `rc-fake-tty`,
+//     `one-instance`,
+//     `no-playlist-enqueue`
+//     // `no-video`
+// ]
 
-const vlcCommandLine = vlc.join(' --')
-
-print(vlcCommandLine)
 
 class Player {
 
@@ -413,19 +410,25 @@ class Player {
         this.fullscreen = false;
     }
     start() {
+        const vlc = [
+            `vlc`,
+            `intf dummy`,
+            `drawable-xid=${win.drawingArea.window.get_xid()}`,
+            `extraintf="oldrc"`,
+            `rc-unix="${socket}"`,
+            `rc-fake-tty`,
+            `one-instance`,
+            `no-playlist-enqueue`
+            // `no-video`
+        ].join(' --')
         // GLib.spawn_command_line_async(`vlc --no-video-deco --no-qt-bgcone --qt-minimal-view --extraintf="oldrc" --rc-unix="${socket}" --rc-fake-tty --one-instance  --no-playlist-enqueue /home/paul/vlc/tv.xspf`);
-        GLib.spawn_command_line_async(`vlc -I dummy --drawable-xid=${win.drawingArea.window.get_xid()} --extraintf="oldrc" --rc-unix="${socket}" --rc-fake-tty --one-instance --no-playlist-enqueue /home/paul/vlc/tv.xspf`);
+        GLib.spawn_command_line_async(`${vlc} /home/paul/vlc/tv.xspf`);
     }
     quit() {
         sendCommand("quit")
     }
     playpause() {
         sendCommand("pause")
-        const gdk_display = Gdk.Display.get_default()
-        const xid = GdkX11.X11Window.lookup_for_display(gdk_display, win)
-        print(gdk_display)
-        print("eeee", xid)
-        print("ffff", win.drawingArea.window.get_xid())
     }
     open(uri) {
         sendCommand("clear")
