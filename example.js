@@ -91,8 +91,7 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
 
 
         channels.forEach(channel => {
-            const fname = `img/${channel}.png`
-            const channelButton = new BoxedImage(fname)
+            const channelButton = new BoxedImage(`img/${channel}.png`)
             flowbox.add(channelButton)
 
             const file =`channels/${channel}.xspf`
