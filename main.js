@@ -14,8 +14,8 @@ Gtk.init(null);
 
 
 function sendCommand(string) {
-    print(`${home}/sendCommand "${string}"`)
-    GLib.spawn_command_line_async(`${home}/sendCommand ${string}`);
+    print(`${home}/sendCommand.sh "${string}"`)
+    GLib.spawn_command_line_async(`${home}/sendCommand.sh ${string}`);
 }
 
 const channels = ["9", "90", "91", "92", "93", "94", "95", "96", "99", "2", "20", "21", "22", "23", "24", "3", "30", "31", "32", "33", "34", "7", "70", "71", "72", "73", "74", "75", "76", "78", "1", "10", "11", "12", "13", "14", "15", "44" ]
@@ -84,7 +84,7 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         super._init({ title: "Hello World", decorated: true });
         this.set_default_size(1920, 1200);
 
-        const flowbox = new Gtk.FlowBox()
+        this.flowbox = new Gtk.FlowBox()
 
         const vbutton = new Gtk.Button();
         vbutton.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
@@ -92,7 +92,7 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
 
         channels.forEach(channel => {
             const channelButton = new BoxedImage(`img/${channel}.png`)
-            flowbox.add(channelButton)
+            this.flowbox.add(channelButton)
 
             const file =`channels/${channel}.xspf`
             channelButton.connect('clicked', () => {
@@ -174,13 +174,15 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
             this._dialog.hide()
         })
 
-        flowbox.set_size_request(1200, 600)
+        this.flowbox.set_size_request(1200, 600)
         this._contentArea = this._dialog.get_content_area();
-        this._contentArea.add(flowbox)
+        this._contentArea.add(this.flowbox)
 
     }
 
     showChannels() {
+        const [width, height] = this.get_size()
+        this.flowbox.set_size_request(width, height)
         this._dialog.show_all()
     }
 
