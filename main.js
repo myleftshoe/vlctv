@@ -6,7 +6,8 @@ imports.gi.versions.GdkX11 = '3.0';
 const { GObject, Gtk, GLib, GdkX11, Gdk, GdkPixbuf } = imports.gi;
 const Gio = imports.gi.Gio;
 const Webkit = imports.gi.WebKit2;
-const home = GLib.get_current_dir()
+// const home = GLib.get_current_dir()
+const home = "/home/paul/Development/WatchTV"
 const socket = `${home}/socket`
 
 
@@ -25,8 +26,10 @@ class Player {
 
     constructor() {
         this.fullscreen = false;
+        this.started = false;
     }
-    start() {
+    start(uri) {
+        print('Starting player')
         const vlc = [
             `vlc`,
             `intf dummy`,
@@ -37,7 +40,8 @@ class Player {
             `one-instance`,
             `no-playlist-enqueue`,
         ].join(' --')
-        GLib.spawn_command_line_async(`${vlc} /home/paul/vlc/tv.xspf`);
+        GLib.spawn_command_line_async(`${vlc} ${uri || ""}`);
+        this.started = true;
     }
     quit() {
         sendCommand("quit")
@@ -46,6 +50,10 @@ class Player {
         sendCommand("pause")
     }
     open(uri) {
+        if (!this.started) {
+            this.start(uri)
+            return
+        }
         sendCommand("clear")
         sendCommand(`add ${uri}`)
     }
@@ -77,12 +85,19 @@ const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
     }
 })
 
-
+const Screen = Gdk.Screen.get_default()
+const dimensions = Symbol()
+Screen[dimensions] = [Screen.get_width(), Screen.get_height()]
 
 const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
     _init() {
         super._init({ title: "Hello World", decorated: true });
-        this.set_default_size(1920, 1200);
+        // const [width, height] = Screen[dimensions]
+        // this.set_default_size(width, height);
+        this.fullscreen()
+        // this.maximize()
+
+        this.scrollable = new Gtk.ScrolledWindow()
 
         this.flowbox = new Gtk.FlowBox()
 
@@ -91,13 +106,12 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
 
 
         channels.forEach(channel => {
-            const channelButton = new BoxedImage(`img/${channel}.png`)
+            const channelButton = new BoxedImage(`${home}/img/${channel}.png`)
             this.flowbox.add(channelButton)
 
-            const file =`channels/${channel}.xspf`
+            const file =`${home}/channels/${channel}.xspf`
             channelButton.connect('clicked', () => {
-                sendCommand(`clear`)
-                sendCommand(`add "${file}"`)
+                player.open(file)
             })
         })
 
@@ -105,7 +119,15 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
         this.drawingArea.connect('button_press_event', () => {
             print('drawing area clicked')
-            player.playpause()
+            // player.playpause()
+            this.showChannels()
+        })
+
+        this.connect('key-press-event', (widget, event) => {
+            const [, keyval] = event.get_keyval();
+            print('key-press-event', keyval, keyval === Gdk.KEY_space)
+            if (keyval === Gdk.KEY_space)
+                player.playpause()
         })
 
         const overlay = new Gtk.Overlay()
@@ -119,7 +141,7 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
 
         views.forEach(view => {
             const webView = new Webkit.WebView();
-            webView.load_uri(view.url, null);
+            webView.load_uri(view.url);
             stack.add_titled(webView, view.name, view.name);
         })
 
@@ -163,6 +185,8 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         this._dialog.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({ red: 0, green: 0, blue: 0, alpha: 0 }))
 
         this._dialog.connect('response', () => {
+            if (!player.started) 
+                return true;
             this._dialog.hide()
         })
 
@@ -174,15 +198,18 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
             this._dialog.hide()
         })
 
-        this.flowbox.set_size_request(1200, 600)
+        // this.flowbox.set_size_request(1200, 600)
         this._contentArea = this._dialog.get_content_area();
-        this._contentArea.add(this.flowbox)
+        this.scrollable.add(this.flowbox)
+        this._contentArea.add(this.scrollable)
 
     }
 
     showChannels() {
-        const [width, height] = this.get_size()
-        this.flowbox.set_size_request(width, height)
+        const [width, height] = Screen[dimensions]
+        this.scrollable.set_size_request(width-120, height-120)
+        this.scrollable.set_margin_top(60)
+        this.scrollable.set_margin_left(60)
         this._dialog.show_all()
     }
 
@@ -195,6 +222,7 @@ win.connect("delete-event", () => {
     Gtk.main_quit()
 });
 win.show_all();
+win.showChannels();
 
 // player.start()
 
