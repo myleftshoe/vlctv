@@ -66,13 +66,6 @@ class Player {
 
 const player = new Player()
 
-const views = [
-    { name: 'freeview', url: 'https://www.freeview.com.au/' },
-    { name: 'SBS OnDemand', url: 'https://www.sbs.com.au/ondemand/' },
-    { name: 'ABC iView', url: 'https://iview.abc.net.au/' },
-    { name: 'YouTube', url: 'https://www.youtube.com/' }
-]
-
 
 const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
     _init(imageFile) {
@@ -91,19 +84,15 @@ Screen[dimensions] = [Screen.get_width(), Screen.get_height()]
 
 const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
     _init() {
-        super._init({ title: "Hello World", decorated: true });
-        // const [width, height] = Screen[dimensions]
-        // this.set_default_size(width, height);
-        this.fullscreen()
-        // this.maximize()
+        super._init({ title: "WatchTV", decorated: false });
+        const [width, height] = Screen[dimensions]
+        this.set_default_size(width, height);
+        // this.fullscreen()
+        this.maximize()
 
         this.scrollable = new Gtk.ScrolledWindow()
 
         this.flowbox = new Gtk.FlowBox()
-
-        const vbutton = new Gtk.Button();
-        vbutton.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
-
 
         channels.forEach(channel => {
             const channelButton = new BoxedImage(`${home}/img/${channel}.png`)
@@ -119,62 +108,26 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
         this.drawingArea.connect('button_press_event', () => {
             print('drawing area clicked')
-            // player.playpause()
-            this.showChannels()
+            player.playpause()
         })
 
         this.connect('key-press-event', (widget, event) => {
             const [, keyval] = event.get_keyval();
-            print('key-press-event', keyval, keyval === Gdk.KEY_space)
+            print(Gdk.keyval_name(keyval))
             if (keyval === Gdk.KEY_space)
                 player.playpause()
+            else if (keyval === Gdk.KEY_Escape) 
+                this.showChannels()
+            // else if (keyval === 65513)
+            //     return true
+
         })
 
         const overlay = new Gtk.Overlay()
         overlay.add(this.drawingArea)
         overlay.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({ red: 1, green: .5, blue: .5, alpha: 0 }))
 
-        const stack = new Gtk.Stack();
-        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-        stack.transition_duration = 300;
-        stack.add_titled(overlay, "Terrestrial", "Terrestrial");
-
-        views.forEach(view => {
-            const webView = new Webkit.WebView();
-            webView.load_uri(view.url);
-            stack.add_titled(webView, view.name, view.name);
-        })
-
-        let stackSwitcher = new Gtk.StackSwitcher();
-        stackSwitcher.stack = stack;
-        const box = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 6 });
-        box.pack_start(stack, true, true, 0);
-        this.add(box);
-
-        let hb = new Gtk.HeaderBar();
-        hb.set_show_close_button(true);
-        hb.set_title("Watch TV");
-        this.set_titlebar(hb);
-
-        hb.pack_end(stackSwitcher);
-
-        let hbox = new Gtk.Box({ orientation: Gtk.Orientation.HORIZONTAL });
-
-        let button = new Gtk.Button();
-        button.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.LEFT, shadow_type: Gtk.ShadowType.NONE }));
-        hbox.add(button);
-        button.connect('clicked', () => {
-            print('show')
-            this.showChannels()
-        })
-
-        button = new Gtk.Button();
-        button.add(new Gtk.Arrow({ arrow_type: Gtk.ArrowType.RIGHT, shadow_type: Gtk.ShadowType.NONE }));
-        hbox.add(button);
-        button.connect('clicked', () => player.start())
-
-        hb.pack_start(hbox);
-
+        this.add(overlay)
         this._dialog = new Gtk.Dialog({
             transient_for: this,
             modal: false,
@@ -196,6 +149,11 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         this._dialog.connect('focus-out-event', () => {
             print('focus-out-event')
             this._dialog.hide()
+        })
+
+        this.connect('focus-in-event', () => {
+            print('focus-in-event')
+            this._dialog.show()
         })
 
         // this.flowbox.set_size_request(1200, 600)
