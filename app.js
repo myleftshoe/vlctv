@@ -9,10 +9,10 @@ Run it with:
     gjs egIcon.js
 */
 
-const Gio   = imports.gi.Gio;
-const GLib  = imports.gi.GLib;
-const Gtk   = imports.gi.Gtk;
-const Lang  = imports.lang;
+const Gio = imports.gi.Gio;
+const GLib = imports.gi.GLib;
+const Gtk = imports.gi.Gtk;
+const Lang = imports.lang;
 
 // Get application folder and add it into the imports path
 function getAppFileInfo() {
@@ -32,7 +32,7 @@ function getAppFileInfo() {
 const path = getAppFileInfo()[1];
 imports.searchPath.push(path);
 
-const App = function () { 
+const App = function () {
     this.title = 'Example Icon';
     GLib.set_prgname(this.title);
 };
@@ -50,21 +50,23 @@ App.prototype.onActivate = function () {
     this.window.show_all();
 };
 
-App.prototype.onStartup = function() {
+App.prototype.onStartup = function () {
 
     this.buildUI();
 };
 
-App.prototype.buildUI = function() {
+App.prototype.buildUI = function () {
 
     let result = false,
         str = ' In Wayland there is no \n such thing as a window icon, \n the application icon must \n be set from the .desktop file';
 
-    this.window = new Gtk.ApplicationWindow({ application: this.application,
-                                              title: this.title,
-                                              default_height: 200,
-                                              default_width: 200,
-                                              window_position: Gtk.WindowPosition.CENTER });
+    this.window = new Gtk.ApplicationWindow({
+        application: this.application,
+        title: this.title,
+        default_height: 200,
+        default_width: 200,
+        window_position: Gtk.WindowPosition.CENTER
+    });
     try {
         this.window.set_icon_from_file(path + '/assets/appIcon.png');
     } catch (err) {
