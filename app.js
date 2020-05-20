@@ -12,7 +12,7 @@ Run it with:
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
+// const Lang = imports.lang;
 
 // Get application folder and add it into the imports path
 function getAppFileInfo() {
@@ -38,7 +38,6 @@ const App = function () {
 };
 
 App.prototype.run = function (ARGV) {
-
     this.application = new Gtk.Application();
     this.application.connect('activate', () => { this.onActivate(); });
     this.application.connect('startup', () => { this.onStartup(); });
@@ -46,19 +45,14 @@ App.prototype.run = function (ARGV) {
 };
 
 App.prototype.onActivate = function () {
-
     this.window.show_all();
 };
 
 App.prototype.onStartup = function () {
-
     this.buildUI();
 };
 
 App.prototype.buildUI = function () {
-
-    let result = false,
-        str = ' In Wayland there is no \n such thing as a window icon, \n the application icon must \n be set from the .desktop file';
 
     this.window = new Gtk.ApplicationWindow({
         application: this.application,
@@ -72,7 +66,6 @@ App.prototype.buildUI = function () {
     } catch (err) {
         this.window.set_icon_name('application-x-executable');
     }
-    log(str);
 
     this.label = new Gtk.Label({ label: str });
     this.window.add(this.label);
