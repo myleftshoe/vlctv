@@ -15,7 +15,7 @@ const channels = [9,90,91,92,93,94,95,96,99,2,20,21,22,23,24,3,30,31,32,33,34,7,
 
 Gtk.init(null);
 
-const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
+const ImageButton = GObject.registerClass(class ImageButton extends Gtk.Button {
     _init(imageFile) {
         super._init()
         try {
@@ -56,7 +56,7 @@ var AppContent = class AppContent {
         this.window.flowbox = new Gtk.FlowBox()
 
         channels.forEach(channel => {
-            const channelButton = new BoxedImage(`./img/${channel}.png`)
+            const channelButton = new ImageButton(`./img/${channel}.png`)
             this.window.flowbox.add(channelButton)
 
             const file =`./channels/${channel}.xspf`
