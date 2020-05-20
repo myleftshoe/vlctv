@@ -55,7 +55,6 @@ class App {
             this.window.set_icon_name('application-x-executable');
         }
         this.window.maximize()
-        // this.content = new UI.AppContent(this.window)
         UI.build(this.window)
     };
 }

@@ -10,18 +10,17 @@ function sendCommand(string) {
 
 var Player = class Player {
 
-    constructor(socket, xid) {
+    constructor(socket) {
         this.fullscreen = false;
         this.started = false;
-        this.xid = xid;
         this.socket = socket;
     }
-    start(uri) {
-        print('Starting player', this.xid)
+    start(xid, uri) {
+        print('Starting player', xid)
         const vlc = [
             `vlc`,
             `intf dummy`,
-            `drawable-xid=${this.xid}`,
+            `drawable-xid=${xid}`,
             `extraintf="oldrc"`,
             `rc-unix="${this.socket}"`,
             `rc-fake-tty`,

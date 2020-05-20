@@ -34,11 +34,13 @@ function build(window) {
 
 let player
 function init() {
+    // For some reason calling get_xid() here results in window not rendering correctly
+
     // GdkX11 import makes the get_xid() func available on window objects
-    const xid = content.window.drawingArea.get_window().get_xid()
-    print ('drawing area xid', xid)
-    player = new Player(socket, xid)
-    player.start()
+    // const xid = content.window.drawingArea.get_window().get_xid()
+    // print ('drawing area xid', xid)
+    player = new Player(socket)
+    // player.start()
 }
 
 var AppContent = class AppContent {
@@ -59,7 +61,10 @@ var AppContent = class AppContent {
 
             const file =`./channels/${channel}.xspf`
             channelButton.connect('clicked', () => {
-                player.open(file)
+                if (!player.started)
+                    player.start(this.window.drawingArea.get_window().get_xid(), file)
+                else 
+                    player.open(file)
                 setTimeout(() => this.window.scrollable.hide(), 5000)
             })
         })
