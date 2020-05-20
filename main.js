@@ -8,7 +8,12 @@ const Gio = imports.gi.Gio;
 const Webkit = imports.gi.WebKit2;
 // const home = GLib.get_current_dir()
 const home = "/home/paul/Development/WatchTV"
+imports.searchPath.push(home)
+
+const { setTimeout } = imports.Timers;
+
 const socket = `${home}/socket`
+
 
 
 Gtk.init(null);
@@ -19,7 +24,7 @@ function sendCommand(string) {
     GLib.spawn_command_line_async(`${home}/sendCommand.sh ${string}`);
 }
 
-const channels = ["9", "90", "91", "92", "93", "94", "95", "96", "99", "2", "20", "21", "22", "23", "24", "3", "30", "31", "32", "33", "34", "7", "70", "71", "72", "73", "74", "75", "76", "78", "1", "10", "11", "12", "13", "14", "15", "44" ]
+const channels = [9,90,91,92,93,94,95,96,99,2,20,21,22,23,24,3,30,31,32,33,34,7,70,71,72,73,74,75,76,78,1,10,11,12,13,14,15,44]
 
 
 class Player {
@@ -106,6 +111,7 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
             const file =`${home}/channels/${channel}.xspf`
             channelButton.connect('clicked', () => {
                 player.open(file)
+                setTimeout(() => this.scrollable.hide(), 5000)
             })
         })
 
