@@ -99,9 +99,7 @@ var AppContent = class AppContent {
         overlay.add_overlay(this.window.scrollable)
         this.window.add(overlay)
 
-        this.window.connect("delete-event", () => {
-            sendCommand("quit")
-        });
+        this.window.connect("delete-event", () => player.quit());
 
     }
 };
