@@ -1,21 +1,12 @@
 #!/usr/bin/gjs
 
-/*
-GJS example showing how to build Gtk javascript applications
-setting the application icon from the 'assets' folder and if
-not available from the 'stock icons'
-
-Run it with:
-    gjs egIcon.js
-*/
-
 imports.gi.versions.Gtk = '3.0';
 
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
 
-const APP_TITLE = 'WatchTV'
+const APPNAME = 'WatchTV'
 
 // Add application folder to imports path
 imports.searchPath.push(GLib.get_current_dir());
@@ -23,8 +14,8 @@ imports.searchPath.push(GLib.get_current_dir());
 const UI = imports.main;
 
 class App {
-    constructor() {
-        this.title = APP_TITLE;
+    constructor(title) {
+        this.title = title;
         GLib.set_prgname(this.title);
     }
     run(ARGV){
@@ -59,5 +50,5 @@ class App {
     };
 }
 
-let app = new App();
+let app = new App(APPNAME);
 app.run(ARGV);

@@ -37,10 +37,6 @@ var Player = class Player {
         sendCommand("pause")
     }
     open(uri) {
-        // if (!this.started) {
-        //     this.start(uri)
-        //     return
-        // }
         sendCommand("clear")
         sendCommand(`add ${uri}`)
     }
