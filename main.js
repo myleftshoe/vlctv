@@ -90,7 +90,12 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         // this.fullscreen()
         this.maximize()
 
-        this.scrollable = new Gtk.ScrolledWindow()
+        this.scrollable = new Gtk.ScrolledWindow({
+            margin_top: 100,
+            margin_right: 100,
+            margin_bottom: 100,
+            margin_left: 100
+        })
 
         this.flowbox = new Gtk.FlowBox()
 
@@ -108,67 +113,41 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
         this.drawingArea.connect('button_press_event', () => {
             print('drawing area clicked')
-            player.playpause()
+            if (this.scrollable.is_visible())
+                this.scrollable.hide()
+            else
+                player.playpause()
         })
+
+        const keyHandlers = {
+            [Gdk.KEY_space]: player.playpause,
+            [Gdk.KEY_Escape]: () => {
+                if (player.started && this.scrollable.is_visible()) 
+                    this.scrollable.hide()
+                else
+                    this.scrollable.show()
+            }
+        }
+
 
         this.connect('key-press-event', (widget, event) => {
             const [, keyval] = event.get_keyval();
             print(Gdk.keyval_name(keyval))
-            if (keyval === Gdk.KEY_space)
-                player.playpause()
-            else if (keyval === Gdk.KEY_Escape) 
-                this.showChannels()
-            // else if (keyval === 65513)
-            //     return true
-
+            keyHandlers[keyval] && keyHandlers[keyval]()
         })
+
+        this.scrollable.add(this.flowbox)
 
         const overlay = new Gtk.Overlay()
         overlay.add(this.drawingArea)
-        overlay.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({ red: 1, green: .5, blue: .5, alpha: 0 }))
-
+        overlay.add_overlay(this.scrollable)
         this.add(overlay)
-        this._dialog = new Gtk.Dialog({
-            transient_for: this,
-            modal: false,
-            decorated: false,
-            opacity: 0.9,
-            title: "Terrestrial Channels",
-        });
-        this._dialog.override_background_color(Gtk.StateType.NORMAL, new Gdk.RGBA({ red: 0, green: 0, blue: 0, alpha: 0 }))
-
-        this._dialog.connect('response', () => {
-            if (!player.started) 
-                return true;
-            this._dialog.hide()
-        })
-
-        // prevents dialog destroy on close
-        this._dialog.connect('delete-event', () => true)
-
-        this._dialog.connect('focus-out-event', () => {
-            print('focus-out-event')
-            this._dialog.hide()
-        })
-
-        this.connect('focus-in-event', () => {
-            print('focus-in-event')
-            this._dialog.show()
-        })
-
-        // this.flowbox.set_size_request(1200, 600)
-        this._contentArea = this._dialog.get_content_area();
-        this.scrollable.add(this.flowbox)
-        this._contentArea.add(this.scrollable)
 
     }
 
     showChannels() {
         const [width, height] = Screen[dimensions]
-        this.scrollable.set_size_request(width-120, height-120)
-        this.scrollable.set_margin_top(60)
-        this.scrollable.set_margin_left(60)
-        this._dialog.show_all()
+        this.scrollable.show()
     }
 
 });
