@@ -31,53 +31,49 @@ function getAppFileInfo() {
 
     path = coincidence[1];
     file = Gio.File.new_for_path(path);
-    return [file.get_path(), file.get_parent().get_path(), file.get_basename()];
+    return { path: file.get_path(), folder: file.get_parent().get_path(), basename: file.get_basename()};
 }
-const path = getAppFileInfo()[1];
-imports.searchPath.push(path);
+imports.searchPath.push(getAppFileInfo().folder);
+
 const UI = imports.main;
 
-const App = function () {
-    this.title = APP_TITLE;
-    GLib.set_prgname(this.title);
-};
-
-App.prototype.run = function (ARGV) {
-    this.application = new Gtk.Application();
-    this.application.connect('activate', () => { this.onActivate(); });
-    this.application.connect('startup', () => { this.onStartup(); });
-    this.application.run([]);
-};
-
-App.prototype.onActivate = function () {
-    this.window.show_all();
-    UI.init()
-};
-
-App.prototype.onStartup = function () {
-    this.buildUI();
-};
-
-App.prototype.buildUI = function () {
-    this.window = new Gtk.ApplicationWindow({
-        application: this.application,
-        title: this.title,
-        // default_height: 200,
-        // default_width: 200,
-        window_position: Gtk.WindowPosition.CENTER,
-        decorated: false,
-    });
-    try {
-        this.window.set_icon_from_file(path + '/appIcon.png');
-    } catch (err) {
-        this.window.set_icon_name('application-x-executable');
+class App {
+    constructor() {
+        this.title = APP_TITLE;
+        GLib.set_prgname(this.title);
     }
-    this.window.maximize()
-    // this.content = new UI.AppContent(this.window)
-    UI.build(this.window)
-};
+    run(ARGV){
+        this.application = new Gtk.Application();
+        this.application.connect('activate', () => { this.onActivate(); });
+        this.application.connect('startup', () => { this.onStartup(); });
+        this.application.run([]);
+    }
+    onActivate() {
+        this.window.show_all();
+        UI.init()
+    };    
+    onStartup() {
+        this.buildUI();
+    };
+    buildUI() {
+        this.window = new Gtk.ApplicationWindow({
+            application: this.application,
+            title: this.title,
+            // default_height: 200,
+            // default_width: 200,
+            window_position: Gtk.WindowPosition.CENTER,
+            decorated: false,
+        });
+        try {
+            this.window.set_icon_from_file(path + '/appIcon.png');
+        } catch (err) {
+            this.window.set_icon_name('application-x-executable');
+        }
+        this.window.maximize()
+        // this.content = new UI.AppContent(this.window)
+        UI.build(this.window)
+    };
+}
 
-
-//Run the application
 let app = new App();
 app.run(ARGV);
