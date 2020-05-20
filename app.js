@@ -14,26 +14,11 @@ imports.gi.versions.Gtk = '3.0';
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-// const Lang = imports.lang;
 
 const APP_TITLE = 'WatchTV'
 
-// Get application folder and add it into the imports path
-function getAppFileInfo() {
-    let stack = (new Error()).stack,
-        stackLine = stack.split('\n')[1],
-        coincidence, path, file;
-
-    if (!stackLine) throw new Error('Could not find current file (1)');
-
-    coincidence = new RegExp('@(.+):\\d+').exec(stackLine);
-    if (!coincidence) throw new Error('Could not find current file (2)');
-
-    path = coincidence[1];
-    file = Gio.File.new_for_path(path);
-    return { path: file.get_path(), folder: file.get_parent().get_path(), basename: file.get_basename()};
-}
-imports.searchPath.push(getAppFileInfo().folder);
+// Add application folder to imports path
+imports.searchPath.push(GLib.get_current_dir());
 
 const UI = imports.main;
 

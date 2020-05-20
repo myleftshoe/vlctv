@@ -4,71 +4,14 @@ imports.gi.versions.Gtk = '3.0';
 imports.gi.versions.GdkX11 = '3.0';
 
 // GdkX11 import makes the get_xid() func available on window objects
-const { GObject, Gtk, GLib, GdkX11, Gdk, GdkPixbuf } = imports.gi;
-const Gio = imports.gi.Gio;
-const Webkit = imports.gi.WebKit2;
-// const home = GLib.get_current_dir()
-const home = "/home/paul/Development/WatchTV"
-imports.searchPath.push(home)
-
+const { GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
+const { Player } = imports.Player;
 const { setTimeout } = imports.Timers;
 
-const socket = `${home}/socket`
-
-
-Gtk.init(null);
-
-
-function sendCommand(string) {
-    print(`${home}/sendCommand.sh "${string}"`)
-    GLib.spawn_command_line_async(`${home}/sendCommand.sh ${string}`);
-}
-
+const socket = `./socket`
 const channels = [9,90,91,92,93,94,95,96,99,2,20,21,22,23,24,3,30,31,32,33,34,7,70,71,72,73,74,75,76,78,1,10,11,12,13,14,15,44]
 
-
-class Player {
-
-    constructor(xid) {
-        this.fullscreen = false;
-        this.started = false;
-        this.xid = xid;
-    }
-    start(uri) {
-        print('Starting player', this.xid)
-        const vlc = [
-            `vlc`,
-            `intf dummy`,
-            `drawable-xid=${this.xid}`,
-            `extraintf="oldrc"`,
-            `rc-unix="${socket}"`,
-            `rc-fake-tty`,
-            `one-instance`,
-            `no-playlist-enqueue`,
-        ].join(' --')
-        GLib.spawn_command_line_async(`${vlc} ${uri || ""}`);
-        this.started = true;
-    }
-    quit() {
-        sendCommand("quit")
-    }
-    playpause() {
-        sendCommand("pause")
-    }
-    open(uri) {
-        // if (!this.started) {
-        //     this.start(uri)
-        //     return
-        // }
-        sendCommand("clear")
-        sendCommand(`add ${uri}`)
-    }
-    toggleFullscreen() {
-        this.fullscreen = !this.fullscreen
-        sendCommand(`f ${this.fullscreen ? 'on' : 'off'}`)
-    }
-
-}
+Gtk.init(null);
 
 const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
     _init(imageFile) {
@@ -82,19 +25,17 @@ const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
 })
 
 let content
-
 function build(window) {
     content = new AppContent(window)
     return content
 }
 
 let player
-
 function init() {
     // GdkX11 import makes the get_xid() func available on window objects
     const xid = content.window.drawingArea.get_window().get_xid()
     print ('drawing area xid', xid)
-    player = new Player(xid)
+    player = new Player(socket, xid)
     player.start()
 }
 
@@ -111,10 +52,10 @@ var AppContent = class AppContent {
         this.window.flowbox = new Gtk.FlowBox()
 
         channels.forEach(channel => {
-            const channelButton = new BoxedImage(`${home}/img/${channel}.png`)
+            const channelButton = new BoxedImage(`./img/${channel}.png`)
             this.window.flowbox.add(channelButton)
 
-            const file =`${home}/channels/${channel}.xspf`
+            const file =`./channels/${channel}.xspf`
             channelButton.connect('clicked', () => {
                 player.open(file)
                 setTimeout(() => this.window.scrollable.hide(), 5000)
@@ -164,16 +105,3 @@ var AppContent = class AppContent {
 
     }
 };
-
-// let win = new Window();
-
-// win.connect("delete-event", () => {
-//     sendCommand("quit")
-//     Gtk.main_quit()
-// });
-// win.show_all();
-// win.showChannels();
-
-// // player.start()
-
-// Gtk.main();
