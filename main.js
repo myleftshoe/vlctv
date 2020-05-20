@@ -3,6 +3,7 @@
 imports.gi.versions.Gtk = '3.0';
 imports.gi.versions.GdkX11 = '3.0';
 
+// GdkX11 import makes the get_xid() func available on window objects
 const { GObject, Gtk, GLib, GdkX11, Gdk, GdkPixbuf } = imports.gi;
 const Gio = imports.gi.Gio;
 const Webkit = imports.gi.WebKit2;
@@ -80,10 +81,6 @@ const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
     }
 })
 
-const Screen = Gdk.Screen.get_default()
-const dimensions = Symbol()
-Screen[dimensions] = [Screen.get_width(), Screen.get_height()]
-
 let content
 
 function build(window) {
@@ -94,7 +91,8 @@ function build(window) {
 let player
 
 function init() {
-    const xid = content.window.drawingArea.window.get_xid()
+    // GdkX11 import makes the get_xid() func available on window objects
+    const xid = content.window.drawingArea.get_window().get_xid()
     print ('drawing area xid', xid)
     player = new Player(xid)
     player.start()
