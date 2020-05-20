@@ -44,49 +44,69 @@ function init() {
 }
 
 var AppContent = class AppContent {
+
     constructor(window) {
+        
         this.window = window
-        this.window.scrollable = new Gtk.ScrolledWindow({
+
+        const scrollable = new Gtk.ScrolledWindow({
             margin_top: 100,
             margin_right: 100,
             margin_bottom: 100,
             margin_left: 100
         })
 
-        this.window.flowbox = new Gtk.FlowBox()
+        const flowbox = new Gtk.FlowBox()
 
         channels.forEach(channel => {
             const channelButton = new ImageButton(`./img/${channel}.png`)
-            this.window.flowbox.add(channelButton)
-
-            const file =`./channels/${channel}.xspf`
-            channelButton.connect('clicked', () => {
-                if (!player.started)
-                    player.start(this.window.drawingArea.get_window().get_xid(), file)
-                else 
-                    player.open(file)
-                setTimeout(() => this.window.scrollable.hide(), 5000)
-            })
+            flowbox.add(channelButton)
+            channelButton.connect('clicked', widget => handleChannelButtonClick(channel))
         })
 
-        this.window.drawingArea = new Gtk.DrawingArea()
-        this.window.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
-        this.window.drawingArea.connect('button_press_event', () => {
+        const drawingArea = new Gtk.DrawingArea()
+        drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
+        drawingArea.connect('button_press_event', handleDrawingAreaClick)
+
+        this.window.connect('key-press-event', (widget, event) => handleKeypress(event))
+
+        scrollable.add(flowbox)
+
+        const overlay = new Gtk.Overlay()
+        overlay.add(drawingArea)
+        overlay.add_overlay(scrollable)
+        this.window.add(overlay)
+
+        this.window.connect("delete-event", () => player.quit());
+
+
+        // Event handlers
+        
+        function handleChannelButtonClick(channel) {
+            const file =`./channels/${channel}.xspf`
+            if (!player.started)
+                player.start(drawingArea.get_window().get_xid(), file)
+            else 
+                player.open(file)
+            setTimeout(() => scrollable.hide(), 5000)
+        }
+
+        function handleDrawingAreaClick() {
             print('drawing area clicked')
-            if (this.window.scrollable.is_visible())
-                this.window.scrollable.hide()
+            if (scrollable.is_visible())
+                scrollable.hide()
             else
                 player.playpause()
-        })
+        }
 
-        this.window.connect('key-press-event', (widget, event) => {
+        function handleKeypress(event) {
             const [, keyval] = event.get_keyval();
             switch (keyval) {
                 case Gdk.KEY_Escape: {
-                    if (player.started && this.window.scrollable.is_visible()) 
-                        this.window.scrollable.hide()
+                    if (player.started && scrollable.is_visible()) 
+                        scrollable.hide()
                     else
-                        this.window.scrollable.show()
+                        scrollable.show()
                     break
                 }
                 case Gdk.KEY_space: {
@@ -97,16 +117,9 @@ var AppContent = class AppContent {
             }
             print(Gdk.keyval_name(keyval))
             // keyHandlers[keyval] && keyHandlers[keyval]()
-        })
+        }
 
-        this.window.scrollable.add(this.window.flowbox)
 
-        const overlay = new Gtk.Overlay()
-        overlay.add(this.window.drawingArea)
-        overlay.add_overlay(this.window.scrollable)
-        this.window.add(overlay)
-
-        this.window.connect("delete-event", () => player.quit());
 
     }
 };
