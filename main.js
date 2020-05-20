@@ -29,16 +29,17 @@ const channels = [9,90,91,92,93,94,95,96,99,2,20,21,22,23,24,3,30,31,32,33,34,7,
 
 class Player {
 
-    constructor() {
+    constructor(xid) {
         this.fullscreen = false;
         this.started = false;
+        this.xid = xid;
     }
     start(uri) {
-        print('Starting player', xid)
+        print('Starting player', this.xid)
         const vlc = [
             `vlc`,
             `intf dummy`,
-            `drawable-xid=${xid}`,
+            `drawable-xid=${this.xid}`,
             `extraintf="oldrc"`,
             `rc-unix="${socket}"`,
             `rc-fake-tty`,
@@ -69,9 +70,6 @@ class Player {
 
 }
 
-const player = new Player()
-
-
 const BoxedImage = GObject.registerClass(class BoxedImage extends Gtk.Button {
     _init(imageFile) {
         super._init()
@@ -94,10 +92,13 @@ function build(window) {
     return content
 }
 
+let player
+
 function init() {
     xid = content.window.drawingArea.window.get_xid()
     print ('drawing area xid', xid)
-    // player.start()
+    player = new Player(xid)
+    player.start()
 }
 
 var AppContent = class AppContent {
@@ -133,21 +134,24 @@ var AppContent = class AppContent {
                 player.playpause()
         })
 
-        const keyHandlers = {
-            [Gdk.KEY_space]: player.playpause,
-            [Gdk.KEY_Escape]: () => {
-                if (player.started && this.window.scrollable.is_visible()) 
-                    this.window.scrollable.hide()
-                else
-                    this.window.scrollable.show()
-            }
-        }
-
-
         this.window.connect('key-press-event', (widget, event) => {
             const [, keyval] = event.get_keyval();
+            switch (keyval) {
+                case Gdk.KEY_Escape: {
+                    if (player.started && this.window.scrollable.is_visible()) 
+                        this.window.scrollable.hide()
+                    else
+                        this.window.scrollable.show()
+                    break
+                }
+                case Gdk.KEY_space: {
+                    player.playpause()
+                    break
+                }
+                default: {}
+            }
             print(Gdk.keyval_name(keyval))
-            keyHandlers[keyval] && keyHandlers[keyval]()
+            // keyHandlers[keyval] && keyHandlers[keyval]()
         })
 
         this.window.scrollable.add(this.window.flowbox)
