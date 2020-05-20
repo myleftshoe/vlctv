@@ -8,7 +8,9 @@ const { GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
 const { Player } = imports.Player;
 const { setTimeout } = imports.Timers;
 
+// socket for vlc rc commands
 const socket = `./socket`
+// channel numbers used to constuct .xspf and .png filenames
 const channels = [9,90,91,92,93,94,95,96,99,2,20,21,22,23,24,3,30,31,32,33,34,7,70,71,72,73,74,75,76,78,1,10,11,12,13,14,15,44]
 
 Gtk.init(null);
