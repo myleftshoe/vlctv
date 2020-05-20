@@ -14,7 +14,7 @@ const { setTimeout } = imports.Timers;
 
 const socket = `${home}/socket`
 
-
+let xid;
 
 Gtk.init(null);
 
@@ -34,11 +34,11 @@ class Player {
         this.started = false;
     }
     start(uri) {
-        print('Starting player')
+        print('Starting player', xid)
         const vlc = [
             `vlc`,
             `intf dummy`,
-            `drawable-xid=${win.drawingArea.window.get_xid()}`,
+            `drawable-xid=${xid}`,
             `extraintf="oldrc"`,
             `rc-unix="${socket}"`,
             `rc-fake-tty`,
@@ -55,10 +55,10 @@ class Player {
         sendCommand("pause")
     }
     open(uri) {
-        if (!this.started) {
-            this.start(uri)
-            return
-        }
+        // if (!this.started) {
+        //     this.start(uri)
+        //     return
+        // }
         sendCommand("clear")
         sendCommand(`add ${uri}`)
     }
@@ -87,40 +87,48 @@ const Screen = Gdk.Screen.get_default()
 const dimensions = Symbol()
 Screen[dimensions] = [Screen.get_width(), Screen.get_height()]
 
-const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
-    _init() {
-        super._init({ title: "WatchTV", decorated: false });
-        const [width, height] = Screen[dimensions]
-        this.set_default_size(width, height);
-        // this.fullscreen()
-        this.maximize()
+let content
 
-        this.scrollable = new Gtk.ScrolledWindow({
+function build(window) {
+    content = new AppContent(window)
+    return content
+}
+
+function init() {
+    xid = content.window.drawingArea.window.get_xid()
+    print ('drawing area xid', xid)
+    // player.start()
+}
+
+var AppContent = class AppContent {
+    constructor(window) {
+        this.window = window
+        this.window.scrollable = new Gtk.ScrolledWindow({
             margin_top: 100,
             margin_right: 100,
             margin_bottom: 100,
             margin_left: 100
         })
 
-        this.flowbox = new Gtk.FlowBox()
+        this.window.flowbox = new Gtk.FlowBox()
 
         channels.forEach(channel => {
             const channelButton = new BoxedImage(`${home}/img/${channel}.png`)
-            this.flowbox.add(channelButton)
+            this.window.flowbox.add(channelButton)
 
             const file =`${home}/channels/${channel}.xspf`
             channelButton.connect('clicked', () => {
                 player.open(file)
-                setTimeout(() => this.scrollable.hide(), 5000)
+                setTimeout(() => this.window.scrollable.hide(), 5000)
             })
         })
 
-        this.drawingArea = new Gtk.DrawingArea()
-        this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
-        this.drawingArea.connect('button_press_event', () => {
+        this.window.drawingArea = new Gtk.DrawingArea()
+        this.window.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
+        this.window.drawingArea.connect('button_press_event', () => {
             print('drawing area clicked')
-            if (this.scrollable.is_visible())
-                this.scrollable.hide()
+            if (this.window.scrollable.is_visible())
+                this.window.scrollable.hide()
             else
                 player.playpause()
         })
@@ -128,45 +136,43 @@ const Window = GObject.registerClass(class MyWindow extends Gtk.Window {
         const keyHandlers = {
             [Gdk.KEY_space]: player.playpause,
             [Gdk.KEY_Escape]: () => {
-                if (player.started && this.scrollable.is_visible()) 
-                    this.scrollable.hide()
+                if (player.started && this.window.scrollable.is_visible()) 
+                    this.window.scrollable.hide()
                 else
-                    this.scrollable.show()
+                    this.window.scrollable.show()
             }
         }
 
 
-        this.connect('key-press-event', (widget, event) => {
+        this.window.connect('key-press-event', (widget, event) => {
             const [, keyval] = event.get_keyval();
             print(Gdk.keyval_name(keyval))
             keyHandlers[keyval] && keyHandlers[keyval]()
         })
 
-        this.scrollable.add(this.flowbox)
+        this.window.scrollable.add(this.window.flowbox)
 
         const overlay = new Gtk.Overlay()
-        overlay.add(this.drawingArea)
-        overlay.add_overlay(this.scrollable)
-        this.add(overlay)
+        overlay.add(this.window.drawingArea)
+        overlay.add_overlay(this.window.scrollable)
+        this.window.add(overlay)
+
+        this.window.connect("delete-event", () => {
+            sendCommand("quit")
+        });
 
     }
+};
 
-    showChannels() {
-        const [width, height] = Screen[dimensions]
-        this.scrollable.show()
-    }
+// let win = new Window();
 
-});
+// win.connect("delete-event", () => {
+//     sendCommand("quit")
+//     Gtk.main_quit()
+// });
+// win.show_all();
+// win.showChannels();
 
-let win = new Window();
+// // player.start()
 
-win.connect("delete-event", () => {
-    sendCommand("quit")
-    Gtk.main_quit()
-});
-win.show_all();
-win.showChannels();
-
-// player.start()
-
-Gtk.main();
+// Gtk.main();

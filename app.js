@@ -9,10 +9,14 @@ Run it with:
     gjs egIcon.js
 */
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
 // const Lang = imports.lang;
+
+const APP_TITLE = 'WatchTV'
 
 // Get application folder and add it into the imports path
 function getAppFileInfo() {
@@ -31,9 +35,10 @@ function getAppFileInfo() {
 }
 const path = getAppFileInfo()[1];
 imports.searchPath.push(path);
+const UI = imports.main;
 
 const App = function () {
-    this.title = 'Example Icon';
+    this.title = APP_TITLE;
     GLib.set_prgname(this.title);
 };
 
@@ -46,6 +51,7 @@ App.prototype.run = function (ARGV) {
 
 App.prototype.onActivate = function () {
     this.window.show_all();
+    UI.init()
 };
 
 App.prototype.onStartup = function () {
@@ -53,23 +59,24 @@ App.prototype.onStartup = function () {
 };
 
 App.prototype.buildUI = function () {
-
     this.window = new Gtk.ApplicationWindow({
         application: this.application,
         title: this.title,
-        default_height: 200,
-        default_width: 200,
-        window_position: Gtk.WindowPosition.CENTER
+        // default_height: 200,
+        // default_width: 200,
+        window_position: Gtk.WindowPosition.CENTER,
+        decorated: false,
     });
     try {
         this.window.set_icon_from_file(path + '/appIcon.png');
     } catch (err) {
         this.window.set_icon_name('application-x-executable');
     }
-
-    this.label = new Gtk.Label({ label: str });
-    this.window.add(this.label);
+    this.window.maximize()
+    // this.content = new UI.AppContent(this.window)
+    UI.build(this.window)
 };
+
 
 //Run the application
 let app = new App();
