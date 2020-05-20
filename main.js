@@ -14,7 +14,6 @@ const { setTimeout } = imports.Timers;
 
 const socket = `${home}/socket`
 
-let xid;
 
 Gtk.init(null);
 
@@ -95,7 +94,7 @@ function build(window) {
 let player
 
 function init() {
-    xid = content.window.drawingArea.window.get_xid()
+    const xid = content.window.drawingArea.window.get_xid()
     print ('drawing area xid', xid)
     player = new Player(xid)
     player.start()
