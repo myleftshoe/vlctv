@@ -46,10 +46,10 @@ function init() {
 var AppContent = class AppContent {
 
     constructor(window) {
-        
+
         this.window = window
 
-        const scrollable = new Gtk.ScrolledWindow({
+        this.channelOverlay = new Gtk.ScrolledWindow({
             margin_top: 100,
             margin_right: 100,
             margin_bottom: 100,
@@ -61,65 +61,61 @@ var AppContent = class AppContent {
         channels.forEach(channel => {
             const channelButton = new ImageButton(`./img/${channel}.png`)
             flowbox.add(channelButton)
-            channelButton.connect('clicked', widget => handleChannelButtonClick(channel))
+            channelButton.connect('clicked', () => this.handleChannelButtonClick(channel))
         })
 
-        const drawingArea = new Gtk.DrawingArea()
-        drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
-        drawingArea.connect('button_press_event', handleDrawingAreaClick)
+        this.drawingArea = new Gtk.DrawingArea()
+        this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
+        this.drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
 
-        this.window.connect('key-press-event', (widget, event) => handleKeypress(event))
+        this.window.connect('key-press-event', (widget, event) => this.handleKeypress(event))
 
-        scrollable.add(flowbox)
+        this.channelOverlay.add(flowbox)
 
         const overlay = new Gtk.Overlay()
-        overlay.add(drawingArea)
-        overlay.add_overlay(scrollable)
+        overlay.add(this.drawingArea)
+        overlay.add_overlay(this.channelOverlay)
         this.window.add(overlay)
 
         this.window.connect("delete-event", () => player.quit());
-
-
-        // Event handlers
-        
-        function handleChannelButtonClick(channel) {
-            const file =`./channels/${channel}.xspf`
-            if (!player.started)
-                player.start(drawingArea.get_window().get_xid(), file)
-            else 
-                player.open(file)
-            setTimeout(() => scrollable.hide(), 5000)
-        }
-
-        function handleDrawingAreaClick() {
-            print('drawing area clicked')
-            if (scrollable.is_visible())
-                scrollable.hide()
-            else
-                player.playpause()
-        }
-
-        function handleKeypress(event) {
-            const [, keyval] = event.get_keyval();
-            switch (keyval) {
-                case Gdk.KEY_Escape: {
-                    if (player.started && scrollable.is_visible()) 
-                        scrollable.hide()
-                    else
-                        scrollable.show()
-                    break
-                }
-                case Gdk.KEY_space: {
-                    player.playpause()
-                    break
-                }
-                default: {}
-            }
-            print(Gdk.keyval_name(keyval))
-            // keyHandlers[keyval] && keyHandlers[keyval]()
-        }
-
-
-
     }
+
+    // Event handlers
+    handleChannelButtonClick(channel) {
+        const file =`./channels/${channel}.xspf`
+        if (!player.started)
+            player.start(this.drawingArea.get_window().get_xid(), file)
+        else 
+            player.open(file)
+        setTimeout(() => this.channelOverlay.hide(), 5000)
+    }
+
+    handleDrawingAreaClick() {
+        print('drawing area clicked')
+        if (this.channelOverlay.is_visible())
+            this.channelOverlay.hide()
+        else
+            player.playpause()
+    }
+
+    handleKeypress(event) {
+        const [, keyval] = event.get_keyval();
+        switch (keyval) {
+            case Gdk.KEY_Escape: {
+                if (player.started && this.channelOverlay.is_visible()) 
+                    this.channelOverlay.hide()
+                else
+                    this.channelOverlay.show()
+                break
+            }
+            case Gdk.KEY_space: {
+                player.playpause()
+                break
+            }
+            default: {}
+        }
+        print(Gdk.keyval_name(keyval))
+        // keyHandlers[keyval] && keyHandlers[keyval]()
+    }
+
 };
