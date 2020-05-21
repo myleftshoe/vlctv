@@ -51,7 +51,6 @@ var AppContent = class AppContent {
     }
 
     build() {
-
         this.videoContainer = this.createVideoContainer();
         this.channelOverlay = this.createChannelOverlay();
 
@@ -69,7 +68,7 @@ var AppContent = class AppContent {
         const drawingArea = new Gtk.DrawingArea()
         drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
         drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
-        return drawingArea;
+        return drawingArea
     }
 
     createChannelOverlay() {
