@@ -59,6 +59,7 @@ var AppContent = class AppContent {
         })
 
         const flowbox = new Gtk.FlowBox()
+        this.channelOverlay.add(flowbox)
 
         channels.forEach(channel => {
             const channelButton = new ImageButton(`./img/${channel}.png`)
@@ -71,15 +72,12 @@ var AppContent = class AppContent {
         this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
         this.drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
 
-        this.window.connect('key-press-event', (widget, event) => this.handleKeypress(event))
-
-        this.channelOverlay.add(flowbox)
-
         const overlay = new Gtk.Overlay()
         overlay.add(this.drawingArea)
         overlay.add_overlay(this.channelOverlay)
-        this.window.add(overlay)
 
+        this.window.add(overlay)
+        this.window.connect('key-press-event', (widget, event) => this.handleKeypress(event))
         this.window.connect("delete-event", () => player.quit());
     }
 
