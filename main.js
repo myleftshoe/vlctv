@@ -6,7 +6,29 @@ imports.gi.versions.GdkX11 = '3.0';
 // GdkX11 import makes the get_xid() func available on window objects
 const { GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
 const { Player } = imports.Player;
-const { setTimeout } = imports.Timers;
+const { setTimeout, setInterval } = imports.Timers;
+const epg = imports.epg;
+
+let onNow = epg.onNow()
+
+
+// update the channel icons every 30 seconds, i.e. progress bar and title
+setInterval(() => {
+    onNow = epg.onNow()
+    print(onNow.get("9").title)
+    // print(content.channelWidgets)
+    content.channelWidgets.forEach(w => {
+        const {title, start, stop} = onNow.get(`${w.id}`)
+        w.title.set_label(title)
+        const now = Date.parse(new Date())
+        print(start, stop, now)
+        const range = stop - start;
+        const nr = now - start
+        w.progressBar.set_fraction(nr/range)
+    })
+}, 40000)
+
+print('ffffffffffffffffffffffffffffffffffffffffffff', onNow.get("72").title)
 
 // socket for vlc rc commands
 const socket = `./socket`
@@ -16,13 +38,28 @@ const channels = [9, 90, 91, 92, 93, 94, 95, 96, 99, 2, 20, 21, 22, 23, 24, 3, 3
 Gtk.init(null);
 
 const ImageButton = GObject.registerClass(class ImageButton extends Gtk.Button {
-    _init(imageFile) {
+    _init(channelObj) {
         super._init()
+        const { channel, title, start, stop } = channelObj
+        this.id = channel 
+        const imageFile = `./img/${channel}.png`
+        const box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL})
+        this.progressBar = new Gtk.ProgressBar()
         try {
             const pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(imageFile, 128, 128, true)
             const image = Gtk.Image.new_from_pixbuf(pixbuf)
-            this.add(image)
+            box.pack_start(image, true, true, 0)
         } catch { }
+        this.title = new Gtk.Label({label: title})
+        box.pack_start(this.title, true, true, 0)
+        box.pack_start(this.progressBar, true, true, 0)
+        const now = Date.parse(new Date())
+        print(start, stop, now)
+        const range = stop - start;
+        const nr = now - start
+        this.progressBar.set_fraction(nr/range)
+        this.add(box)
+
     }
 })
 
@@ -82,8 +119,11 @@ var AppContent = class AppContent {
         const flowbox = new Gtk.FlowBox()
         scrolledWindow.add(flowbox)
 
+        this.channelWidgets = [];
         channels.forEach(channel => {
-            const channelButton = new ImageButton(`./img/${channel}.png`)
+            const channelObj = onNow.get(`${channel}`)
+            const channelButton = new ImageButton(channelObj)
+            this.channelWidgets.push(channelButton)
             flowbox.add(channelButton)
             channelButton.connect('clicked', () => this.handleChannelButtonClick(channel))
         })

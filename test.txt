@@ -1,0 +1,273 @@
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="93.yourtv.com.au">
+                <title>Dance Moms</title>
+                <sub-title>ALDC Does Vegas</sub-title>
+                <desc>Abby has prepared several show-stopping numbers, including an unusual David Bowie tribute, and the ALDC is heading to Las Vegas. Also, Ashlee and Brynn become official members of the team, but the infighting continues.</desc>
+                <category>Entertainment</category>
+                <episode-num system="SxxExx">S06E13</episode-num>
+                <episode-num system="xmltv_ns">5.12.</episode-num>
+                <episode-num system="imdb.com">title/tt1991410</episode-num>
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522113000 +1000" channel="94.yourtv.com.au">
+                <title>Caribbean Life</title>
+                <sub-title>From NYC to Puerto Rico</sub-title>
+                <desc>Griselle and Steve Mucccilo have lived in Long Island for the past 17 years. After many years in the high stress work life, they have decided to get off the rat-race treadmill and move to Puerto Rico.</desc>
+                <category>Reality/Real-Life</category>
+                <episode-num system="SxxExx">S01E07</episode-num>
+                <episode-num system="xmltv_ns">0.6.</episode-num>
+                <episode-num system="imdb.com">title/tt3667052</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="96.yourtv.com.au">
+                <title>Salvage Hunters</title>
+                <desc>Meet modern-day treasure hunter Drew Pritchard. With demanding customers, high turnover, and one of the biggest salvage yards in the UK, Drew is constantly on the road in search of derelict gems and forgotten remnants.</desc>
+                <category>Documentary</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/42/53/15/425315_575418_P592343%20360x245_t1_.jpg" />
+                <episode-num system="SxxExx">S07E07</episode-num>
+                <episode-num system="xmltv_ns">6.6.</episode-num>
+                <episode-num system="imdb.com">title/tt2223298</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522110800 +1000" channel="22.yourtv.com.au">
+                <title>Bing</title>
+                <sub-title>Boo</sub-title>
+                <desc>Coco shows Bing how to do really good big boos and together they make Flop jump. When Bing tries out his new tricks on Charlie, he finds out the power of boo has to be scaled down for babies.</desc>
+                <category>Animation</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/40/71/92/407192_390026_ZX9673A_i_T2_t1_.jpg" />
+                <episode-num system="SxxExx">S01E33</episode-num>
+                <episode-num system="xmltv_ns">0.32.</episode-num>
+                <episode-num system="imdb.com">title/tt3789822</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110800 +1000" stop="20200522112100 +1000" channel="22.yourtv.com.au">
+                <title>Baby Jake</title>
+                <sub-title>Baby Jake Loves the Boogie Beat</sub-title>
+                <desc>Baby Jake and Sydney the Monkey go on a tropical adventure and play a boogie beat.</desc>
+                <category>Children</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/41/42/86/414286_474164_ZX9919A_i_T2_t1_.jpg" />
+                <episode-num system="SxxExx">S01E24</episode-num>
+                <episode-num system="xmltv_ns">0.23.</episode-num>
+                <episode-num system="imdb.com">title/tt2011445</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110400 +1000" stop="20200522111100 +1000" channel="23.yourtv.com.au">
+                <title>Play School Story Time: Languages</title>
+                <sub-title>Emma Alberici: Guess How Much I Love You (Italian)</sub-title>
+                <desc>Emma Alberici takes to the Story Time couch to read Sam McBratney's timeless story Guess How Much I Love You in Italian.</desc>
+                <category>Education</category>
+                <episode-num system="SxxExx">S2020E522</episode-num>
+                <episode-num system="xmltv_ns">2019.521.</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522113000 +1000" channel="3.yourtv.com.au">
+                <title>Spanish News</title>
+                <desc>News via satellite from RTVE Madrid, in Spanish, no subtitles.</desc>
+                <category>News</category>
+                <episode-num system="SxxExx">S2020E522</episode-num>
+                <episode-num system="xmltv_ns">2019.521.</episode-num>
+                <episode-num system="original-air-date">2020-05-22 11:00:00</episode-num>
+                <rating>
+                        <value>NC</value>
+                </rating>
+                <premiere />
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522113000 +1000" channel="30.yourtv.com.au">
+                <title>Spanish News</title>
+                <desc>News via satellite from RTVE Madrid, in Spanish, no subtitles.</desc>
+                <category>News</category>
+                <episode-num system="SxxExx">S2020E522</episode-num>
+                <episode-num system="xmltv_ns">2019.521.</episode-num>
+                <episode-num system="original-air-date">2020-05-22 11:00:00</episode-num>
+                <rating>
+                        <value>NC</value>
+                </rating>
+                <premiere />
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522113500 +1000" channel="31.yourtv.com.au">
+                <title>NHK Japanese News</title>
+                <desc>News via satellite from NHK Tokyo in Japanese, no subtitles.</desc>
+                <category>News</category>
+                <episode-num system="SxxExx">S2020E522</episode-num>
+                <episode-num system="xmltv_ns">2019.521.</episode-num>
+                <episode-num system="original-air-date">2020-05-22 11:00:00</episode-num>
+                <rating>
+                        <value>NC</value>
+                </rating>
+                <premiere />
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522113000 +1000" channel="33.yourtv.com.au">
+                <title>The Great Australian Cookbook</title>
+                <sub-title>Frank Camorra and Clayton Donovan</sub-title>
+                <desc>King of Spanish cuisine, and creator of iconic restaurant chain Movida, Frank Camorra heads home to where his love of food began: his mum's kitchen. Together they share some of their secrets of traditional Spanish dishes including tortilla de patatas and asadillo. Fusing local produce with native foods, all sourced on Country in his beloved Gumbaynggirr lands, Indigenous chef Clayton Donovan cooks up two of his young family's favourite meals: kangaroo san choy bow, and oysters with finger lime, carrot foam and avocado cream.</desc>
+                <category>Lifestyle</category>
+                <episode-num system="SxxExx">S01E10</episode-num>
+                <episode-num system="xmltv_ns">0.9.</episode-num>
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="73.yourtv.com.au">
+                <title>IRT: Deadliest Roads</title>
+                <sub-title>Lisa vs. The Devil's Bridge</sub-title>
+                <desc>After two veteran truckers give up and head home, Hugh Rowland and Lisa Kelly are forced to take on the Death Road without spotters.</desc>
+                <category>Reality/Real-Life</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/31/28/14/312814_irt_deadliest_roads_3.jpg" />
+                <episode-num system="SxxExx">S02E03</episode-num>
+                <episode-num system="xmltv_ns">1.2.</episode-num>
+                <episode-num system="imdb.com">title/tt1739276</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="74.yourtv.com.au">
+                <title>IRT: Deadliest Roads</title>
+                <sub-title>Lisa vs. The Devil's Bridge</sub-title>
+                <desc>After two veteran truckers give up and head home, Hugh Rowland and Lisa Kelly are forced to take on the Death Road without spotters.</desc>
+                <category>Reality/Real-Life</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/31/28/14/312814_irt_deadliest_roads_3.jpg" />
+                <episode-num system="SxxExx">S02E03</episode-num>
+                <episode-num system="xmltv_ns">1.2.</episode-num>
+                <episode-num system="imdb.com">title/tt1739276</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="76.yourtv.com.au">
+                <title>Cake Wars</title>
+                <sub-title>How the Grinch Stole Christmas</sub-title>
+                <desc>The six remaining teams made up of a cake artist, sugar sculptor and master food carver return to battle to celebrate the 50th anniversary of How the Grinch Stole Christmas.</desc>
+                <category>Reality/Real-Life</category>
+                <episode-num system="SxxExx">S05E02</episode-num>
+                <episode-num system="xmltv_ns">4.1.</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="1.yourtv.com.au">
+                <title>MacGyver</title>
+                <sub-title>The Mountain of Youth</sub-title>
+                <desc>MacGyver is summoned for an emergency to the Himalayan Ammukash valley by Jack Dalton, who wants to commercialise the water of the valley that is believed to hold the Fountain of Youth.</desc>
+                <category>Action</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/45/57/91/455791_762588_SERIES_57399_b_T2_t1_.jpg" />
+                <episode-num system="SxxExx">S07E14</episode-num>
+                <episode-num system="xmltv_ns">6.13.</episode-num>
+                <episode-num system="imdb.com">title/tt0088559</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522113000 +1000" channel="11.yourtv.com.au">
+                <title>SpongeBob SquarePants</title>
+                <sub-title>New Fish in Town/Love That Squid</sub-title>
+                <desc>A new neighbour moves in and becomes Squidward's best friend./ SpongeBob helps Squidward prepare for a date.</desc>
+                <category>Cartoon</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/23/11/81/231181_spongebob_squarepants_tv_600x300.jpg" />
+                <episode-num system="SxxExx">S07E25</episode-num>
+                <episode-num system="xmltv_ns">6.24.</episode-num>
+                <episode-num system="imdb.com">title/tt0206512</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>G</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522112800 +1000" channel="15.yourtv.com.au">
+                <title>Thin Lizzy Puffy Eye Remover</title>
+                <desc>Is a patented formula enriched with Eyeliss that visbly reduces the appearance of fine lines, wrinkles and puffy eyes.</desc>
+                <category>Shopping</category>
+                <episode-num system="SxxExx">S2020E522</episode-num>
+                <episode-num system="xmltv_ns">2019.521.</episode-num>
+                <rating>
+                        <value>NC</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="78.yourtv.com.au">
+                <title>Get On!</title>
+                <desc>Get On previews the feature meeting and provides all the punting information from Racing.com's leading form analysts. From the favourites to the outsiders and some you need to forget, Get On has all the good form talk.</desc>
+                <category>Sport</category>
+                <category>Horse Racing</category>
+                <episode-num system="SxxExx">S2020E522</episode-num>
+                <episode-num system="xmltv_ns">2019.521.</episode-num>
+                <episode-num system="original-air-date">2020-05-22 11:00:00</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>NC</value>
+                </rating>
+                <premiere />
+        </programme>
+        <programme start="20200522110000 +0000" stop="20200522120000 +0000" channel="26.yourtv.com.au">
+                <title>The Screen Show</title>
+                <desc>The Screen Show explores the best that both film and television have to offer.</desc>
+                <category>Radio</category>
+        </programme>
+        <programme start="20200522110000 +0000" stop="20200522140000 +0000" channel="202.yourtv.com.au">
+                <title>Dream Time: Friday with Alex</title>
+                <desc>Gentle, soft classic music to keep your child fast asleep.</desc>
+                <category>Radio</category>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="38.yourtv.com.au">
+                <title>Sinhalese</title>
+                <desc>Stay connected in Sinhalese to Australian news and conversations that matter to you. Balanced, impartial and without agenda from the SBS Sinhalese team.</desc>
+                <category>Radio</category>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="37.yourtv.com.au">
+                <title>Croatian</title>
+                <desc>Stay connected in Croatian to Australian news and conversations that matter to you. Balanced, impartial and without agenda from the SBS Croatian team.</desc>
+                <category>Radio</category>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="302.yourtv.com.au">
+                <title>Sinhalese</title>
+                <desc>Stay connected in Sinhalese to Australian news and conversations that matter to you. Balanced, impartial and without agenda from the SBS Sinhalese team.</desc>
+                <category>Radio</category>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="301.yourtv.com.au">
+                <title>Croatian</title>
+                <desc>Stay connected in Croatian to Australian news and conversations that matter to you. Balanced, impartial and without agenda from the SBS Croatian team.</desc>
+                <category>Radio</category>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="99.yourtv.com.au">
+                <title>Dance Moms</title>
+                <sub-title>ALDC Does Vegas</sub-title>
+                <desc>Abby has prepared several show-stopping numbers, including an unusual David Bowie tribute, and the ALDC is heading to Las Vegas. Also, Ashlee and Brynn become official members of the team, but the infighting continues.</desc>
+                <category>Entertainment</category>
+                <episode-num system="SxxExx">S06E13</episode-num>
+                <episode-num system="xmltv_ns">5.12.</episode-num>
+                <episode-num system="imdb.com">title/tt1991410</episode-num>
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
+        <programme start="20200522110000 +1000" stop="20200522120000 +1000" channel="12.yourtv.com.au">
+                <title>MacGyver</title>
+                <sub-title>The Mountain of Youth</sub-title>
+                <desc>MacGyver is summoned for an emergency to the Himalayan Ammukash valley by Jack Dalton, who wants to commercialise the water of the valley that is believed to hold the Fountain of Youth.</desc>
+                <category>Action</category>
+                <icon src="https://s3-ap-southeast-2.amazonaws.com/nine-tvmg-images-prod/45/57/91/455791_762588_SERIES_57399_b_T2_t1_.jpg" />
+                <episode-num system="SxxExx">S07E14</episode-num>
+                <episode-num system="xmltv_ns">6.13.</episode-num>
+                <episode-num system="imdb.com">title/tt0088559</episode-num>
+                <previously-shown />
+                <rating>
+                        <value>PG</value>
+                </rating>
+        </programme>
