@@ -51,29 +51,12 @@ var AppContent = class AppContent {
     }
 
     build() {
-        this.channelOverlay = new Gtk.ScrolledWindow({
-            margin_top: 100,
-            margin_right: 100,
-            margin_bottom: 100,
-            margin_left: 100
-        })
 
-        const flowbox = new Gtk.FlowBox()
-        this.channelOverlay.add(flowbox)
-
-        channels.forEach(channel => {
-            const channelButton = new ImageButton(`./img/${channel}.png`)
-            flowbox.add(channelButton)
-            channelButton.connect('clicked', () => this.handleChannelButtonClick(channel))
-        })
-
-        // drawingArea is the video container
-        this.drawingArea = new Gtk.DrawingArea()
-        this.drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
-        this.drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
+        this.videoContainer = this.createVideoContainer();
+        this.channelOverlay = this.createChannelOverlay();
 
         const overlay = new Gtk.Overlay()
-        overlay.add(this.drawingArea)
+        overlay.add(this.videoContainer)
         overlay.add_overlay(this.channelOverlay)
 
         this.window.add(overlay)
@@ -81,11 +64,39 @@ var AppContent = class AppContent {
         this.window.connect("delete-event", () => player.quit());
     }
 
+    createVideoContainer() {
+        // drawingArea is the video container
+        const drawingArea = new Gtk.DrawingArea()
+        drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
+        drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
+        return drawingArea;
+    }
+
+    createChannelOverlay() {
+        const scrolledWindow = new Gtk.ScrolledWindow({
+            margin_top: 100,
+            margin_right: 100,
+            margin_bottom: 100,
+            margin_left: 100
+        })
+
+        const flowbox = new Gtk.FlowBox()
+        scrolledWindow.add(flowbox)
+
+        channels.forEach(channel => {
+            const channelButton = new ImageButton(`./img/${channel}.png`)
+            flowbox.add(channelButton)
+            channelButton.connect('clicked', () => this.handleChannelButtonClick(channel))
+        })
+
+        return scrolledWindow
+    }
+
     // Event handlers
     handleChannelButtonClick(channel) {
         const file = `./channels/${channel}.xspf`
         if (!player.started)
-            player.start(this.drawingArea.get_window().get_xid(), file)
+            player.start(this.videoContainer.get_window().get_xid(), file)
         else
             player.open(file)
         setTimeout(() => this.channelOverlay.hide(), 5000)
