@@ -40,7 +40,7 @@ Gtk.init(null);
 const ImageButton = GObject.registerClass(class ImageButton extends Gtk.Button {
     _init(channelObj) {
         super._init()
-        const { channel, title, start, stop } = channelObj
+        const { channel, title, start, stop, desc } = channelObj
         this.id = channel 
         const imageFile = `./img/${channel}.png`
         const box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL})
@@ -58,6 +58,13 @@ const ImageButton = GObject.registerClass(class ImageButton extends Gtk.Button {
         const range = stop - start;
         const nr = now - start
         this.progressBar.set_fraction(nr/range)
+
+
+        const startTime = new Date(start).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+        const stopTime = new Date(stop).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+        // this.set_tooltip_text(desc)
+        this.set_tooltip_markup(`<span size="large"><b>${title}</b></span>\n\n${desc}\n\n${startTime} - ${stopTime}`)
+
         this.add(box)
 
     }
