@@ -2,12 +2,14 @@ const fs = require('fs');
 fs.writeFile('myjsonfile.json', JSON.stringify({test: 'test'}), 'utf8', () => {});
 
 
-const fetch = require('make-fetch-happen').defaults({
-    cacheManager: './my-cache' // path where cache will be written (and read)
-})
+// const fetch = require('make-fetch-happen').defaults({
+//     cacheManager: './my-cache' // path where cache will be written (and read)
+// })
+
+const bent = require('bent')
+const getJSON = bent('https://fvau-api-prod.switch.tv/content/v1', 'json')
 
 const daystoms = days => days * 24 * 60 * 60 * 1000
-
 
 const regions = new Set([
     "region_national",
@@ -57,9 +59,9 @@ async function fetchChannels({region = defaultRegion} = {}) {
         `related_entity_types=images`
     ]
     
-    const url = `${endpoint}${region}?${options.join('&')}`
-    const response = await fetch(url)
-    const json = await response.json()
+    const url = `/channels/region/${region}?${options.join('&')}`
+    const json = await getJSON(url)
+    // const json = await response.json()
     console.log(url)
     console.log(json.data)
     return json.data;
@@ -109,14 +111,14 @@ async function fetchChannelEpg({id, days} = {}) {
         `offset=0`
     ]
 
-    const url = `${endpoint}${id}?${options.join('&')}`
-    const response = await fetch(url)
-    console.log(response.status)
-    const json = await response.json()
+    const url = `/epgs/${id}?${options.join('&')}`
+    const json = await getJSON(url)
+    // console.log(response.status)
+    // const json = await response.json()
     console.log('tttttttttttttt', json.data.length)
     return json;
 }
 
 // fetchChannelEpg({id:'1010:0221:0220', days:1})
 // getChannels({region: 'region_vic_melbourne'})
-getEpgs({region: 'region_vic_melbourne', days:2})
+getEpgs({region: 'region_vic_melbourne', days:1})
