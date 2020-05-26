@@ -61,16 +61,17 @@ async function fetchChannels({region = defaultRegion} = {}) {
     const json = await getJSON(url)
     console.log(url)
     console.log(json.data)
+    console.log(json.data.map(channel => channel.attributes.streams))
     return json.data;
 }
 
 async function getChannels({region = defaultRegion} = {}) {
     const data = await fetchChannels({region})
-    const channels = new Map(data.map(({ lcn, dvb_triplet }) => [
-        lcn,
-        dvb_triplet,
-    ]))
-    console.log(channels)
+    const channels = data.map(({ lcn, ...details }) => [
+        `${lcn}`,
+        details,
+    ])
+    console.log("*****channels*****", channels)
     return channels
 }
 
@@ -78,11 +79,23 @@ async function getChannels({region = defaultRegion} = {}) {
 async function getEpgs({region = defaultRegion, days = 1} = {}) {
     const channels = await getChannels({region})
     // console.log('fffff',[...channels.keys()].forEach(channel => console.log(channels.get(channel))))
-    const ids = [...channels.values()]
+    const ids = [...channels.values()].map(details => details.dvb_triplet)
     const done = await Promise.all(ids.map(id => fetchChannelEpg({id, days})))
     // console.log('done', done[1].data.length)
     return done
 }
+
+async function download({region = defaultRegion, days = 1} = {}) {
+    const channels = await getChannels({region})
+    fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => {})
+    
+    // console.log('fffff',[...channels.keys()].forEach(channel => console.log(channels.get(channel))))
+    // const ids = [...channels.values()].map(details => details.dvb_triplet)
+    // const done = await Promise.all(ids.map(id => fetchChannelEpg({id, days})))
+    // // console.log('done', done[1].data.length)
+    // return done
+}
+
 
 
 async function fetchChannelEpg({id, days} = {}) {
@@ -115,11 +128,12 @@ async function fetchChannelEpg({id, days} = {}) {
 
 
 async function test() {
-    const epgs = await Promise.all([
-        fetchChannelEpg({id:'1010:0221:0220', days:1}),
-        fetchChannelEpg({id:'1012:0430:0436', days:1})
-    ])
-    console.log(epgs.map(epg => epg.data))
+    download()
+    // const epgs = await Promise.all([
+    //     fetchChannelEpg({id:'1010:0221:0220', days:1}),
+    //     fetchChannelEpg({id:'1012:0430:0436', days:1})
+    // ])
+    // console.log(epgs.map(epg => epg.data))
     // getChannels({region: 'region_vic_melbourne'})
     // const data = await getEpgs({region: 'region_vic_melbourne', days:1})
     // const epg = data.map(({data}) => data)

@@ -30,6 +30,21 @@ function convertDateString(from) {
 }
 
 
+function channels() {
+
+    const [ok, content] = GLib.file_get_contents('./data/channels.json')
+    const json = ByteArray.toString(content)
+    const channels = JSON.parse(json)
+    const map = new Map(channels) 
+    print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",JSON.stringify(map.get("9")))
+    print(map)
+    return map
+}
+
+
+
+
+
 function onNow() {
 
     const now = new Date().YYYYMMDDHHMMSS()

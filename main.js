@@ -33,7 +33,9 @@ print('ffffffffffffffffffffffffffffffffffffffffffff', onNow.get("72").title)
 // socket for vlc rc commands
 const socket = `./socket`
 // channel numbers used to constuct .xspf and .png filenames
-const channels = [9, 90, 91, 92, 93, 94, 95, 96, 99, 2, 20, 21, 22, 23, 24, 3, 30, 31, 32, 33, 34, 7, 70, 71, 72, 73, 74, 75, 76, 78, 1, 10, 11, 12, 13, 14, 15, 44]
+// const channels = [9, 90, 91, 92, 93, 94, 95, 96, 99, 2, 20, 21, 22, 23, 24, 3, 30, 31, 32, 33, 34, 7, 70, 71, 72, 73, 74, 75, 76, 78, 1, 10, 11, 12, 13, 14, 15, 44]
+
+const channels = [...epg.channels().keys()]
 
 Gtk.init(null);
 
@@ -77,13 +79,37 @@ function build(window) {
 }
 
 let player
-function init() {
+async function init() {
     // For some reason calling get_xid() here results in window not rendering correctly
 
     // GdkX11 import makes the get_xid() func available on window objects
     // const xid = content.window.drawingArea.get_window().get_xid()
     // print ('drawing area xid', xid)
     player = new Player(socket)
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')    
+    const response =  await fetch("https://postman-echo.com/get?foo1=bar1&foo2=bar")
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
+    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
     // player.start()
 }
 
