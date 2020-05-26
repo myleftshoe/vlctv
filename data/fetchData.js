@@ -41,7 +41,7 @@ async function getEpgs() {
 
 async function main() {
     const results = await getEpgs()
-    console.log(`success! - ${results.size} channel epgs fetched`)
+    console.log(`success! - ${results.size} channel epgs fetched for ${region} over ${days} days`)
 }
 
 main()
