@@ -25,8 +25,10 @@ async function getChannels() {
 }
 
 async function getChannelEpg(dvbTriplet) {
-    const channelEpg = await ds.fetchChannelEpg({ dvbTriplet, days })
-    return [dvbTriplet, channelEpg.data]
+    const results = await ds.fetchChannelEpg({ dvbTriplet, days })
+    const { data } = results
+    fs.writeFile(`./data/epgs/${dvbTriplet.replace(/:/g, '.')}.json`, JSON.stringify(data), 'utf8', () => { })
+    return [dvbTriplet, data]
 }
 
 
@@ -34,7 +36,6 @@ async function getEpgs() {
     const channels = await getChannels()
     const dvbTriplet = [...channels.keys()]
     const results = await Promise.all(dvbTriplet.map(getChannelEpg))
-    fs.writeFile('./data/epg.json', JSON.stringify(results), 'utf8', () => { })
     return new Map(results)
 }
 
