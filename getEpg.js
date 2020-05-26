@@ -49,8 +49,6 @@ const defaultRegion = 'region_vic_melbourne'
 
 async function fetchChannels({region = defaultRegion} = {}) {
 
-    const endpoint = 'https://fvau-api-prod.switch.tv/content/v1/channels/region/'
-    
     const options = [
         `limit=100`,
         `offset=0`,
@@ -61,7 +59,6 @@ async function fetchChannels({region = defaultRegion} = {}) {
     
     const url = `/channels/region/${region}?${options.join('&')}`
     const json = await getJSON(url)
-    // const json = await response.json()
     console.log(url)
     console.log(json.data)
     return json.data;
@@ -92,8 +89,6 @@ async function fetchChannelEpg({id, days} = {}) {
 
     console.log('fetching epg', id, days)
 
-    const endpoint = 'https://fvau-api-prod.switch.tv/content/v1/epgs/'
-
     const startms = new Date().setMinutes(0,0,0,0)
     const endms = startms + daystoms(days)
     const start = new Date(startms).toISOString().split('.')[0] + 'Z'
@@ -107,18 +102,28 @@ async function fetchChannelEpg({id, days} = {}) {
         `related_levels=2`,
         `include_related=1`,
         `expand_related=full`,
-        `limit=100`,
+        // `limit=100`,
         `offset=0`
     ]
 
     const url = `/epgs/${id}?${options.join('&')}`
     const json = await getJSON(url)
-    // console.log(response.status)
-    // const json = await response.json()
-    console.log('tttttttttttttt', json.data.length)
+    // console.log(`fetched epg for ${id} (${json.data.length})`)
+    // console.log(json.data)
     return json;
 }
 
-// fetchChannelEpg({id:'1010:0221:0220', days:1})
-// getChannels({region: 'region_vic_melbourne'})
-getEpgs({region: 'region_vic_melbourne', days:1})
+
+async function test() {
+    const epgs = await Promise.all([
+        fetchChannelEpg({id:'1010:0221:0220', days:1}),
+        fetchChannelEpg({id:'1012:0430:0436', days:1})
+    ])
+    console.log(epgs.map(epg => epg.data))
+    // getChannels({region: 'region_vic_melbourne'})
+    // const data = await getEpgs({region: 'region_vic_melbourne', days:1})
+    // const epg = data.map(({data}) => data)
+    // console.log(epg)
+}
+
+test()
