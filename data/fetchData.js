@@ -34,8 +34,8 @@ async function getChannelEpg(dvbTriplet) {
 
 async function getEpgs() {
     const channels = await getChannels()
-    const dvbTriplet = [...channels.keys()]
-    const results = await Promise.all(dvbTriplet.map(getChannelEpg))
+    const dvbTriplets = [...channels.keys()]
+    const results = await Promise.all(dvbTriplets.map(getChannelEpg))
     return new Map(results)
 }
 
