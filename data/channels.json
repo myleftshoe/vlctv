@@ -1,12 +1,12 @@
 [
     [
-        "24",
+        "1010:0221:0220",
         {
             "id": "e0f367bc-d840-443f-8b55-024ad1d91937",
             "broadcaster_code": "ABC",
             "channel_code": "ABC NEWS",
             "channel_name": "ABC NEWS",
-            "dvb_triplet": "1010:0221:0220",
+            "lcn": 24,
             "attributes": {
                 "streams": [
                     {
@@ -61,13 +61,13 @@
         }
     ],
     [
-        "90",
+        "1012:0400:0480",
         {
             "id": "f954b68b-558d-4e4b-8777-2c8ec8deee6b",
             "broadcaster_code": "NINE",
             "channel_code": "9HD",
             "channel_name": "9HD",
-            "dvb_triplet": "1012:0400:0480",
+            "lcn": 90,
             "attributes": {
                 "streams": [
                     {
@@ -119,13 +119,13 @@
         }
     ],
     [
-        "93",
+        "1012:0420:0428",
         {
             "id": "a54d0af4-4a73-479f-b335-56465801ca24",
             "broadcaster_code": "NINE",
             "channel_code": "9Go!",
             "channel_name": "9Go!",
-            "dvb_triplet": "1012:0420:0428",
+            "lcn": 93,
             "attributes": {
                 "streams": [
                     {
@@ -177,13 +177,13 @@
         }
     ],
     [
-        "9",
+        "1012:0430:0430",
         {
             "id": "ce09ce10-5df9-47a0-8ca7-209acf2f3392",
             "broadcaster_code": "NINE",
             "channel_code": "Channel 9",
             "channel_name": "Channel 9",
-            "dvb_triplet": "1012:0430:0430",
+            "lcn": 9,
             "attributes": {
                 "streams": [
                     {
@@ -235,13 +235,13 @@
         }
     ],
     [
-        "94",
+        "1012:0430:0433",
         {
             "id": "f8be2a09-f5f3-4b1f-814b-b9530b910066",
             "broadcaster_code": "NINE",
             "channel_code": "9Life",
             "channel_name": "9Life",
-            "dvb_triplet": "1012:0430:0433",
+            "lcn": 94,
             "attributes": {
                 "streams": [
                     {
@@ -293,13 +293,13 @@
         }
     ],
     [
-        "92",
+        "1012:0430:0436",
         {
             "id": "6918a674-d52f-4eb7-ba8b-7508df2a5b92",
             "broadcaster_code": "NINE",
             "channel_code": "9Gem",
             "channel_name": "9Gem",
-            "dvb_triplet": "1012:0430:0436",
+            "lcn": 92,
             "attributes": {
                 "streams": [
                     {
@@ -351,13 +351,13 @@
         }
     ],
     [
-        "7",
+        "1013:0503:0530",
         {
             "id": "32ca67c6-6912-443c-87e6-ec7ca9ccee91",
             "broadcaster_code": "SEVEN",
             "channel_code": "Seven",
             "channel_name": "Seven",
-            "dvb_triplet": "1013:0503:0530",
+            "lcn": 7,
             "attributes": {
                 "streams": [
                     {
@@ -413,13 +413,13 @@
         }
     ],
     [
-        "72",
+        "1013:0503:0532",
         {
             "id": "41f35987-7a5f-4a99-83d1-3649f26cefc9",
             "broadcaster_code": "SEVEN",
             "channel_code": "7TWO",
             "channel_name": "7TWO",
-            "dvb_triplet": "1013:0503:0532",
+            "lcn": 72,
             "attributes": {
                 "streams": [
                     {
@@ -475,13 +475,13 @@
         }
     ],
     [
-        "73",
+        "1013:0503:0533",
         {
             "id": "6be8bc50-4799-4eaa-b958-116277009dd1",
             "broadcaster_code": "SEVEN",
             "channel_code": "7mate",
             "channel_name": "7mate",
-            "dvb_triplet": "1013:0503:0533",
+            "lcn": 73,
             "attributes": {
                 "streams": [
                     {
@@ -522,13 +522,13 @@
         }
     ],
     [
-        "76",
+        "1013:0503:0535",
         {
             "id": "df6ff53c-18d5-40d6-a313-d347aa8c40d1",
             "broadcaster_code": "SEVEN",
             "channel_code": "7flix",
             "channel_name": "7flix",
-            "dvb_triplet": "1013:0503:0535",
+            "lcn": 76,
             "attributes": {
                 "streams": [
                     {
@@ -584,13 +584,13 @@
         }
     ],
     [
-        "1",
+        "1014:0603:0631",
         {
             "id": "ff801946-d6da-466f-bd14-affd7b28613b",
             "broadcaster_code": "TEN",
             "channel_code": "10 Bold",
             "channel_name": "10 Bold",
-            "dvb_triplet": "1014:0603:0631",
+            "lcn": 1,
             "attributes": {
                 "streams": [
                     {
@@ -642,13 +642,13 @@
         }
     ],
     [
-        "10",
+        "1014:0603:0635",
         {
             "id": "3669b310-1aa2-4acb-bbc1-e129079023da",
             "broadcaster_code": "TEN",
             "channel_code": "TEN",
             "channel_name": "TEN",
-            "dvb_triplet": "1014:0603:0635",
+            "lcn": 10,
             "attributes": {
                 "streams": [
                     {
@@ -700,13 +700,13 @@
         }
     ],
     [
-        "11",
+        "1014:0603:0638",
         {
             "id": "b3b306dc-5f1f-423a-987e-2c4760723492",
             "broadcaster_code": "TEN",
             "channel_code": "10 Peach",
             "channel_name": "10 Peach",
-            "dvb_triplet": "1014:0603:0638",
+            "lcn": 11,
             "attributes": {
                 "streams": [
                     {
@@ -758,13 +758,13 @@
         }
     ],
     [
-        "3",
+        "3202:0300:0301",
         {
             "id": "030bb909-97e1-4feb-af45-2cb17e2d3c74",
             "broadcaster_code": "SBS",
             "channel_code": "SBS",
             "channel_name": "SBS",
-            "dvb_triplet": "3202:0300:0301",
+            "lcn": 3,
             "attributes": {
                 "streams": [
                     {
@@ -801,13 +801,13 @@
         }
     ],
     [
-        "33",
+        "3202:0300:0304",
         {
             "id": "ada0e2ed-8e20-4f25-9be8-0ea1bad7d8c2",
             "broadcaster_code": "SBS",
             "channel_code": "SBS Food",
             "channel_name": "SBS Food",
-            "dvb_triplet": "3202:0300:0304",
+            "lcn": 33,
             "attributes": {
                 "streams": [
                     {
@@ -859,13 +859,13 @@
         }
     ],
     [
-        "34",
+        "3202:0300:0305",
         {
             "id": "da851c1e-edae-48f4-80fa-7c679b78ca00",
             "broadcaster_code": "SBS",
             "channel_code": "NITV",
             "channel_name": "NITV",
-            "dvb_triplet": "3202:0300:0305",
+            "lcn": 34,
             "attributes": {
                 "streams": [
                     {
@@ -917,13 +917,13 @@
         }
     ],
     [
-        "32",
+        "3202:0300:0307",
         {
             "id": "cbeb4a60-9d62-477f-9ab3-5d93ac5df8cc",
             "broadcaster_code": "SBS",
             "channel_code": "SBS World Movies Sydney",
             "channel_name": "SBS World Movies Sydney",
-            "dvb_triplet": "3202:0300:0307",
+            "lcn": 32,
             "attributes": {
                 "streams": [
                     {
@@ -975,13 +975,13 @@
         }
     ],
     [
-        "31",
+        "3202:0300:0303",
         {
             "id": "3034cc4e-483e-4fe6-a4f7-3101fb85ff99",
             "broadcaster_code": "SBS",
             "channel_code": "SBS VICELAND HD",
             "channel_name": "SBS VICELAND HD",
-            "dvb_triplet": "3202:0300:0303",
+            "lcn": 31,
             "attributes": {
                 "streams": [
                     {
@@ -1033,13 +1033,13 @@
         }
     ],
     [
-        "96",
+        "1012:0430:0438",
         {
             "id": "a1a75c2d-af83-4fd6-b826-c2643314dde8",
             "broadcaster_code": "NINE",
             "channel_code": "9Rush Melbourne",
             "channel_name": "9Rush Melbourne",
-            "dvb_triplet": "1012:0430:0438",
+            "lcn": 96,
             "attributes": {
                 "streams": [
                     {
@@ -1076,13 +1076,13 @@
         }
     ],
     [
-        "78",
+        "1013:0502:0528",
         {
             "id": "73859da5-8ad5-4960-a828-ecf8b5658a3b",
             "broadcaster_code": "SEVEN",
             "channel_code": "RACING.COM",
             "channel_name": "RACING.COM",
-            "dvb_triplet": "1013:0502:0528",
+            "lcn": 78,
             "attributes": {
                 "streams": [
                     {
@@ -1138,13 +1138,13 @@
         }
     ],
     [
-        "2",
+        "1010:0231:0231",
         {
             "id": "f8922c32-9b47-47d8-a4a1-240e9a13bbf3",
             "broadcaster_code": "ABC",
             "channel_code": "ABC",
             "channel_name": "ABC",
-            "dvb_triplet": "1010:0231:0231",
+            "lcn": 2,
             "attributes": {
                 "streams": [
                     {
@@ -1199,13 +1199,13 @@
         }
     ],
     [
-        "23",
+        "1010:0221:0224",
         {
             "id": "60558321-700e-4d23-9fee-e8fc99e2bedd",
             "broadcaster_code": "ABC",
             "channel_code": "ABC ME",
             "channel_name": "ABC ME",
-            "dvb_triplet": "1010:0221:0224",
+            "lcn": 23,
             "attributes": {
                 "streams": [
                     {
@@ -1260,13 +1260,13 @@
         }
     ],
     [
-        "22",
+        "1010:0221:0222",
         {
             "id": "6098858a-3ea6-4210-8171-07d18e7ec5c3",
             "broadcaster_code": "ABC",
             "channel_code": "ABC COMEDY/ABC Kids NSW",
             "channel_name": "ABC COMEDY/ABC Kids NSW",
-            "dvb_triplet": "1010:0221:0222",
+            "lcn": 22,
             "attributes": {
                 "streams": [
                     {

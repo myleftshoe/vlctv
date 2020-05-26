@@ -16,24 +16,24 @@ console.log(region, days)
 
 async function getChannels() {
     const data = await ds.fetchChannels(region)
-    const channels = data.map(({ lcn, ...details }) => [
-        `${lcn}`,
+    const channels = data.map(({ dvb_triplet, ...details }) => [
+        dvb_triplet,
         details,
     ])
     fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => { })
     return new Map(channels)
 }
 
-async function getChannelEpg(id) {
-    const channelEpg = await ds.fetchChannelEpg({ id, days })
-    return [id, channelEpg.data]
+async function getChannelEpg(dvbTriplet) {
+    const channelEpg = await ds.fetchChannelEpg({ dvbTriplet, days })
+    return [dvbTriplet, channelEpg.data]
 }
 
 
 async function getEpgs() {
     const channels = await getChannels()
-    const ids = [...channels.values()].map(details => details.dvb_triplet)
-    const results = await Promise.all(ids.map(getChannelEpg))
+    const dvbTriplet = [...channels.keys()]
+    const results = await Promise.all(dvbTriplet.map(getChannelEpg))
     fs.writeFile('./data/epg.json', JSON.stringify(results), 'utf8', () => { })
     return new Map(results)
 }

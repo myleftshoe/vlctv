@@ -3,22 +3,6 @@
         "1010:0221:0220",
         [
             {
-                "id": "03a2c589-b396-4738-ad43-15a92834fb0b",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC NEWS",
-                "channel_name": "ABC NEWS",
-                "duration": "01:00",
-                "dvb_triplet": "1010:0221:0220",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 24,
-                "start": "2020-05-26T08:00:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-26T05:27:41+00:00",
-                "title": "ABC Evening News"
-            },
-            {
                 "id": "b90d7c91-e237-4bc5-a624-01699a3eaf5e",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
@@ -1241,108 +1225,54 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "be9b049a-1405-4d4b-9f26-0a072dcb4f12",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC NEWS",
+                "channel_name": "ABC NEWS",
+                "duration": "00:45",
+                "dvb_triplet": "1010:0221:0220",
+                "end": "2020-05-27T10:45:00+00:00",
+                "lcn": 24,
+                "episode_id": "dfa4e971-7d7d-476f-b72f-828f8f1e2129",
+                "start": "2020-05-27T10:00:00+00:00",
+                "updated_at": "2020-05-18T21:32:04+00:00",
+                "title": "ABC News Tonight",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "dfa4e971-7d7d-476f-b72f-828f8f1e2129",
+                            "updated_at": "2020-05-18T21:32:05+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "The coronavirus pandemic has changed the way we live, work, learn, socialise and shop. With the number of new cases falling, Australia is now on the long road to recovery. Andrew Geoghegan brings you the latest developments. (2020)",
+                            "title": "ABC News Tonight",
+                            "categories": [
+                                "channel_id/ABC NEWS",
+                                "genres/News & Current Affairs",
+                                "classification/NC",
+                                "content_type/series"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "2596d3c0-b04f-443d-a6c0-741441869fec",
+                                        "url": "http://img-store-prod.switch.tv/images/2596d3c0-b04f-443d-a6c0-741441869fec/1679079_NU1825V.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/NU2024H106S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1012:0400:0480",
         [
-            {
-                "id": "07b2ed50-def2-4635-b246-35efe070274b",
-                "broadcaster_code": "NINE",
-                "channel_id": "9HD",
-                "channel_name": "9HD",
-                "duration": "01:01",
-                "dvb_triplet": "1012:0400:0480",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 90,
-                "episode_id": "d307c010-0b20-4b55-a0a5-d306ff9ad2ac",
-                "start": "2020-05-26T07:59:00+00:00",
-                "updated_at": "2020-05-25T09:30:25+00:00",
-                "title": "Nine News",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "d307c010-0b20-4b55-a0a5-d306ff9ad2ac",
-                            "updated_at": "2020-05-17T21:33:11+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "105",
-                            "synopsis": "The latest in news and events in your local city, as well as news from across Australia and around the world. (2020)",
-                            "title": "Nine News",
-                            "categories": [
-                                "channel_id/Channel 9",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/9HD"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "c4a0b31f-892f-4435-a677-295133a69e89",
-                                        "url": "http://img-store-prod.switch.tv/images/c4a0b31f-892f-4435-a677-295133a69e89/1643648_NNNQ19.png"
-                                    },
-                                    {
-                                        "id": "c070b802-1333-41b1-9fe6-f3df1dde229a",
-                                        "url": "http://img-store-prod.switch.tv/images/c070b802-1333-41b1-9fe6-f3df1dde229a/1699731_NNNQ20.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/1__105",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "bdd50410-25ea-45b5-835c-334308e149f7",
-                "broadcaster_code": "NINE",
-                "channel_id": "9HD",
-                "channel_name": "9HD",
-                "duration": "00:32",
-                "dvb_triplet": "1012:0400:0480",
-                "end": "2020-05-26T09:32:00+00:00",
-                "lcn": 90,
-                "episode_id": "6efec68d-fc46-40b3-835b-59dd7815767b",
-                "start": "2020-05-26T09:00:00+00:00",
-                "updated_at": "2020-05-25T09:30:08+00:00",
-                "title": "A Current Affair",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "6efec68d-fc46-40b3-835b-59dd7815767b",
-                            "updated_at": "2020-05-17T21:33:47+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "105",
-                            "synopsis": "Covers the realms of politics, crime, human rights, science, technology, celebrities, and entertainment, all investigated by a dedicated team. (2020)",
-                            "title": "A Current Affair",
-                            "categories": [
-                                "channel_id/Channel 9",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/9HD"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "0105afd5-a75d-42c1-9fc6-b563777f929a",
-                                        "url": "http://img-store-prod.switch.tv/images/0105afd5-a75d-42c1-9fc6-b563777f929a/1642607_ACA19.png"
-                                    },
-                                    {
-                                        "id": "95980463-a59e-4c2d-b409-e863a53d1c11",
-                                        "url": "http://img-store-prod.switch.tv/images/95980463-a59e-4c2d-b409-e863a53d1c11/1698030_ACA20.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ACA__105",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "bb547eb6-ff1a-41ac-822a-3a885bb3d42c",
                 "broadcaster_code": "NINE",
@@ -2449,113 +2379,61 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "576adc53-0faa-44ba-819b-07e1d85094b3",
+                "broadcaster_code": "NINE",
+                "channel_id": "9HD",
+                "channel_name": "9HD",
+                "duration": "01:04",
+                "dvb_triplet": "1012:0400:0480",
+                "end": "2020-05-27T10:36:00+00:00",
+                "lcn": 90,
+                "episode_id": "e29c2b01-7ad3-4d53-8eee-d76dacbbb674",
+                "start": "2020-05-27T09:32:00+00:00",
+                "tags": [
+                    "dont_miss",
+                    "coming_up"
+                ],
+                "updated_at": "2020-05-26T01:28:42+00:00",
+                "title": "Giraffe Move",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "e29c2b01-7ad3-4d53-8eee-d76dacbbb674",
+                            "updated_at": "2020-05-25T09:29:03+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "10",
+                            "synopsis": "Keepers prepare to move their 3 giraffes to a brand-new enclosure. But the entire move is put on hold, as Taronga staff are shocked by the rapid decline of Nyota, one of the zoo's favourite giraffes. (2019)",
+                            "title": "Giraffe Move",
+                            "categories": [
+                                "channel_id/9HD",
+                                "genres/Documentary & Factual",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/1",
+                                "channel_id/Channel 9"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "6c947294-b827-4b96-ab92-569334dc0e29",
+                                        "url": "http://img-store-prod.switch.tv/images/6c947294-b827-4b96-ab92-569334dc0e29/1701075_TAWH01.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/TAWH_1_010",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1012:0420:0428",
         [
-            {
-                "id": "e102833e-4b64-4f80-91cb-a0483fe487f0",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Go!",
-                "channel_name": "9Go!",
-                "duration": "00:29",
-                "dvb_triplet": "1012:0420:0428",
-                "end": "2020-05-26T09:01:00+00:00",
-                "lcn": 93,
-                "episode_id": "8cddeb3a-b1eb-4b78-a67f-73c5a0556cf1",
-                "start": "2020-05-26T08:32:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-22T01:32:05+00:00",
-                "title": "Book Club",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "8cddeb3a-b1eb-4b78-a67f-73c5a0556cf1",
-                            "updated_at": "2020-05-19T08:28:27+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "3",
-                            "synopsis": "Lois joins a book club in order to gain respite from Hal and the boys, and she soon learns that the club is an excuse for other mothers to get together and socialise. (2001)",
-                            "title": "Book Club",
-                            "categories": [
-                                "channel_id/9Go!",
-                                "genres/Entertainment",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/3"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "4919a65b-74be-4589-bb7d-f678444d8502",
-                                        "url": "http://img-store-prod.switch.tv/images/4919a65b-74be-4589-bb7d-f678444d8502/611159_93.png"
-                                    },
-                                    {
-                                        "id": "a1f01df9-1d7a-453f-a40d-e9b3e9e25d41",
-                                        "url": "http://img-store-prod.switch.tv/images/a1f01df9-1d7a-453f-a40d-e9b3e9e25d41/1714073_MAMI03.png",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/MAMI_3_CAB304",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "e9c393e3-2b99-4ad4-8325-4248ce94b4dc",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Go!",
-                "channel_name": "9Go!",
-                "duration": "00:29",
-                "dvb_triplet": "1012:0420:0428",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 93,
-                "episode_id": "aa8c10c5-94de-4d71-83d2-da8e2cd89c71",
-                "start": "2020-05-26T09:01:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T01:29:54+00:00",
-                "title": "The Tenant Disassociation",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "aa8c10c5-94de-4d71-83d2-da8e2cd89c71",
-                            "updated_at": "2020-01-26T20:24:48+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "19",
-                            "synopsis": "Leonard decides to run against Sheldon for president of the tenants association. Bernadette encourages Wolowitz and Koothrappali to find the owner of a drone after they find it in the backyard. (2017)",
-                            "title": "The Tenant Disassociation",
-                            "categories": [
-                                "channel_id/9Go!",
-                                "genres/Entertainment",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/11"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "edf4a776-5d06-463d-9cc0-74eeec00f89f",
-                                        "url": "http://img-store-prod.switch.tv/images/edf4a776-5d06-463d-9cc0-74eeec00f89f/1590654_BIBA11.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/BIBA_11_T12.15619",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "e971719c-9843-42de-9b0d-f9152b19df00",
                 "broadcaster_code": "NINE",
@@ -4194,114 +4072,109 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "62014911-89af-408a-8116-6ca80c0f3f82",
+                "broadcaster_code": "NINE",
+                "channel_id": "9Go!",
+                "channel_name": "9Go!",
+                "duration": "00:29",
+                "dvb_triplet": "1012:0420:0428",
+                "end": "2020-05-27T09:30:00+00:00",
+                "lcn": 93,
+                "episode_id": "96642555-c2e5-4247-8ea2-693a4c5c01db",
+                "start": "2020-05-27T09:01:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-26T01:28:07+00:00",
+                "title": "The Reclusive Potential",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "96642555-c2e5-4247-8ea2-693a4c5c01db",
+                            "updated_at": "2020-01-27T20:25:46+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "20",
+                            "synopsis": "A brilliant but reclusive scientist invites Sheldon to his cabin in the middle of nowhere. Penny and Bernadette improvise after Amy doesn't like the tame bachelorette party they planned. (2017)",
+                            "title": "The Reclusive Potential",
+                            "categories": [
+                                "channel_id/9Go!",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/11"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "edf4a776-5d06-463d-9cc0-74eeec00f89f",
+                                        "url": "http://img-store-prod.switch.tv/images/edf4a776-5d06-463d-9cc0-74eeec00f89f/1590654_BIBA11.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/BIBA_11_T12.15620",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cde96fc5-1410-4e4b-9969-85ff8623d3db",
+                "broadcaster_code": "NINE",
+                "channel_id": "9Go!",
+                "channel_name": "9Go!",
+                "duration": "01:03",
+                "dvb_triplet": "1012:0420:0428",
+                "end": "2020-05-27T10:33:00+00:00",
+                "lcn": 93,
+                "episode_id": "973f1e4a-455f-4dd1-8e8e-885a53904d2e",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-26T01:30:08+00:00",
+                "title": "South Australia",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "973f1e4a-455f-4dd1-8e8e-885a53904d2e",
+                            "updated_at": "2020-05-22T08:27:32+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "6",
+                            "synopsis": "This episode our travel guides are staying close to home and heading to South Australia on a foodie road trip. (2019)",
+                            "title": "South Australia",
+                            "categories": [
+                                "channel_id/9Go!",
+                                "genres/Entertainment",
+                                "subgenres/Fly-on-the-Wall",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/3",
+                                "channel_id/Channel 9",
+                                "channel_id/9HD"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "e5ca8879-f03d-4130-b027-514c5e0c69bd",
+                                        "url": "http://img-store-prod.switch.tv/images/e5ca8879-f03d-4130-b027-514c5e0c69bd/1649106_TRGU2019.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/TRGU_3_6",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1012:0430:0430",
         [
-            {
-                "id": "c059f82a-3316-4232-acc9-c4f3a5ccd2e7",
-                "broadcaster_code": "NINE",
-                "channel_id": "Channel 9",
-                "channel_name": "Channel 9",
-                "duration": "01:01",
-                "dvb_triplet": "1012:0430:0430",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 9,
-                "episode_id": "bb178dc1-7c6d-45fe-a6fd-1521bcfe8a55",
-                "start": "2020-05-26T07:59:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T09:29:48+00:00",
-                "title": "Nine News",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "bb178dc1-7c6d-45fe-a6fd-1521bcfe8a55",
-                            "updated_at": "2020-05-25T01:30:04+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "105",
-                            "synopsis": "The latest in news and events in your local city, as well as news from across Australia and around the world. (2020)",
-                            "title": "Nine News",
-                            "categories": [
-                                "channel_id/Channel 9",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "season_number/4"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "42d7561e-427d-45d5-bada-65dec3f1e6ea",
-                                        "url": "http://img-store-prod.switch.tv/images/42d7561e-427d-45d5-bada-65dec3f1e6ea/1643647_NNNG19.png"
-                                    },
-                                    {
-                                        "id": "4a8d1c98-be84-40ef-8c6a-6f21c5f5c71c",
-                                        "url": "http://img-store-prod.switch.tv/images/4a8d1c98-be84-40ef-8c6a-6f21c5f5c71c/1699725_NNNG20.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NNNG_4_105",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "dad90578-79e3-4c59-bfa4-cab1654696ec",
-                "broadcaster_code": "NINE",
-                "channel_id": "Channel 9",
-                "channel_name": "Channel 9",
-                "duration": "00:32",
-                "dvb_triplet": "1012:0430:0430",
-                "end": "2020-05-26T09:32:00+00:00",
-                "lcn": 9,
-                "episode_id": "6efec68d-fc46-40b3-835b-59dd7815767b",
-                "start": "2020-05-26T09:00:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T09:30:13+00:00",
-                "title": "A Current Affair",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "6efec68d-fc46-40b3-835b-59dd7815767b",
-                            "updated_at": "2020-05-17T21:33:47+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "105",
-                            "synopsis": "Covers the realms of politics, crime, human rights, science, technology, celebrities, and entertainment, all investigated by a dedicated team. (2020)",
-                            "title": "A Current Affair",
-                            "categories": [
-                                "channel_id/Channel 9",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/9HD"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "0105afd5-a75d-42c1-9fc6-b563777f929a",
-                                        "url": "http://img-store-prod.switch.tv/images/0105afd5-a75d-42c1-9fc6-b563777f929a/1642607_ACA19.png"
-                                    },
-                                    {
-                                        "id": "95980463-a59e-4c2d-b409-e863a53d1c11",
-                                        "url": "http://img-store-prod.switch.tv/images/95980463-a59e-4c2d-b409-e863a53d1c11/1698030_ACA20.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ACA__105",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "21bb69d0-cc0b-4b4c-80c8-28a17ec6a864",
                 "broadcaster_code": "NINE",
@@ -5462,107 +5335,62 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "cae4332d-0902-435c-9659-c60e130c51ea",
+                "broadcaster_code": "NINE",
+                "channel_id": "Channel 9",
+                "channel_name": "Channel 9",
+                "duration": "01:04",
+                "dvb_triplet": "1012:0430:0430",
+                "end": "2020-05-27T10:36:00+00:00",
+                "lcn": 9,
+                "episode_id": "e29c2b01-7ad3-4d53-8eee-d76dacbbb674",
+                "start": "2020-05-27T09:32:00+00:00",
+                "tags": [
+                    "dont_miss",
+                    "coming_up",
+                    "catch_up"
+                ],
+                "updated_at": "2020-05-26T09:30:08+00:00",
+                "title": "Giraffe Move",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "e29c2b01-7ad3-4d53-8eee-d76dacbbb674",
+                            "updated_at": "2020-05-25T09:29:03+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "10",
+                            "synopsis": "Keepers prepare to move their 3 giraffes to a brand-new enclosure. But the entire move is put on hold, as Taronga staff are shocked by the rapid decline of Nyota, one of the zoo's favourite giraffes. (2019)",
+                            "title": "Giraffe Move",
+                            "categories": [
+                                "channel_id/9HD",
+                                "genres/Documentary & Factual",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/1",
+                                "channel_id/Channel 9"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "6c947294-b827-4b96-ab92-569334dc0e29",
+                                        "url": "http://img-store-prod.switch.tv/images/6c947294-b827-4b96-ab92-569334dc0e29/1701075_TAWH01.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/TAWH_1_010",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1012:0430:0433",
         [
-            {
-                "id": "db6821d9-0ea5-4fd7-b5d8-06e5affa9e12",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Life",
-                "channel_name": "9Life",
-                "duration": "00:30",
-                "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 94,
-                "episode_id": "d658c6a8-766e-4ff4-bbf0-a665e2fd7160",
-                "start": "2020-05-26T08:30:00+00:00",
-                "updated_at": "2020-05-21T07:31:53+00:00",
-                "title": "Return to Lyon",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "d658c6a8-766e-4ff4-bbf0-a665e2fd7160",
-                            "updated_at": "2020-05-17T21:33:14+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "12",
-                            "synopsis": "A couple that moved their family to Lyon, France, 15 years ago decide to return. They discover everything is different from the Lyon they remember and finding a home they'll fit in permanently may be hard. (2018)",
-                            "title": "Return to Lyon",
-                            "categories": [
-                                "channel_id/9Life",
-                                "genres/Lifestyle",
-                                "subgenres/Renovation",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/131"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "b312986e-5385-4b6e-8316-99b7c5adf9d6",
-                                        "url": "http://img-store-prod.switch.tv/images/b312986e-5385-4b6e-8316-99b7c5adf9d6/1711589_HOHUIN31.png",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/HOHUIN_131_HHINT13112H",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "6a7ecfbd-7667-4763-8b64-5800cc678297",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Life",
-                "channel_name": "9Life",
-                "duration": "00:31",
-                "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-26T09:31:00+00:00",
-                "lcn": 94,
-                "episode_id": "7a521986-c442-4222-9aa0-6e47eecbeb34",
-                "start": "2020-05-26T09:00:00+00:00",
-                "updated_at": "2020-05-25T09:30:53+00:00",
-                "title": "Waterfront Living in Florida",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "7a521986-c442-4222-9aa0-6e47eecbeb34",
-                            "updated_at": "2020-05-17T21:34:36+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "12",
-                            "synopsis": "A single mum wants to fulfil her dream of buying a waterfront home in Bradenton, Florida. She wants to live right on the water and is willing to take on a fixer-upper if necessary. (2017)",
-                            "title": "Waterfront Living in Florida",
-                            "categories": [
-                                "channel_id/9Life",
-                                "genres/Lifestyle",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/135"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "04444e9b-0786-4d45-af3e-cebe47d9c0e8",
-                                        "url": "http://img-store-prod.switch.tv/images/04444e9b-0786-4d45-af3e-cebe47d9c0e8/1711588_HOHU135.png",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/HOHU_135_HNT13512H",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "ab4e5af7-fc47-4c06-a342-90f2439884ff",
                 "broadcaster_code": "NINE",
@@ -7233,62 +7061,107 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "4307b3f0-1f1e-4535-a5cd-a9e596b79688",
+                "broadcaster_code": "NINE",
+                "channel_id": "9Life",
+                "channel_name": "9Life",
+                "duration": "00:30",
+                "dvb_triplet": "1012:0430:0433",
+                "end": "2020-05-27T09:34:00+00:00",
+                "lcn": 94,
+                "episode_id": "46295bbb-0684-4c6b-9736-fcfbd07a0286",
+                "start": "2020-05-27T09:04:00+00:00",
+                "updated_at": "2020-05-26T09:30:11+00:00",
+                "title": "Eccentrics in Ohio",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "46295bbb-0684-4c6b-9736-fcfbd07a0286",
+                            "updated_at": "2020-05-18T21:32:23+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "13",
+                            "synopsis": "An eccentric couple seek a unique home in Cincinnati. He needs the house's address to feature the number eight, while she fears that houses over 50 years old may be haunted. (2017)",
+                            "title": "Eccentrics in Ohio",
+                            "categories": [
+                                "channel_id/9Life",
+                                "genres/Lifestyle",
+                                "classification/G",
+                                "content_type/series",
+                                "season_number/135"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "04444e9b-0786-4d45-af3e-cebe47d9c0e8",
+                                        "url": "http://img-store-prod.switch.tv/images/04444e9b-0786-4d45-af3e-cebe47d9c0e8/1711588_HOHU135.png",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/HOHU_135_HNT13513H",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "71b8cbc8-9b8e-4b0d-9e8e-977ada216244",
+                "broadcaster_code": "NINE",
+                "channel_id": "9Life",
+                "channel_name": "9Life",
+                "duration": "00:57",
+                "dvb_triplet": "1012:0430:0433",
+                "end": "2020-05-27T10:31:00+00:00",
+                "lcn": 94,
+                "episode_id": "824280f4-c969-45bc-b85e-79413df62468",
+                "start": "2020-05-27T09:34:00+00:00",
+                "updated_at": "2020-05-26T09:31:58+00:00",
+                "title": "High-End Timber Frame Kitchen in Brevard, NC",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "824280f4-c969-45bc-b85e-79413df62468",
+                            "updated_at": "2020-05-26T01:28:43+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "2",
+                            "synopsis": "The crew builds a timber-frame kitchen that will be the centrepiece of a mountain retreat in Brevard, North Carolina. (2017)",
+                            "title": "High-End Timber Frame Kitchen in Brevard, NC",
+                            "categories": [
+                                "channel_id/9Life",
+                                "genres/Entertainment",
+                                "subgenres/Fly-on-the-Wall",
+                                "classification/G",
+                                "content_type/series",
+                                "season_number/5"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "774e633c-9e21-48d9-8c5b-82d0915c5b07",
+                                        "url": "http://img-store-prod.switch.tv/images/774e633c-9e21-48d9-8c5b-82d0915c5b07/1625772_BAWO05.png",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/BAWO_5_DHBB502H-3371926",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1012:0430:0436",
         [
-            {
-                "id": "abd9da63-9055-49ac-b5c7-27454c86008b",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Gem",
-                "channel_name": "9Gem",
-                "duration": "01:00",
-                "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 92,
-                "episode_id": "16337d4f-ebdc-43cf-af0f-052cc101d754",
-                "start": "2020-05-26T08:30:00+00:00",
-                "updated_at": "2020-05-22T05:31:13+00:00",
-                "title": "Aberystwyth",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "16337d4f-ebdc-43cf-af0f-052cc101d754",
-                            "updated_at": "2020-05-17T21:25:25+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "7",
-                            "synopsis": "Fiona Bruce and the team of experts find a musical 19th-century bird in a cage, valuable and symbolic Native Canadian carvings, and a painting the owner hopes may be by Francis Bacon and worth a fortune. But is it? (2012)",
-                            "title": "Aberystwyth",
-                            "categories": [
-                                "channel_id/9Gem",
-                                "genres/Lifestyle",
-                                "subgenres/Leisure",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/24",
-                                "channel_id/9Gem HD Perth",
-                                "channel_id/9Gem HD Adelaide",
-                                "channel_id/9Gem HD Melbourne",
-                                "channel_id/9Gem HD Brisbane",
-                                "channel_id/9Gem HD Sydney"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "6146d184-4b3f-49e1-bd15-f3d15a2d943c",
-                                        "url": "http://img-store-prod.switch.tv/images/6146d184-4b3f-49e1-bd15-f3d15a2d943c/1668626_ANRO34.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ANRO_24_7",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "1244378f-daf3-41de-8555-e7bcaf237679",
                 "broadcaster_code": "NINE",
@@ -8733,120 +8606,61 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "5f68b6ea-04ce-453c-a50f-a5fbe81fa7b3",
+                "broadcaster_code": "NINE",
+                "channel_id": "9Gem",
+                "channel_name": "9Gem",
+                "duration": "01:20",
+                "dvb_triplet": "1012:0430:0436",
+                "end": "2020-05-27T10:50:00+00:00",
+                "lcn": 92,
+                "episode_id": "7c801aca-9657-4a1b-b12a-5c7a398df1e7",
+                "start": "2020-05-27T09:30:00+00:00",
+                "updated_at": "2020-05-22T05:31:00+00:00",
+                "title": "Waldorf Salad",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "7c801aca-9657-4a1b-b12a-5c7a398df1e7",
+                            "updated_at": "2019-12-20T06:02:07+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "3",
+                            "synopsis": "An American tourist couple push Basil's temper to the limit with their demands, but the guests give as good as they get. (1979)",
+                            "title": "Waldorf Salad",
+                            "categories": [
+                                "channel_id/9Gem",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/2",
+                                "channel_id/9Gem HD Perth",
+                                "channel_id/9Gem HD Adelaide",
+                                "channel_id/9Gem HD Melbourne",
+                                "channel_id/9Gem HD Brisbane",
+                                "channel_id/9Gem HD Sydney"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "5895078c-c68e-4a0c-8330-8d449255fb05",
+                                        "url": "http://img-store-prod.switch.tv/images/5895078c-c68e-4a0c-8330-8d449255fb05/1649973_FATO102.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/FATO101_2_3",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1013:0503:0530",
         [
-            {
-                "id": "f78b8699-c66a-4142-a444-2f6dc71f66b3",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "Seven",
-                "channel_name": "Seven",
-                "duration": "01:03",
-                "dvb_triplet": "1013:0503:0530",
-                "end": "2020-05-26T09:02:00+00:00",
-                "lcn": 7,
-                "episode_id": "91924e53-5034-450b-9998-d421f5ea6696",
-                "start": "2020-05-26T07:59:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T11:28:52+00:00",
-                "title": "Seven News",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "91924e53-5034-450b-9998-d421f5ea6696",
-                            "updated_at": "2020-05-17T21:39:10+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "147",
-                            "synopsis": "Live and comprehensive coverage of breaking news and local, national, and international top stories. Plus sport, finance, and weather updates.",
-                            "title": "Seven News",
-                            "categories": [
-                                "channel_id/Seven",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "season_number/20"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "4a8fe776-e422-4107-b877-3e179c419337",
-                                        "url": "http://img-store-prod.switch.tv/images/4a8fe776-e422-4107-b877-3e179c419337/362756_7_default_channel_logo.jpg"
-                                    },
-                                    {
-                                        "id": "e41b15ec-3df2-442f-bee6-fe4c5680370f",
-                                        "url": "http://img-store-prod.switch.tv/images/e41b15ec-3df2-442f-bee6-fe4c5680370f/1714135_7NNM20-147_original.jpeg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/nLGottiPltaPmtqI",
-                            "broadcaster": "SEVEN"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "0448eb1b-31c4-4988-907d-5cbb254c9115",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "Seven",
-                "channel_name": "Seven",
-                "duration": "00:30",
-                "dvb_triplet": "1013:0503:0530",
-                "end": "2020-05-26T09:32:00+00:00",
-                "lcn": 7,
-                "episode_id": "ab30734b-4d7c-4681-98d7-e751b34a46cd",
-                "start": "2020-05-26T09:02:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T11:31:36+00:00",
-                "title": "Home and Away",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "ab30734b-4d7c-4681-98d7-e751b34a46cd",
-                            "updated_at": "2020-05-18T07:32:35+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "66",
-                            "synopsis": "Will Ziggy move out of Dean's place? Alf does the rounds catching up in Summer Bay. Willow tries everything to get Jasmine to open up.",
-                            "title": "Home and Away",
-                            "categories": [
-                                "channel_id/Seven",
-                                "genres/Drama",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/33"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "4a8fe776-e422-4107-b877-3e179c419337",
-                                        "url": "http://img-store-prod.switch.tv/images/4a8fe776-e422-4107-b877-3e179c419337/362756_7_default_channel_logo.jpg"
-                                    },
-                                    {
-                                        "id": "dfd25633-0107-434a-9c94-32a248c29f03",
-                                        "url": "http://img-store-prod.switch.tv/images/dfd25633-0107-434a-9c94-32a248c29f03/1714267_HAAW32-191_original.jpeg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/sefbvMmNltaPmt2O",
-                            "broadcaster": "SEVEN"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "fd265b0f-b2a2-4d63-9d15-8ad4fc48637d",
                 "broadcaster_code": "SEVEN",
@@ -10105,67 +9919,72 @@
                         }
                     ]
                 }
-            }
-        ]
-    ],
-    [
-        "1013:0503:0532",
-        [
+            },
             {
-                "id": "17dcf85c-221e-41df-94b8-f99106d9514d",
+                "id": "e17d040a-2b90-4600-85f0-561b34b27c45",
                 "broadcaster_code": "SEVEN",
-                "channel_id": "7TWO",
-                "channel_name": "7TWO",
-                "duration": "01:00",
-                "dvb_triplet": "1013:0503:0532",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 72,
-                "episode_id": "7249c2a2-235d-41ad-932c-10cb90ca081a",
-                "start": "2020-05-26T08:30:00+00:00",
-                "updated_at": "2020-05-21T03:30:19+00:00",
-                "title": "Edinburgh 4",
+                "channel_id": "Seven",
+                "channel_name": "Seven",
+                "duration": "01:15",
+                "dvb_triplet": "1013:0503:0530",
+                "end": "2020-05-27T10:47:00+00:00",
+                "lcn": 7,
+                "episode_id": "455e413c-9587-4889-aad3-44667dfd6533",
+                "start": "2020-05-27T09:32:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-25T11:29:13+00:00",
+                "title": "Audition 7",
                 "related": {
                     "episodes": [
                         {
-                            "id": "7249c2a2-235d-41ad-932c-10cb90ca081a",
-                            "updated_at": "2020-05-17T21:37:50+00:00",
+                            "id": "455e413c-9587-4889-aad3-44667dfd6533",
+                            "updated_at": "2020-05-22T00:29:03+00:00",
                             "draft": false,
                             "on_air": true,
-                            "episode_number": "20",
-                            "synopsis": "Teams head to the historic city of Edinburgh in search of relics of the past. Meanwhile, Tim Wonnacott visits Abbotsford House, home of author Sir Walter Scott.",
-                            "title": "Edinburgh 4",
+                            "episode_number": "7",
+                            "synopsis": "Auditions continue as weird, wacky and wonderful acts compete in front of celebrity judges Amanda Holden, Alesha Dixon, and David Walliams, and series creator Simon Cowell. Hosted by Ant and Dec.",
+                            "title": "Audition 7",
                             "categories": [
-                                "channel_id/7TWO",
+                                "channel_id/7flix",
                                 "genres/Entertainment",
-                                "classification/G",
+                                "subgenres/Elimination/Gameshow",
+                                "classification/PG",
                                 "content_type/series",
-                                "season_number/36"
+                                "season_number/14",
+                                "channel_id/Seven"
                             ],
                             "related": {
                                 "images": [
                                     {
-                                        "id": "85a8f565-36bc-4376-ab87-0a6b4b3a4858",
-                                        "url": "http://img-store-prod.switch.tv/images/85a8f565-36bc-4376-ab87-0a6b4b3a4858/1647215_BHUN36-020_medium.jpeg"
+                                        "id": "4a8fe776-e422-4107-b877-3e179c419337",
+                                        "url": "http://img-store-prod.switch.tv/images/4a8fe776-e422-4107-b877-3e179c419337/362756_7_default_channel_logo.jpg"
                                     },
                                     {
-                                        "id": "35d667b5-1604-4900-9759-dc70aa575a07",
-                                        "url": "http://img-store-prod.switch.tv/images/35d667b5-1604-4900-9759-dc70aa575a07/461000_7two_logo_16x9.png"
+                                        "id": "ef29b91d-656c-4f05-bcb2-8a7e9c76b70a",
+                                        "url": "http://img-store-prod.switch.tv/images/ef29b91d-656c-4f05-bcb2-8a7e9c76b70a/440460_7flix_logo_16x9.png"
                                     },
                                     {
-                                        "id": "1366ae50-80ee-40d0-adad-e5f4818e25cf",
-                                        "url": "http://img-store-prod.switch.tv/images/1366ae50-80ee-40d0-adad-e5f4818e25cf/1714159_BHUN36-020_original.jpeg",
+                                        "id": "bcee7d58-da0a-46c2-bee9-48b4c051663b",
+                                        "url": "http://img-store-prod.switch.tv/images/bcee7d58-da0a-46c2-bee9-48b4c051663b/1713593_BRGT-SHOW_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
                                     }
                                 ]
                             },
-                            "episode_id": "/q25vt3mJltaPmdiP",
+                            "episode_id": "/q1jhvdeLltaPmdaI",
                             "broadcaster": "SEVEN"
                         }
                     ]
                 }
-            },
+            }
+        ]
+    ],
+    [
+        "1013:0503:0532",
+        [
             {
                 "id": "aed0a583-470d-49d9-a95d-98d25a77ecf5",
                 "broadcaster_code": "SEVEN",
@@ -11862,139 +11681,71 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "d0a068d6-6b4c-4fe7-b6b2-21d4040a0acf",
+                "broadcaster_code": "SEVEN",
+                "channel_id": "7TWO",
+                "channel_name": "7TWO",
+                "duration": "00:33",
+                "dvb_triplet": "1013:0503:0532",
+                "end": "2020-05-27T10:03:00+00:00",
+                "lcn": 72,
+                "episode_id": "65270e6c-e53c-43f2-b773-12f6ba1c7caf",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-25T11:28:39+00:00",
+                "title": "Border Security: Australia's Front Line",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "65270e6c-e53c-43f2-b773-12f6ba1c7caf",
+                            "updated_at": "2020-01-24T20:31:32+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "131",
+                            "synopsis": "A drug search of a woman takes an unexpected turn when she demands to be taken to hospital. Meanwhile, officers have concerns that an American is in Australia to take pictures of women on the beach.",
+                            "title": "Border Security: Australia's Front Line",
+                            "categories": [
+                                "channel_id/7TWO",
+                                "genres/Documentary & Factual",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/1",
+                                "channel_id/Seven"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "3c292f02-892f-43f1-ae17-b5f7cc063588",
+                                        "url": "http://img-store-prod.switch.tv/images/3c292f02-892f-43f1-ae17-b5f7cc063588/362756_7_default_channel_logo.jpg"
+                                    },
+                                    {
+                                        "id": "35d667b5-1604-4900-9759-dc70aa575a07",
+                                        "url": "http://img-store-prod.switch.tv/images/35d667b5-1604-4900-9759-dc70aa575a07/461000_7two_logo_16x9.png"
+                                    },
+                                    {
+                                        "id": "d40ed8d5-9fe2-476e-93eb-2c4c61cbc144",
+                                        "url": "http://img-store-prod.switch.tv/images/d40ed8d5-9fe2-476e-93eb-2c4c61cbc144/1714163_BORD-131_original.jpeg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/q2CsrcLPmdeMmqxx",
+                            "broadcaster": "SEVEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1013:0503:0533",
         [
-            {
-                "id": "e4b65456-77a7-4dbf-8fdc-6bc767326bdf",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "7mate",
-                "channel_name": "7mate",
-                "duration": "00:59",
-                "dvb_triplet": "1013:0503:0533",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 73,
-                "episode_id": "abc229bf-0a40-44a4-b518-a5330aa3463c",
-                "start": "2020-05-26T08:01:00+00:00",
-                "updated_at": "2020-05-26T09:35:23+00:00",
-                "title": "A Colonel Of Truth",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "abc229bf-0a40-44a4-b518-a5330aa3463c",
-                            "updated_at": "2020-05-17T21:37:56+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "1",
-                            "synopsis": "The guys pick the collection of a reclusive and mysterious businessman named 'The Colonel,' who has gone to great lengths to keep his identity a secret.",
-                            "title": "A Colonel Of Truth",
-                            "categories": [
-                                "channel_id/7mate",
-                                "genres/Entertainment",
-                                "subgenres/Fly-on-the-Wall",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/15"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "2c76cd2a-954e-4ae3-b2fe-bde9739c7b5d",
-                                        "url": "http://img-store-prod.switch.tv/images/2c76cd2a-954e-4ae3-b2fe-bde9739c7b5d/1596244_APIC-SHOW_medium.jpeg"
-                                    },
-                                    {
-                                        "id": "c3bf7e22-988e-419a-a2de-86d7b325c888",
-                                        "url": "http://img-store-prod.switch.tv/images/c3bf7e22-988e-419a-a2de-86d7b325c888/362757_7mate_default_channel_logo.jpg"
-                                    },
-                                    {
-                                        "id": "d139f4a5-16f8-4628-82b3-cbf3b00effdf",
-                                        "url": "http://img-store-prod.switch.tv/images/d139f4a5-16f8-4628-82b3-cbf3b00effdf/1714155_APIC10-001_original.jpeg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/qvbjqMePltaPmdaO",
-                            "broadcaster": "SEVEN"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "26a92cf3-2d7d-47c3-9c9a-48217bae6937",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "7mate",
-                "channel_name": "7mate",
-                "duration": "00:30",
-                "dvb_triplet": "1013:0503:0533",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 73,
-                "episode_id": "d72364ac-7042-4e54-850c-29a47fca50b4",
-                "start": "2020-05-26T09:00:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-26T01:30:01+00:00",
-                "title": "Three Hour Tour",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "d72364ac-7042-4e54-850c-29a47fca50b4",
-                            "updated_at": "2020-02-10T23:48:37+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "9",
-                            "synopsis": "The team try to cash in when a seller presents them with rare $1 and $5 bills from the 1800s. Will they see dollar signs, or will the asking price break the bank?",
-                            "title": "Three Hour Tour",
-                            "categories": [
-                                "channel_id/7mate HD Rockhampton",
-                                "genres/Entertainment",
-                                "subgenres/Fly-on-the-Wall",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/9",
-                                "channel_id/7mate HD Toowoomba",
-                                "channel_id/7mate HD Sunshine Coast",
-                                "channel_id/7mate HD Wide Bay",
-                                "channel_id/7mate HD Mackay",
-                                "channel_id/7mate HD Townsville",
-                                "channel_id/7mate HD Cairns",
-                                "channel_id/7mate HD Adelaide",
-                                "channel_id/7mate HD Perth",
-                                "channel_id/7mate HD Brisbane",
-                                "channel_id/7mate HD Sydney",
-                                "channel_id/7mate HD Melbourne",
-                                "channel_id/7mate"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "8e858757-a281-4cd3-9229-306d1499ea8e",
-                                        "url": "http://img-store-prod.switch.tv/images/8e858757-a281-4cd3-9229-306d1499ea8e/690709_7matehd_1920x1080_freeviewplus.png"
-                                    },
-                                    {
-                                        "id": "c3bf7e22-988e-419a-a2de-86d7b325c888",
-                                        "url": "http://img-store-prod.switch.tv/images/c3bf7e22-988e-419a-a2de-86d7b325c888/362757_7mate_default_channel_logo.jpg"
-                                    },
-                                    {
-                                        "id": "e538b0c6-4b48-49a7-9568-50b04540cc68",
-                                        "url": "http://img-store-prod.switch.tv/images/e538b0c6-4b48-49a7-9568-50b04540cc68/1714237_PWNS09-009_original.jpeg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/uf9ouMaGltaPmdaG",
-                            "broadcaster": "SEVEN"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "5f8974a7-e973-44b7-b8aa-ffb5fdfdcd71",
                 "broadcaster_code": "SEVEN",
@@ -13657,128 +13408,134 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "fdfc9285-7c49-447e-a2fa-b844754ee39b",
+                "broadcaster_code": "SEVEN",
+                "channel_id": "7mate",
+                "channel_name": "7mate",
+                "duration": "00:29",
+                "dvb_triplet": "1013:0503:0533",
+                "end": "2020-05-27T09:33:00+00:00",
+                "lcn": 73,
+                "episode_id": "440cf696-85da-4c31-9e68-c570400ddf62",
+                "start": "2020-05-27T09:04:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-26T01:32:12+00:00",
+                "title": "Family Feud",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "440cf696-85da-4c31-9e68-c570400ddf62",
+                            "updated_at": "2020-02-11T20:59:24+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "10",
+                            "synopsis": "The team experience some family drama when a rifle from the Hatfield-McCoy feud ambushes the shop.",
+                            "title": "Family Feud",
+                            "categories": [
+                                "channel_id/7mate HD Sunshine Coast",
+                                "genres/Entertainment",
+                                "subgenres/Fly-on-the-Wall",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/9",
+                                "channel_id/7mate HD Toowoomba",
+                                "channel_id/7mate HD Mackay",
+                                "channel_id/7mate HD Wide Bay",
+                                "channel_id/7mate HD Townsville",
+                                "channel_id/7mate HD Cairns",
+                                "channel_id/7mate HD Rockhampton",
+                                "channel_id/7mate HD Perth",
+                                "channel_id/7mate HD Adelaide",
+                                "channel_id/7mate HD Brisbane",
+                                "channel_id/7mate HD Melbourne",
+                                "channel_id/7mate HD Sydney",
+                                "channel_id/7mate"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "8e858757-a281-4cd3-9229-306d1499ea8e",
+                                        "url": "http://img-store-prod.switch.tv/images/8e858757-a281-4cd3-9229-306d1499ea8e/690709_7matehd_1920x1080_freeviewplus.png"
+                                    },
+                                    {
+                                        "id": "c3bf7e22-988e-419a-a2de-86d7b325c888",
+                                        "url": "http://img-store-prod.switch.tv/images/c3bf7e22-988e-419a-a2de-86d7b325c888/362757_7mate_default_channel_logo.jpg"
+                                    },
+                                    {
+                                        "id": "5cbeb5ed-414a-473c-b1f4-3c6968d3bb54",
+                                        "url": "http://img-store-prod.switch.tv/images/5cbeb5ed-414a-473c-b1f4-3c6968d3bb54/1714238_PWNS09-010_original.jpeg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/uf9ouMaGltaPmdeP",
+                            "broadcaster": "SEVEN"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "929b4d7c-c170-4d1f-9a94-e70d2a226e67",
+                "broadcaster_code": "SEVEN",
+                "channel_id": "7mate",
+                "channel_name": "7mate",
+                "duration": "00:28",
+                "dvb_triplet": "1013:0503:0533",
+                "end": "2020-05-27T10:01:00+00:00",
+                "lcn": 73,
+                "episode_id": "a03bec3c-599a-4271-b64e-5119aa10324b",
+                "start": "2020-05-27T09:33:00+00:00",
+                "updated_at": "2020-05-26T01:32:47+00:00",
+                "title": "Hardly Kirk-Ing",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "a03bec3c-599a-4271-b64e-5119aa10324b",
+                            "updated_at": "2020-05-18T21:37:54+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "13",
+                            "synopsis": "Bart and Milhouse explore the perks of adulthood following a shaving experiment; Marge tries to save Maggie from the dangers of children's TV.",
+                            "title": "Hardly Kirk-Ing",
+                            "categories": [
+                                "channel_id/7mate",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/24"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "c3bf7e22-988e-419a-a2de-86d7b325c888",
+                                        "url": "http://img-store-prod.switch.tv/images/c3bf7e22-988e-419a-a2de-86d7b325c888/362757_7mate_default_channel_logo.jpg"
+                                    },
+                                    {
+                                        "id": "d2ec701a-2d8f-4085-9b1c-4fb2bf17b606",
+                                        "url": "http://img-store-prod.switch.tv/images/d2ec701a-2d8f-4085-9b1c-4fb2bf17b606/1713878_SIMP-SHOW_original.jpeg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/uL1nudiLltaPmdeM",
+                            "broadcaster": "SEVEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1013:0503:0535",
         [
-            {
-                "id": "bc9f3ed9-af83-4b51-832f-895c0ac6b9f7",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "7flix",
-                "channel_name": "7flix",
-                "duration": "00:32",
-                "dvb_triplet": "1013:0503:0535",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 76,
-                "episode_id": "95602fbc-6091-49ce-b35c-ef85efa32474",
-                "start": "2020-05-26T08:28:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T11:32:29+00:00",
-                "title": "I'm Goin' to Praiseland",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "95602fbc-6091-49ce-b35c-ef85efa32474",
-                            "updated_at": "2020-05-17T21:39:00+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "19",
-                            "synopsis": "To fulfil his dead wife's final wish, Ned Flanders converts an old, closed amusement park into a new Christian amusement park, Praiseland. The park flops until visitors begin having 'visions'.",
-                            "title": "I'm Goin' to Praiseland",
-                            "categories": [
-                                "channel_id/7flix",
-                                "genres/Entertainment",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/12"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "b82121dc-bdff-4a12-b9c4-bf2196663590",
-                                        "url": "http://img-store-prod.switch.tv/images/b82121dc-bdff-4a12-b9c4-bf2196663590/1620351_SIMP12-019_medium.jpeg"
-                                    },
-                                    {
-                                        "id": "ef29b91d-656c-4f05-bcb2-8a7e9c76b70a",
-                                        "url": "http://img-store-prod.switch.tv/images/ef29b91d-656c-4f05-bcb2-8a7e9c76b70a/440460_7flix_logo_16x9.png"
-                                    },
-                                    {
-                                        "id": "54807d44-c728-4715-994d-c9196c692ac8",
-                                        "url": "http://img-store-prod.switch.tv/images/54807d44-c728-4715-994d-c9196c692ac8/1714244_SIMP12-019_original.jpeg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/uL1nudeNltaPmdeG",
-                            "broadcaster": "SEVEN"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "a2fea01c-53d6-47b7-9290-f1f44ca238cc",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "7flix",
-                "channel_name": "7flix",
-                "duration": "00:30",
-                "dvb_triplet": "1013:0503:0535",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 76,
-                "episode_id": "2ccdfa16-da81-40e9-a349-f3ce6314f53b",
-                "start": "2020-05-26T09:00:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-21T03:33:50+00:00",
-                "title": "Children of a Lesser Clod",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "2ccdfa16-da81-40e9-a349-f3ce6314f53b",
-                            "updated_at": "2019-10-16T10:57:19+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "20",
-                            "synopsis": "After Homer injures his knee, he's housebound for recuperation. A successful stint as a babysitter prompts Homer to open a full-time day care service, leaving Bart and Lisa feeling neglected.",
-                            "title": "Children of a Lesser Clod",
-                            "categories": [
-                                "channel_id/7flix",
-                                "genres/Entertainment",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/12"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "c9e1796f-af66-4c32-b118-ea3569d1b210",
-                                        "url": "http://img-store-prod.switch.tv/images/c9e1796f-af66-4c32-b118-ea3569d1b210/1620352_SIMP12-020_medium.jpeg"
-                                    },
-                                    {
-                                        "id": "ef29b91d-656c-4f05-bcb2-8a7e9c76b70a",
-                                        "url": "http://img-store-prod.switch.tv/images/ef29b91d-656c-4f05-bcb2-8a7e9c76b70a/440460_7flix_logo_16x9.png"
-                                    },
-                                    {
-                                        "id": "60447cdc-8690-43e2-8b14-d208dd1ac258",
-                                        "url": "http://img-store-prod.switch.tv/images/60447cdc-8690-43e2-8b14-d208dd1ac258/1714245_SIMP12-020_original.jpeg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/uL1nudeNltaPmdiP",
-                            "broadcaster": "SEVEN"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "fd06d151-2564-4924-a83b-3cd20a4567f8",
                 "broadcaster_code": "SEVEN",
@@ -15459,108 +15216,66 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "d01b7df2-b1a2-4044-ad99-086cf93c2ad8",
+                "broadcaster_code": "SEVEN",
+                "channel_id": "7flix",
+                "channel_name": "7flix",
+                "duration": "01:00",
+                "dvb_triplet": "1013:0503:0535",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 76,
+                "episode_id": "89fbc5b4-99ec-456a-8d02-8624307bdc86",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-21T03:33:51+00:00",
+                "title": "Ravaged",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "89fbc5b4-99ec-456a-8d02-8624307bdc86",
+                            "updated_at": "2020-05-18T21:38:17+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "18",
+                            "synopsis": "Vera's high school sweetheart asks the team to reopen the death case of her older sister. Ruled as an accident in the late 1990s, the woman's death was forgotten until a man recounts seeing her.",
+                            "title": "Ravaged",
+                            "categories": [
+                                "channel_id/7flix",
+                                "genres/Drama",
+                                "classification/M",
+                                "content_type/series",
+                                "season_number/2"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "ef29b91d-656c-4f05-bcb2-8a7e9c76b70a",
+                                        "url": "http://img-store-prod.switch.tv/images/ef29b91d-656c-4f05-bcb2-8a7e9c76b70a/440460_7flix_logo_16x9.png"
+                                    },
+                                    {
+                                        "id": "78860e62-35c4-43d2-b5fd-c5dc16dfc648",
+                                        "url": "http://img-store-prod.switch.tv/images/78860e62-35c4-43d2-b5fd-c5dc16dfc648/1714174_COLC02-018_original.jpeg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/qLCmqMaNltaPmdeH",
+                            "broadcaster": "SEVEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1014:0603:0631",
         [
-            {
-                "id": "54d604e3-dfaf-47e7-8269-e9a98d07c110",
-                "broadcaster_code": "TEN",
-                "channel_id": "10 Bold",
-                "channel_name": "10 Bold",
-                "duration": "00:33",
-                "dvb_triplet": "1014:0603:0631",
-                "end": "2020-05-26T09:03:00+00:00",
-                "lcn": 1,
-                "episode_id": "d8456592-e9ec-4fd3-b3de-b15a59f756a1",
-                "start": "2020-05-26T08:30:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T11:37:31+00:00",
-                "title": "Bondi Rescue",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "d8456592-e9ec-4fd3-b3de-b15a59f756a1",
-                            "updated_at": "2020-01-05T21:09:27+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "10",
-                            "synopsis": "Follows the work of elite lifeguards in charge at the world's busiest beach. With people's lives literally in their hands, these lifeguards ensure safety is their No.1 priority.",
-                            "title": "Bondi Rescue",
-                            "categories": [
-                                "channel_id/10 Bold",
-                                "genres/Entertainment",
-                                "subgenres/Fly-on-the-Wall",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/3"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "843a02e2-9fc3-4110-8f1f-740ced3ed1b6",
-                                        "url": "http://img-store-prod.switch.tv/images/843a02e2-9fc3-4110-8f1f-740ced3ed1b6/660252_10bold_1440x1080_freeviewplus.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/62539E619849",
-                            "broadcaster": "TEN"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "8be4568e-300a-427a-b751-082c8c1da1d2",
-                "broadcaster_code": "TEN",
-                "channel_id": "10 Bold",
-                "channel_name": "10 Bold",
-                "duration": "00:34",
-                "dvb_triplet": "1014:0603:0631",
-                "end": "2020-05-26T09:37:00+00:00",
-                "lcn": 1,
-                "episode_id": "6db92c8c-a0b1-4465-bca6-df4a526aa27e",
-                "start": "2020-05-26T09:03:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T11:38:24+00:00",
-                "title": "Bondi Rescue",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "6db92c8c-a0b1-4465-bca6-df4a526aa27e",
-                            "updated_at": "2020-01-06T21:10:48+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "11",
-                            "synopsis": "Follows the work of elite lifeguards in charge at the world's busiest beach. With people's lives literally in their hands, these lifeguards ensure safety is their No.1 priority.",
-                            "title": "Bondi Rescue",
-                            "categories": [
-                                "channel_id/10 Bold",
-                                "genres/Entertainment",
-                                "subgenres/Fly-on-the-Wall",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/3"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "32056853-eacb-4136-9c21-6249ad3a7b4b",
-                                        "url": "http://img-store-prod.switch.tv/images/32056853-eacb-4136-9c21-6249ad3a7b4b/660252_10bold_1440x1080_freeviewplus.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/62539E619850",
-                            "broadcaster": "TEN"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "0499e451-d387-4535-86f9-5a0fa762e1e0",
                 "broadcaster_code": "TEN",
@@ -16985,60 +16700,59 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "e0dc0a89-fc74-4e0c-9f11-76f269fca69a",
+                "broadcaster_code": "TEN",
+                "channel_id": "10 Bold",
+                "channel_name": "10 Bold",
+                "duration": "01:00",
+                "dvb_triplet": "1014:0603:0631",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 1,
+                "episode_id": "db4236aa-fa83-44ae-9263-8aac90b86bf9",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-18T21:45:57+00:00",
+                "title": "South by Southwest",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "db4236aa-fa83-44ae-9263-8aac90b86bf9",
+                            "updated_at": "2020-05-18T21:45:57+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "17",
+                            "synopsis": "The death of an NCIS agent leads Gibbs and Tony into the desert to locate a woman who holds the answer to the mystery.",
+                            "title": "South by Southwest",
+                            "categories": [
+                                "channel_id/10 Bold",
+                                "genres/Drama",
+                                "classification/M",
+                                "content_type/series",
+                                "season_number/6"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "7af51f40-379e-4151-bcfb-ae10c71817c8",
+                                        "url": "http://img-store-prod.switch.tv/images/7af51f40-379e-4151-bcfb-ae10c71817c8/660252_10bold_1440x1080_freeviewplus.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/62599E720594",
+                            "broadcaster": "TEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1014:0603:0635",
         [
-            {
-                "id": "3d6b1a6b-bd3c-48c0-9713-aa7edbc6944e",
-                "broadcaster_code": "TEN",
-                "channel_id": "TEN",
-                "channel_name": "TEN",
-                "duration": "01:01",
-                "dvb_triplet": "1014:0603:0635",
-                "end": "2020-05-26T09:31:00+00:00",
-                "lcn": 10,
-                "episode_id": "cb91734c-56e4-49ed-8f29-ec819b9dc77a",
-                "start": "2020-05-26T08:30:00+00:00",
-                "tags": [
-                    "captioned",
-                    "catch_up"
-                ],
-                "updated_at": "2020-05-25T11:41:05+00:00",
-                "title": "The Project",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "cb91734c-56e4-49ed-8f29-ec819b9dc77a",
-                            "updated_at": "2020-05-22T09:29:17+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "222",
-                            "synopsis": "Join Waleed Aly, Carrie Bickmore, Peter Helliar and Fitzy, plus guests Hannah Gadsby and David McCormack as they dissect and digest the daily news, events and hottest topics.",
-                            "title": "The Project",
-                            "categories": [
-                                "channel_id/TEN",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "season_number/11"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "7a4121f3-d200-4c02-81b9-349c27304f15",
-                                        "url": "http://img-store-prod.switch.tv/images/7a4121f3-d200-4c02-81b9-349c27304f15/1669679_SERIES_62156.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/62156E1582410",
-                            "broadcaster": "TEN"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "4e074e20-f152-4552-9c0f-3235bbae71b5",
                 "broadcaster_code": "TEN",
@@ -18350,107 +18064,64 @@
                 ],
                 "updated_at": "2020-05-22T09:28:17+00:00",
                 "title": "The Project"
+            },
+            {
+                "id": "e52ab5b6-d823-4db6-bb50-60ee01e10c46",
+                "broadcaster_code": "TEN",
+                "channel_id": "TEN",
+                "channel_name": "TEN",
+                "duration": "01:30",
+                "dvb_triplet": "1014:0603:0635",
+                "end": "2020-05-27T11:00:00+00:00",
+                "lcn": 10,
+                "episode_id": "c2182b01-ef69-44b5-b71f-d931ec9f485d",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned",
+                    "catch_up"
+                ],
+                "updated_at": "2020-05-21T07:40:36+00:00",
+                "title": "MasterChef Australia",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "c2182b01-ef69-44b5-b71f-d931ec9f485d",
+                            "updated_at": "2020-05-18T21:46:06+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "33",
+                            "synopsis": "The contestants lift the lids of their mystery box to find a photo sent by their loved ones. The contestants have 60 minutes to create a dish inspired by the memory in their family photo.",
+                            "title": "MasterChef Australia",
+                            "categories": [
+                                "channel_id/TEN",
+                                "genres/Entertainment",
+                                "subgenres/Elimination/Gameshow",
+                                "classification/NC",
+                                "content_type/series",
+                                "season_number/12"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "fc2db20e-6432-41f7-ad49-7b8f2b0508c0",
+                                        "url": "http://img-store-prod.switch.tv/images/fc2db20e-6432-41f7-ad49-7b8f2b0508c0/1709599_SERIES_62536.jpg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/62536E1590117",
+                            "broadcaster": "TEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1014:0603:0638",
         [
-            {
-                "id": "13b99894-3bf4-48f4-b1d7-c93cdb431dba",
-                "broadcaster_code": "TEN",
-                "channel_id": "10 Peach",
-                "channel_name": "10 Peach",
-                "duration": "00:32",
-                "dvb_triplet": "1014:0603:0638",
-                "end": "2020-05-26T09:03:00+00:00",
-                "lcn": 11,
-                "episode_id": "edd2836c-ce36-466b-a4ca-7fc82548e404",
-                "start": "2020-05-26T08:31:00+00:00",
-                "tags": [
-                    "captioned",
-                    "blackout"
-                ],
-                "updated_at": "2020-05-25T11:40:16+00:00",
-                "title": "Neighbours",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "edd2836c-ce36-466b-a4ca-7fc82548e404",
-                            "updated_at": "2020-05-22T08:39:20+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "8371",
-                            "synopsis": "Toadie decides he'll accept Dee seeing Heather if they never discuss him or Hugo. Bea suggests that Shaun watch Finn's video diaries.",
-                            "title": "Neighbours",
-                            "categories": [
-                                "channel_id/10 Peach",
-                                "genres/Drama",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/38"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "4f947b11-669f-46f6-a758-f4398c2ed2d8",
-                                        "url": "http://img-store-prod.switch.tv/images/4f947b11-669f-46f6-a758-f4398c2ed2d8/656208_ten_peach_1440x1080.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/60390E1527083",
-                            "broadcaster": "TEN"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "2ac76683-6e01-4c39-9722-4da9797ef99a",
-                "broadcaster_code": "TEN",
-                "channel_id": "10 Peach",
-                "channel_name": "10 Peach",
-                "duration": "00:30",
-                "dvb_triplet": "1014:0603:0638",
-                "end": "2020-05-26T09:33:00+00:00",
-                "lcn": 11,
-                "episode_id": "533cbb2e-08ba-4eed-836b-65c4a2887300",
-                "start": "2020-05-26T09:03:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-25T11:39:08+00:00",
-                "title": "The One Where They're Up All Night",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "533cbb2e-08ba-4eed-836b-65c4a2887300",
-                            "updated_at": "2020-01-25T20:41:19+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "12",
-                            "synopsis": "Monica falls asleep during sex, Rachel argues with Tag, and Ross and Joey get stranded on the roof.",
-                            "title": "The One Where They're Up All Night",
-                            "categories": [
-                                "channel_id/10 Peach",
-                                "genres/Entertainment",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/7"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "edfb01ac-9870-4775-ac0a-ab4045319934",
-                                        "url": "http://img-store-prod.switch.tv/images/edfb01ac-9870-4775-ac0a-ab4045319934/656208_ten_peach_1440x1080.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/62661E653245",
-                            "broadcaster": "TEN"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "9640a281-1830-4d32-8b94-9899645aba09",
                 "broadcaster_code": "TEN",
@@ -20512,55 +20183,106 @@
                 ],
                 "updated_at": "2020-05-18T21:46:33+00:00",
                 "title": "The One with Joey's New Brain"
+            },
+            {
+                "id": "1f59cae4-1d46-4544-a7ee-95182878edd3",
+                "broadcaster_code": "TEN",
+                "channel_id": "10 Peach",
+                "channel_name": "10 Peach",
+                "duration": "00:30",
+                "dvb_triplet": "1014:0603:0638",
+                "end": "2020-05-27T10:00:00+00:00",
+                "lcn": 11,
+                "episode_id": "5da00b0e-d267-4e38-894b-afe4fa33b003",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-18T21:49:40+00:00",
+                "title": "The One with the Truth About London",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "5da00b0e-d267-4e38-894b-afe4fa33b003",
+                            "updated_at": "2020-01-27T20:45:43+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "16",
+                            "synopsis": "Chandler finds out who Monica really wanted to have sex with on the night they became lovers. Then, Ross is furious after Rachel teaches Ben practical jokes.",
+                            "title": "The One with the Truth About London",
+                            "categories": [
+                                "channel_id/10 Peach",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/7"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "baededf8-314e-429e-84ec-7068dba6828d",
+                                        "url": "http://img-store-prod.switch.tv/images/baededf8-314e-429e-84ec-7068dba6828d/656208_ten_peach_1440x1080.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/62661E653249",
+                            "broadcaster": "TEN"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "9b814283-2224-44b7-958b-e686ef3993f5",
+                "broadcaster_code": "TEN",
+                "channel_id": "10 Peach",
+                "channel_name": "10 Peach",
+                "duration": "00:30",
+                "dvb_triplet": "1014:0603:0638",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 11,
+                "episode_id": "20860141-81cd-4d37-9954-5a730072378f",
+                "start": "2020-05-27T10:00:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-18T21:46:47+00:00",
+                "title": "Highlights of a Hundred (1)",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "20860141-81cd-4d37-9954-5a730072378f",
+                            "updated_at": "2020-01-29T07:40:46+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "14",
+                            "synopsis": "For the series' 100th episode, Jerry Seinfeld hosts a retrospective with the most hilarious and memorable clips from previous episodes.",
+                            "title": "Highlights of a Hundred (1)",
+                            "categories": [
+                                "channel_id/10 Peach",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/6"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "9e9b0780-b19f-4fa0-a0a4-e6c574e3b579",
+                                        "url": "http://img-store-prod.switch.tv/images/9e9b0780-b19f-4fa0-a0a4-e6c574e3b579/656208_ten_peach_1440x1080.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/61681E1572404",
+                            "broadcaster": "TEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "3202:0300:0301",
         [
-            {
-                "id": "dfb39968-1628-473e-b484-47376435e7a1",
-                "broadcaster_code": "SBS",
-                "channel_id": "SBS",
-                "channel_name": "SBS",
-                "duration": "01:00",
-                "dvb_triplet": "3202:0300:0301",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 3,
-                "episode_id": "236ef5a1-ed2e-4468-9738-4bb3baeff77e",
-                "start": "2020-05-26T08:30:00+00:00",
-                "updated_at": "2020-05-17T21:47:53+00:00",
-                "title": "SBS World News",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "236ef5a1-ed2e-4468-9738-4bb3baeff77e",
-                            "updated_at": "2020-05-17T21:47:53+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "147",
-                            "synopsis": "Up-to-date reports and analysis of the major national and international news stories of the day in Australia's only world news service.",
-                            "title": "SBS World News",
-                            "categories": [
-                                "channel_id/SBS",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "6b0fee9a-4e03-4f31-992f-eaa6bbed0299",
-                                        "url": "http://img-store-prod.switch.tv/images/6b0fee9a-4e03-4f31-992f-eaa6bbed0299/675531_1440x1080.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/S100830420200526",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "f58b0c21-3787-4026-841e-c4020088664d",
                 "broadcaster_code": "SBS",
@@ -22078,85 +21800,37 @@
                         }
                     ]
                 }
-            }
-        ]
-    ],
-    [
-        "3202:0300:0304",
-        [
-            {
-                "id": "0bf7e091-0910-4c66-8ca2-6b7c3f750b9c",
-                "broadcaster_code": "SBS",
-                "channel_id": "SBS Food",
-                "channel_name": "SBS Food",
-                "duration": "01:00",
-                "dvb_triplet": "3202:0300:0304",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 33,
-                "episode_id": "feb6052d-7288-4c27-b158-1b16ba3168d6",
-                "start": "2020-05-26T08:00:00+00:00",
-                "updated_at": "2020-05-17T21:50:26+00:00",
-                "title": "River Cottage Australia",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "feb6052d-7288-4c27-b158-1b16ba3168d6",
-                            "updated_at": "2019-10-28T22:55:49+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "4",
-                            "synopsis": "Paul has always known that farm life isn't easy, but when he's faced with a tough task, his experiences from last season prove to be useful.",
-                            "title": "River Cottage Australia",
-                            "categories": [
-                                "channel_id/SBS Food",
-                                "genres/Entertainment",
-                                "subgenres/Fly-on-the-Wall",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/2",
-                                "channel_id/SBS"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "60c51482-657a-4e7f-b87f-b271641bd56a",
-                                        "url": "http://img-store-prod.switch.tv/images/60c51482-657a-4e7f-b87f-b271641bd56a/1654619_P870204.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/870204",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
             },
             {
-                "id": "c8b48c1d-fbc9-4f54-aac8-3edd12c99ac7",
+                "id": "e8a36e7d-f1ce-453b-9da8-f6c829082f7f",
                 "broadcaster_code": "SBS",
-                "channel_id": "SBS Food",
-                "channel_name": "SBS Food",
-                "duration": "00:30",
-                "dvb_triplet": "3202:0300:0304",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 33,
-                "episode_id": "391abe56-0406-471f-a979-5baf05aa0e7b",
-                "start": "2020-05-26T09:00:00+00:00",
-                "updated_at": "2020-05-17T21:50:27+00:00",
-                "title": "Against the Clock",
+                "channel_id": "SBS",
+                "channel_name": "SBS",
+                "duration": "00:55",
+                "dvb_triplet": "3202:0300:0301",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 3,
+                "episode_id": "35ba4493-f926-45d0-aae6-df055484f6b6",
+                "start": "2020-05-27T09:35:00+00:00",
+                "tags": [
+                    "dont_miss",
+                    "coming_up"
+                ],
+                "updated_at": "2020-05-25T08:39:01+00:00",
+                "title": "Egyptian Tomb Hunting",
                 "related": {
                     "episodes": [
                         {
-                            "id": "391abe56-0406-471f-a979-5baf05aa0e7b",
-                            "updated_at": "2019-11-28T21:50:09+00:00",
+                            "id": "35ba4493-f926-45d0-aae6-df055484f6b6",
+                            "updated_at": "2020-05-25T08:39:01+00:00",
                             "draft": false,
                             "on_air": true,
-                            "episode_number": "2",
-                            "synopsis": "Nigella Lawson cooks up more delicious recipes to get fabulous food on the table fast. With her great short cuts, spending hours over a hot stove could become a distant memory.",
-                            "title": "Against the Clock",
+                            "episode_number": "1",
+                            "synopsis": "Tony Robinson is going all Indiana Jones, scrabbling around archaeological excavations by the Nile and getting very muddy. (2018)",
+                            "title": "Egyptian Tomb Hunting",
                             "categories": [
-                                "channel_id/SBS Food",
-                                "genres/Lifestyle",
-                                "subgenres/Cooking/Food/Wine",
+                                "channel_id/SBS",
+                                "genres/Documentary & Factual",
                                 "classification/G",
                                 "content_type/series",
                                 "season_number/1"
@@ -22164,17 +21838,29 @@
                             "related": {
                                 "images": [
                                     {
-                                        "id": "400c1af3-2159-499f-a78b-0f8208a22343",
-                                        "url": "http://img-store-prod.switch.tv/images/400c1af3-2159-499f-a78b-0f8208a22343/972947_P773289.jpg"
+                                        "id": "db8d7453-b4b1-44de-a7bb-02660f6f7d4f",
+                                        "url": "http://img-store-prod.switch.tv/images/db8d7453-b4b1-44de-a7bb-02660f6f7d4f/675531_1440x1080.png"
+                                    },
+                                    {
+                                        "id": "44e832c0-19f8-4982-bba6-7d24977fc233",
+                                        "url": "http://img-store-prod.switch.tv/images/44e832c0-19f8-4982-bba6-7d24977fc233/1714684_P970067.jpg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
                                     }
                                 ]
                             },
-                            "episode_id": "/773289",
+                            "episode_id": "/970067",
                             "broadcaster": "SBS"
                         }
                     ]
                 }
-            },
+            }
+        ]
+    ],
+    [
+        "3202:0300:0304",
+        [
             {
                 "id": "3d61bc7b-4d04-450e-9d49-f2506e97e0a2",
                 "broadcaster_code": "SBS",
@@ -24000,124 +23686,112 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "de973cc0-f3c8-41d8-8b00-550263862032",
+                "broadcaster_code": "SBS",
+                "channel_id": "SBS Food",
+                "channel_name": "SBS Food",
+                "duration": "00:30",
+                "dvb_triplet": "3202:0300:0304",
+                "end": "2020-05-27T10:00:00+00:00",
+                "lcn": 33,
+                "episode_id": "a5b628ce-398a-4755-a3f6-5763dd84db90",
+                "start": "2020-05-27T09:30:00+00:00",
+                "updated_at": "2020-05-25T05:45:25+00:00",
+                "title": "Sicily with Aldo and Enzo",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "a5b628ce-398a-4755-a3f6-5763dd84db90",
+                            "updated_at": "2020-05-18T21:50:28+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "10",
+                            "synopsis": "Trapani is a major fishing town that is closer to the coast of North Africa than it is to mainland Italy. It's here that Aldo and Enzo serve cous cous and an impressive baked sea bass encased in salt.",
+                            "title": "Sicily with Aldo and Enzo",
+                            "categories": [
+                                "channel_id/SBS Food",
+                                "genres/Lifestyle",
+                                "subgenres/Cooking/Food/Wine",
+                                "classification/G",
+                                "content_type/series",
+                                "season_number/1"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "d88f4b3d-50ff-4fd2-a585-a09b2da272c4",
+                                        "url": "http://img-store-prod.switch.tv/images/d88f4b3d-50ff-4fd2-a585-a09b2da272c4/676101_sbsfood_1440x1080_colour-01.png"
+                                    },
+                                    {
+                                        "id": "6f3549a1-5304-4596-b40f-364b97279052",
+                                        "url": "http://img-store-prod.switch.tv/images/6f3549a1-5304-4596-b40f-364b97279052/1714683_P962103.jpg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/962103",
+                            "broadcaster": "SBS"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "1315508d-f801-4287-8f83-084114eb1e5e",
+                "broadcaster_code": "SBS",
+                "channel_id": "SBS Food",
+                "channel_name": "SBS Food",
+                "duration": "00:30",
+                "dvb_triplet": "3202:0300:0304",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 33,
+                "episode_id": "58f463b4-c5dd-4a9f-a582-4dd691e274c4",
+                "start": "2020-05-27T10:00:00+00:00",
+                "updated_at": "2020-05-18T21:48:49+00:00",
+                "title": "New Farm",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "58f463b4-c5dd-4a9f-a582-4dd691e274c4",
+                            "updated_at": "2020-05-18T21:48:49+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "1",
+                            "synopsis": "Matthew Evans, the former food critic-turned-farmer, returns for another season. Now Matthew is up-scaling: he has bought a new 28 hectare farm.",
+                            "title": "New Farm",
+                            "categories": [
+                                "channel_id/SBS Food",
+                                "genres/Lifestyle",
+                                "subgenres/Cooking/Food/Wine",
+                                "classification/G",
+                                "content_type/series",
+                                "season_number/3"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "63de83f8-2d53-4b68-98fd-9304c99c4a89",
+                                        "url": "http://img-store-prod.switch.tv/images/63de83f8-2d53-4b68-98fd-9304c99c4a89/733605_P635202.jpg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/635202",
+                            "broadcaster": "SBS"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "3202:0300:0305",
         [
-            {
-                "id": "c7a03380-cf93-4a67-8893-3b57d1df0a3f",
-                "broadcaster_code": "SBS",
-                "channel_id": "NITV",
-                "channel_name": "NITV",
-                "duration": "00:30",
-                "dvb_triplet": "3202:0300:0305",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 34,
-                "start": "2020-05-26T08:30:00+00:00",
-                "updated_at": "2020-05-18T07:42:24+00:00",
-                "title": "Sheep Cheese, Black Garlic & Marron"
-            },
-            {
-                "id": "44811b2a-eacd-428c-8c08-4428c96daa4e",
-                "broadcaster_code": "SBS",
-                "channel_id": "NITV",
-                "channel_name": "NITV",
-                "duration": "00:20",
-                "dvb_triplet": "3202:0300:0305",
-                "end": "2020-05-26T09:20:00+00:00",
-                "lcn": 34,
-                "episode_id": "5faa7cd1-795a-4b96-ba76-010d232d2cfb",
-                "start": "2020-05-26T09:00:00+00:00",
-                "updated_at": "2020-05-18T07:43:18+00:00",
-                "title": "Foreshore",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "5faa7cd1-795a-4b96-ba76-010d232d2cfb",
-                            "updated_at": "2019-12-22T21:21:02+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "14",
-                            "synopsis": "Aboriginal people have gathered and hunted bush tucker as ceremony on the foreshore for generations, but recent human impacts on the ecosystem are forcing traditional owners to adapt.",
-                            "title": "Foreshore",
-                            "categories": [
-                                "channel_id/NITV",
-                                "genres/Documentary & Factual",
-                                "classification/PG",
-                                "content_type/series"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "8913c20f-10c0-40ca-884e-770d04a075c5",
-                                        "url": "http://img-store-prod.switch.tv/images/8913c20f-10c0-40ca-884e-770d04a075c5/1699250_P973305.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/973305",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "3bc2630d-2c9f-49e2-8139-e6b1bfaaf6d1",
-                "broadcaster_code": "SBS",
-                "channel_id": "NITV",
-                "channel_name": "NITV",
-                "duration": "00:05",
-                "dvb_triplet": "3202:0300:0305",
-                "end": "2020-05-26T09:25:00+00:00",
-                "lcn": 34,
-                "episode_id": "e81c0aa4-6912-4436-a04f-7402a46d5a19",
-                "start": "2020-05-26T09:20:00+00:00",
-                "updated_at": "2020-05-18T07:44:21+00:00",
-                "title": "Pormpuraaw - Going Places",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "e81c0aa4-6912-4436-a04f-7402a46d5a19",
-                            "updated_at": "2019-12-31T21:29:14+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "11",
-                            "synopsis": "The Young, Strong and Proud project works with young people in Aboriginal and TSI communities in Queensland, with the aim of developing a series of communication resources using music and video.",
-                            "title": "Pormpuraaw - Going Places",
-                            "categories": [
-                                "channel_id/NITV",
-                                "genres/Documentary & Factual",
-                                "classification/G",
-                                "content_type/series"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "2986607c-5b13-4c1d-ac09-a6443fc90b3f",
-                                        "url": "http://img-store-prod.switch.tv/images/2986607c-5b13-4c1d-ac09-a6443fc90b3f/1647748_P906888.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/906888",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "25f07563-18e6-4d7a-a8ef-eed97266d3e9",
-                "broadcaster_code": "SBS",
-                "channel_id": "NITV",
-                "channel_name": "NITV",
-                "duration": "00:05",
-                "dvb_triplet": "3202:0300:0305",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 34,
-                "start": "2020-05-26T09:25:00+00:00",
-                "updated_at": "2020-05-26T00:31:12+00:00",
-                "title": "NITV News"
-            },
             {
                 "id": "75dee489-6f38-49bb-ae28-4d29f163a1c9",
                 "broadcaster_code": "SBS",
@@ -25867,54 +25541,125 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "fe19e2a4-1189-46bf-b198-fab2685ed340",
+                "broadcaster_code": "SBS",
+                "channel_id": "NITV",
+                "channel_name": "NITV",
+                "duration": "00:05",
+                "dvb_triplet": "3202:0300:0305",
+                "end": "2020-05-27T09:25:00+00:00",
+                "lcn": 34,
+                "episode_id": "d00c80e2-23e3-48b5-b47b-5bef6775105c",
+                "start": "2020-05-27T09:20:00+00:00",
+                "updated_at": "2020-05-19T05:33:28+00:00",
+                "title": "Woorabinda - Outside My Window",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "d00c80e2-23e3-48b5-b47b-5bef6775105c",
+                            "updated_at": "2020-01-04T21:09:58+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "12",
+                            "synopsis": "The Young, Strong and Proud project works with young people in Aboriginal and TSI communities in Queensland, with the aim of developing a series of communication resources using music and video.",
+                            "title": "Woorabinda - Outside My Window",
+                            "categories": [
+                                "channel_id/NITV",
+                                "genres/Documentary & Factual",
+                                "classification/G",
+                                "content_type/series"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "b6a5cb72-04f5-4ba8-a69e-c7ba6c32f18a",
+                                        "url": "http://img-store-prod.switch.tv/images/b6a5cb72-04f5-4ba8-a69e-c7ba6c32f18a/1647749_P906889.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/906889",
+                            "broadcaster": "SBS"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "a9d24921-66f6-44eb-bec2-9ca109d71d71",
+                "broadcaster_code": "SBS",
+                "channel_id": "NITV",
+                "channel_name": "NITV",
+                "duration": "00:05",
+                "dvb_triplet": "3202:0300:0305",
+                "end": "2020-05-27T09:30:00+00:00",
+                "lcn": 34,
+                "episode_id": "6fcc0c06-01f1-4de2-8580-a7b05e19803f",
+                "start": "2020-05-27T09:25:00+00:00",
+                "updated_at": "2020-05-26T00:31:07+00:00",
+                "title": "NITV News",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "6fcc0c06-01f1-4de2-8580-a7b05e19803f",
+                            "updated_at": "2020-05-26T00:31:02+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "103",
+                            "synopsis": "The latest news from the oldest living culture, we deliver Australian stories from an Indigenous perspective.",
+                            "title": "NITV News",
+                            "categories": [
+                                "channel_id/NITV",
+                                "genres/News & Current Affairs",
+                                "classification/NC",
+                                "content_type/series",
+                                "season_number/2020"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "9f8d7af1-1571-40ae-b21a-f5a9e524a687",
+                                        "url": "http://img-store-prod.switch.tv/images/9f8d7af1-1571-40ae-b21a-f5a9e524a687/451637_sbs_nitv_whitelogo_16x9.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/1012935",
+                            "broadcaster": "SBS"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cd37f1f1-0be3-4de7-b280-dfb373cb7df4",
+                "broadcaster_code": "SBS",
+                "channel_id": "NITV",
+                "channel_name": "NITV",
+                "duration": "00:30",
+                "dvb_triplet": "3202:0300:0305",
+                "end": "2020-05-27T10:00:00+00:00",
+                "lcn": 34,
+                "start": "2020-05-27T09:30:00+00:00",
+                "updated_at": "2020-05-26T00:31:06+00:00",
+                "title": "Murchison"
+            },
+            {
+                "id": "8856fc33-5eab-41bf-bf50-1b1f1d9ac593",
+                "broadcaster_code": "SBS",
+                "channel_id": "NITV",
+                "channel_name": "NITV",
+                "duration": "00:30",
+                "dvb_triplet": "3202:0300:0305",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 34,
+                "start": "2020-05-27T10:00:00+00:00",
+                "updated_at": "2020-05-22T08:41:15+00:00",
+                "title": "Yokayi Footy"
             }
         ]
     ],
     [
         "3202:0300:0307",
         [
-            {
-                "id": "b3861d49-2edd-48e3-9c96-38ae5782857f",
-                "broadcaster_code": "SBS",
-                "channel_id": "SBS World Movies Sydney",
-                "channel_name": "SBS World Movies Sydney",
-                "duration": "01:45",
-                "dvb_triplet": "3202:0300:0307",
-                "end": "2020-05-26T09:50:00+00:00",
-                "lcn": 32,
-                "episode_id": "24851d7c-6502-479a-b184-959af2fe5c42",
-                "start": "2020-05-26T08:05:00+00:00",
-                "updated_at": "2020-05-17T21:49:53+00:00",
-                "title": "The Secret World of Arrietty",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "24851d7c-6502-479a-b184-959af2fe5c42",
-                            "updated_at": "2019-11-23T21:33:41+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "The Clock family live anonymously in another family's residence, borrowing simple items to make their home. But life is about to change for the Clock's when their daughter, Arrietty, is discovered. (2010)",
-                            "title": "The Secret World of Arrietty",
-                            "categories": [
-                                "channel_id/SBS World Movies Sydney",
-                                "genres/Entertainment",
-                                "classification/G",
-                                "content_type/movie"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "a09bf2f0-3a09-45eb-b78a-ee6fa4910a1a",
-                                        "url": "http://img-store-prod.switch.tv/images/a09bf2f0-3a09-45eb-b78a-ee6fa4910a1a/675003_1440x1080.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/781976",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "5c302d65-53e9-4723-8bd0-2936b5f0b59f",
                 "broadcaster_code": "SBS",
@@ -26400,56 +26145,55 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "23a9786a-aabe-41b0-8bba-feb4fcb1b992",
+                "broadcaster_code": "SBS",
+                "channel_id": "SBS World Movies Sydney",
+                "channel_name": "SBS World Movies Sydney",
+                "duration": "02:05",
+                "dvb_triplet": "3202:0300:0307",
+                "end": "2020-05-27T11:35:00+00:00",
+                "lcn": 32,
+                "episode_id": "d8dd484e-592e-4855-bb8f-de044dcdcc96",
+                "start": "2020-05-27T09:30:00+00:00",
+                "updated_at": "2020-05-18T21:49:28+00:00",
+                "title": "Ali's Wedding",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "d8dd484e-592e-4855-bb8f-de044dcdcc96",
+                            "updated_at": "2020-01-21T04:12:32+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "Meet Ali, the charming son of a Muslim cleric, who, despite the best of intentions, just can't seem to make the right life choices - and Ali dreams big. (2017)",
+                            "title": "Ali's Wedding",
+                            "categories": [
+                                "channel_id/SBS World Movies Sydney",
+                                "genres/Entertainment",
+                                "classification/M",
+                                "content_type/movie",
+                                "channel_id/SBS"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "6242d364-c308-4f7c-a4fc-65baa8b36cba",
+                                        "url": "http://img-store-prod.switch.tv/images/6242d364-c308-4f7c-a4fc-65baa8b36cba/1699915_P941112.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/941112",
+                            "broadcaster": "SBS"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "3202:0300:0303",
         [
-            {
-                "id": "79dc68b4-72e8-49c8-94cb-945d0a018706",
-                "broadcaster_code": "SBS",
-                "channel_id": "SBS VICELAND HD",
-                "channel_name": "SBS VICELAND HD",
-                "duration": "00:55",
-                "dvb_triplet": "3202:0300:0303",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 31,
-                "episode_id": "ba038b28-686c-44a7-8778-d6c9db9bcae7",
-                "start": "2020-05-26T08:35:00+00:00",
-                "updated_at": "2020-05-17T21:50:24+00:00",
-                "title": "Blood of Patriots",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "ba038b28-686c-44a7-8778-d6c9db9bcae7",
-                            "updated_at": "2020-05-17T21:50:24+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "10",
-                            "synopsis": "Ed must initiate peace talks with the Krill.",
-                            "title": "Blood of Patriots",
-                            "categories": [
-                                "channel_id/SBS VICELAND HD",
-                                "genres/Drama",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/2"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "19370ec0-8142-4416-9270-beaeb83c5310",
-                                        "url": "http://img-store-prod.switch.tv/images/19370ec0-8142-4416-9270-beaeb83c5310/594084_sbs_viceland_hd_logo_white_16x9.png"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/972290",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "69b064a5-edb7-47f0-b383-bbe7a13390f0",
                 "broadcaster_code": "SBS",
@@ -27947,65 +27691,59 @@
                 "start": "2020-05-27T08:35:00+00:00",
                 "updated_at": "2020-05-18T21:48:35+00:00",
                 "title": "Lasting Impressions"
-            }
-        ]
-    ],
-    [
-        "1012:0430:0438",
-        [
+            },
             {
-                "id": "824e518a-6cff-4169-a372-8949d721e218",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Rush Melbourne",
-                "channel_name": "9Rush Melbourne",
+                "id": "e790cb2a-d1fe-4ac5-84b8-5ebcbd67e127",
+                "broadcaster_code": "SBS",
+                "channel_id": "SBS VICELAND HD",
+                "channel_name": "SBS VICELAND HD",
                 "duration": "01:00",
-                "dvb_triplet": "1012:0430:0438",
-                "end": "2020-05-26T09:32:00+00:00",
-                "lcn": 96,
-                "episode_id": "e45265ab-8486-484c-bcd3-0d0e2992e499",
-                "start": "2020-05-26T08:32:00+00:00",
-                "updated_at": "2020-05-25T09:31:44+00:00",
-                "title": "Jag E-Type",
+                "dvb_triplet": "3202:0300:0303",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 31,
+                "episode_id": "7d46873b-393a-4e71-a997-9f50e2527279",
+                "start": "2020-05-27T09:30:00+00:00",
+                "updated_at": "2020-05-18T21:50:18+00:00",
+                "title": "8 Out of 10 Cats Does Countdown",
                 "related": {
                     "episodes": [
                         {
-                            "id": "e45265ab-8486-484c-bcd3-0d0e2992e499",
-                            "updated_at": "2020-05-17T21:34:13+00:00",
+                            "id": "7d46873b-393a-4e71-a997-9f50e2527279",
+                            "updated_at": "2020-02-09T21:05:30+00:00",
                             "draft": false,
                             "on_air": true,
-                            "episode_number": "1",
-                            "synopsis": "The classic Jag E-type is one of the best looking cars in the world, and Mike gladly takes a risk on a wreck. But with high parts prices, will the project crash and burn? (2011)",
-                            "title": "Jag E-Type",
+                            "episode_number": "8",
+                            "synopsis": "It's Letters and Numbers with a whole bunch of comedians. Hosted by Jimmy Carr, Rachel Riley, and Susie Dent. Featuring guests Kevin Bridges, Jessica Knappett, Joe Wilkinson, and John Cooper Clarke.",
+                            "title": "8 Out of 10 Cats Does Countdown",
                             "categories": [
-                                "channel_id/9Rush Gold Coast",
-                                "genres/Lifestyle",
-                                "subgenres/Leisure",
-                                "classification/PG",
+                                "channel_id/SBS VICELAND HD",
+                                "genres/Entertainment",
+                                "classification/M",
                                 "content_type/series",
-                                "season_number/8",
-                                "channel_id/9Rush Perth",
-                                "channel_id/9Rush Sydney",
-                                "channel_id/9Rush Adelaide",
-                                "channel_id/9Rush Melbourne",
-                                "channel_id/9Rush Brisbane"
+                                "season_number/10"
                             ],
                             "related": {
                                 "images": [
                                     {
-                                        "id": "71aa7bf3-b1ba-4686-aecc-8f8e6a916ed7",
-                                        "url": "http://img-store-prod.switch.tv/images/71aa7bf3-b1ba-4686-aecc-8f8e6a916ed7/1714306_WHDE08.png",
+                                        "id": "40067264-a1a5-4e28-aaf3-29bd01f243bc",
+                                        "url": "http://img-store-prod.switch.tv/images/40067264-a1a5-4e28-aaf3-29bd01f243bc/1702953_P1004596.jpg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
                                     }
                                 ]
                             },
-                            "episode_id": "/WHDE_8_1",
-                            "broadcaster": "NINE"
+                            "episode_id": "/1004596",
+                            "broadcaster": "SBS"
                         }
                     ]
                 }
-            },
+            }
+        ]
+    ],
+    [
+        "1012:0430:0438",
+        [
             {
                 "id": "a1eae9d4-ca71-47a7-8d7e-c96d48220863",
                 "broadcaster_code": "NINE",
@@ -29309,28 +29047,64 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "4e1bf917-fb3e-4c50-92ec-8cc34c3dc6da",
+                "broadcaster_code": "NINE",
+                "channel_id": "9Rush Melbourne",
+                "channel_name": "9Rush Melbourne",
+                "duration": "01:00",
+                "dvb_triplet": "1012:0430:0438",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 96,
+                "episode_id": "a14dc4cb-2b2c-4483-be90-9a0062875961",
+                "start": "2020-05-27T09:30:00+00:00",
+                "updated_at": "2020-05-22T01:31:13+00:00",
+                "title": "From Sweden With Love",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "a14dc4cb-2b2c-4483-be90-9a0062875961",
+                            "updated_at": "2020-05-18T21:39:02+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "8",
+                            "synopsis": "When Black Rhino Tools request a showstopping build for a trade show, the team pull out all the stops, including importing a surprise from Sweden. (2016)",
+                            "title": "From Sweden With Love",
+                            "categories": [
+                                "channel_id/9Rush Perth",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "season_number/1",
+                                "channel_id/9Rush Gold Coast",
+                                "channel_id/9Rush Melbourne",
+                                "channel_id/9Rush Adelaide",
+                                "channel_id/9Rush Sydney",
+                                "channel_id/9Rush Brisbane"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "544fd044-0243-447b-bdb2-a9f0fa36df27",
+                                        "url": "http://img-store-prod.switch.tv/images/544fd044-0243-447b-bdb2-a9f0fa36df27/1709345_DIBR01.png",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/DIBR01_1_8",
+                            "broadcaster": "NINE"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1013:0502:0528",
         [
-            {
-                "id": "be1ca107-7217-4780-a624-1b5416e762f4",
-                "broadcaster_code": "SEVEN",
-                "channel_id": "RACING.COM",
-                "channel_name": "RACING.COM",
-                "duration": "00:30",
-                "dvb_triplet": "1013:0502:0528",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 78,
-                "start": "2020-05-26T08:30:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-17T21:38:41+00:00",
-                "title": "The Wrap - Group 1 Glory"
-            },
             {
                 "id": "02078e15-8510-4a24-80a1-fd0034cea4d6",
                 "broadcaster_code": "SEVEN",
@@ -30530,44 +30304,58 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "ec0eb8ef-f6a2-4283-a4dd-2415a94a1b14",
+                "broadcaster_code": "SEVEN",
+                "channel_id": "RACING.COM",
+                "channel_name": "RACING.COM",
+                "duration": "01:00",
+                "dvb_triplet": "1013:0502:0528",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 78,
+                "episode_id": "e981d928-1aac-43d4-8386-e4d13cb32596",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-24T05:27:08+00:00",
+                "title": "Classic Racedays",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "e981d928-1aac-43d4-8386-e4d13cb32596",
+                            "updated_at": "2020-05-24T05:26:42+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "2010 Cox Plate. Re-live all the great moments from a 'Classic Raceday', all the races from the day in full, with comments from trainer and jockeys. (2020)",
+                            "title": "Classic Racedays",
+                            "categories": [
+                                "channel_id/RACING.COM",
+                                "genres/Sport",
+                                "subgenres/Horse Racing",
+                                "classification/NC",
+                                "content_type/series"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "4c0a7d70-4979-4821-8c85-35e38e23862c",
+                                        "url": "http://img-store-prod.switch.tv/images/4c0a7d70-4979-4821-8c85-35e38e23862c/481495_racing.com_red_logo_16x9_rgb.png"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/20CLS03A",
+                            "broadcaster": "SEVEN"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1010:0231:0231",
         [
-            {
-                "id": "7557e9b1-ec3e-4f1e-ad6c-5e1f52f33171",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC",
-                "channel_name": "ABC",
-                "duration": "01:00",
-                "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T09:00:00+00:00",
-                "lcn": 2,
-                "start": "2020-05-26T08:00:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-26T09:28:53+00:00",
-                "title": "The Drum"
-            },
-            {
-                "id": "6f237b11-90be-45c1-ae14-98c75addc6b9",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC",
-                "channel_name": "ABC",
-                "duration": "00:30",
-                "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 2,
-                "start": "2020-05-26T09:00:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-26T09:29:16+00:00",
-                "title": "ABC News"
-            },
             {
                 "id": "08dd18ac-bf24-4b11-a6d6-693bed5dc3de",
                 "broadcaster_code": "ABC",
@@ -31796,148 +31584,58 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "a6ae86db-1078-4837-858f-c6cbc12fa330",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC",
+                "channel_name": "ABC",
+                "duration": "00:32",
+                "dvb_triplet": "1010:0231:0231",
+                "end": "2020-05-27T10:02:00+00:00",
+                "lcn": 2,
+                "episode_id": "4fc0db43-2fb8-4642-8748-613fdc06c04d",
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-25T05:29:45+00:00",
+                "title": 7.3,
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "4fc0db43-2fb8-4642-8748-613fdc06c04d",
+                            "updated_at": "2020-05-25T03:28:39+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "Know the latest on coronavirus, how it affects you, your family, community, jobs, and school. Find out what you can do to stop the spread and protect your loved ones, healthcare workers, the young, old, and our most vulnerable. (2020)",
+                            "title": "7.30",
+                            "categories": [
+                                "channel_id/ABC NEWS",
+                                "genres/News & Current Affairs",
+                                "classification/NC",
+                                "content_type/series",
+                                "channel_id/ABC"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "c009aaa7-7823-4066-8a67-7a2fa1d2acc3",
+                                        "url": "http://img-store-prod.switch.tv/images/c009aaa7-7823-4066-8a67-7a2fa1d2acc3/1678999_NC1801H.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/NC2001H083S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
             }
         ]
     ],
     [
         "1010:0221:0224",
         [
-            {
-                "id": "7f4196e1-e633-4c40-bbfd-b3e4f3d4a289",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC ME",
-                "channel_name": "ABC ME",
-                "duration": "00:29",
-                "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-26T09:01:00+00:00",
-                "lcn": 23,
-                "episode_id": "c39ad827-d6d9-425a-bbff-b36fdd95b60d",
-                "start": "2020-05-26T08:32:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-26T00:28:47+00:00",
-                "title": "Operation Ouch!",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "c39ad827-d6d9-425a-bbff-b36fdd95b60d",
-                            "updated_at": "2019-10-01T21:27:56+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "The doctors take a dip in the sea to reveal how your sensory neurons detect when something is hot or cold, and they find themselves getting stuck in the mud when they join Her Majesty's Coastguard in Operation Takeover. (2017)",
-                            "title": "Operation Ouch!",
-                            "categories": [
-                                "channel_id/ABC ME",
-                                "genres/Children's",
-                                "classification/PG",
-                                "content_type/series"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "7b192c9b-e03f-46fa-bf85-2be9617fc5b3",
-                                        "url": "http://img-store-prod.switch.tv/images/7b192c9b-e03f-46fa-bf85-2be9617fc5b3/1596298_ZW1296A003S00.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ZW1296A003S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "e2f70040-330e-43c9-9f11-2e99ea951df8",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC ME",
-                "channel_name": "ABC ME",
-                "duration": "00:29",
-                "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-26T09:30:00+00:00",
-                "lcn": 23,
-                "episode_id": "bf98a42d-b9b2-4c90-b2e1-557fcf9dd1b2",
-                "start": "2020-05-26T09:01:00+00:00",
-                "tags": [
-                    "captioned"
-                ],
-                "updated_at": "2020-05-26T00:29:32+00:00",
-                "title": "Secret Skills",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "bf98a42d-b9b2-4c90-b2e1-557fcf9dd1b2",
-                            "updated_at": "2020-05-22T04:28:55+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "8",
-                            "synopsis": "Steve goes undercover. His mission is to unearth the sneakiest dinosaurs that were far deadlier than they first appeared. We learn new things about even the most notorious dinosaurs; first up Steve meets sinornithosaurus. (2018)",
-                            "title": "Secret Skills",
-                            "categories": [
-                                "channel_id/ABC ME",
-                                "genres/Documentary & Factual",
-                                "classification/PG",
-                                "content_type/series",
-                                "season_number/1"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "a5dff2e5-7447-4a6b-9e79-229b5e6bb15a",
-                                        "url": "http://img-store-prod.switch.tv/images/a5dff2e5-7447-4a6b-9e79-229b5e6bb15a/1632677_ZW1735A008S00.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ZW1735A008S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "8ac42169-a55f-4f04-83c5-b45d7b9b1d5d",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC ME",
-                "channel_name": "ABC ME",
-                "duration": "00:07",
-                "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-26T09:37:00+00:00",
-                "lcn": 23,
-                "episode_id": "ead3153e-dbc7-46a9-a2d3-7ce7af49370c",
-                "start": "2020-05-26T09:30:00+00:00",
-                "updated_at": "2020-05-26T00:28:39+00:00",
-                "title": "Dodgy Lodger",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "ead3153e-dbc7-46a9-a2d3-7ce7af49370c",
-                            "updated_at": "2020-05-20T04:30:40+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "17",
-                            "synopsis": "When one of the pigs attempts to make friends with Timmy, his cohorts evict him as punishment for un-pig-like behaviour. The sheep take him into the barn and attempt to transform him into the epitome of porcine sophistication. (2015)",
-                            "title": "Dodgy Lodger",
-                            "categories": [
-                                "channel_id/ABC ME",
-                                "genres/Entertainment",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/5"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "eb9dfb20-383d-48a0-8d6b-81d39e0c3e20",
-                                        "url": "http://img-store-prod.switch.tv/images/eb9dfb20-383d-48a0-8d6b-81d39e0c3e20/690146_ZW0603A017S00.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ZW0603A017S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "6730859c-02ec-4d55-a352-e8610b7f6173",
                 "broadcaster_code": "ABC",
@@ -34307,76 +34005,100 @@
                         }
                     ]
                 }
+            },
+            {
+                "id": "1987510c-0384-47a8-891d-c4d869fdae26",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC ME",
+                "channel_name": "ABC ME",
+                "duration": "00:29",
+                "dvb_triplet": "1010:0221:0224",
+                "end": "2020-05-27T09:30:00+00:00",
+                "lcn": 23,
+                "start": "2020-05-27T09:01:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-22T04:29:17+00:00",
+                "title": "Deadlier Than The Dinosaurs"
+            },
+            {
+                "id": "0adf5f73-2816-4df6-b31d-e9385234b029",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC ME",
+                "channel_name": "ABC ME",
+                "duration": "00:07",
+                "dvb_triplet": "1010:0221:0224",
+                "end": "2020-05-27T09:37:00+00:00",
+                "lcn": 23,
+                "start": "2020-05-27T09:30:00+00:00",
+                "tags": [
+                    "captioned"
+                ],
+                "updated_at": "2020-05-20T04:30:36+00:00",
+                "title": "Timmy And The Dragon"
+            },
+            {
+                "id": "bb78938b-61e5-472a-868b-2b282469de3b",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC ME",
+                "channel_name": "ABC ME",
+                "duration": "00:23",
+                "dvb_triplet": "1010:0221:0224",
+                "end": "2020-05-27T10:00:00+00:00",
+                "lcn": 23,
+                "episode_id": "0f120516-ec65-44a5-a525-98921e1c021e",
+                "start": "2020-05-27T09:37:00+00:00",
+                "updated_at": "2020-05-18T21:33:31+00:00",
+                "title": "Lobster Claus is Coming To Town Part 1 & 2",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "0f120516-ec65-44a5-a525-98921e1c021e",
+                            "updated_at": "2019-11-28T20:34:42+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "Flint introduces Sam to Swallow Falls' unique Christmas traditions, centred around the mythical Lobster Claus./ Santa arrives in Swallow Falls to challenge Lobster Claus and take back his turf. (2016)",
+                            "title": "Lobster Claus is Coming To Town Part 1 & 2",
+                            "categories": [
+                                "channel_id/ABC ME",
+                                "genres/Children's",
+                                "subgenres/Cartoon/Animation",
+                                "classification/G",
+                                "content_type/series"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "80cfdf40-f25e-4507-8def-b3db3d3d31ea",
+                                        "url": "http://img-store-prod.switch.tv/images/80cfdf40-f25e-4507-8def-b3db3d3d31ea/1627238_ZW0655A025S00.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/ZW0655A025S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "987cf1b5-2714-4505-b257-5f39c649aa10",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC ME",
+                "channel_name": "ABC ME",
+                "duration": "00:22",
+                "dvb_triplet": "1010:0221:0224",
+                "end": "2020-05-27T10:22:00+00:00",
+                "lcn": 23,
+                "start": "2020-05-27T10:00:00+00:00",
+                "updated_at": "2020-05-18T21:33:50+00:00",
+                "title": "The Great Stink"
             }
         ]
     ],
     [
         "1010:0221:0222",
         [
-            {
-                "id": "b44c621e-2d8e-4da0-a9ae-bbd79846d342",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC COMEDY/ABC Kids NSW",
-                "channel_name": "ABC COMEDY/ABC Kids NSW",
-                "duration": "00:14",
-                "dvb_triplet": "1010:0221:0222",
-                "end": "2020-05-26T09:12:00+00:00",
-                "lcn": 22,
-                "start": "2020-05-26T08:58:00+00:00",
-                "tags": [
-                    "captioned",
-                    "catch_up"
-                ],
-                "updated_at": "2020-05-17T21:32:31+00:00",
-                "title": "Orangutans"
-            },
-            {
-                "id": "fef418c5-c038-4dfd-be3f-f455418bbc5f",
-                "broadcaster_code": "ABC",
-                "channel_id": "ABC COMEDY/ABC Kids NSW",
-                "channel_name": "ABC COMEDY/ABC Kids NSW",
-                "duration": "00:20",
-                "dvb_triplet": "1010:0221:0222",
-                "end": "2020-05-26T09:32:00+00:00",
-                "lcn": 22,
-                "episode_id": "fa4bdf82-4d5b-4fb0-bb02-f59a72e54419",
-                "start": "2020-05-26T09:12:00+00:00",
-                "updated_at": "2020-05-22T04:29:20+00:00",
-                "title": "Sailing Machines",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "fa4bdf82-4d5b-4fb0-bb02-f59a72e54419",
-                            "updated_at": "2020-05-22T04:29:20+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "5",
-                            "synopsis": "Catie shows off three amazing machines that all have sails. Catie becomes captain of a tall ship, shows off the super-fast racing catamaran, and sails a land yacht. (2018)",
-                            "title": "Sailing Machines",
-                            "categories": [
-                                "channel_id/ABC COMEDY/ABC Kids NSW",
-                                "genres/Children's",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/1"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "90cc29b4-b171-4903-b591-77cc78ed91be",
-                                        "url": "http://img-store-prod.switch.tv/images/90cc29b4-b171-4903-b591-77cc78ed91be/1708576_ZW1943A005S00.jpg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/ZW1943A005S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
-            },
             {
                 "id": "94be0ecb-b8e6-4ce1-b4b8-92300a213fef",
                 "broadcaster_code": "ABC",
@@ -37447,6 +37169,121 @@
                 ],
                 "updated_at": "2020-05-18T21:33:20+00:00",
                 "title": "Giant Tortoises"
+            },
+            {
+                "id": "259eaa29-740c-49fd-8b8a-44a8ab1a2aa9",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC COMEDY/ABC Kids NSW",
+                "channel_name": "ABC COMEDY/ABC Kids NSW",
+                "duration": "00:19",
+                "dvb_triplet": "1010:0221:0222",
+                "end": "2020-05-27T09:32:00+00:00",
+                "lcn": 22,
+                "episode_id": "e83be43e-34b1-445b-8fae-3bec626f20c6",
+                "start": "2020-05-27T09:13:00+00:00",
+                "updated_at": "2020-05-22T04:30:31+00:00",
+                "title": "Three-Wheeled Machines",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "e83be43e-34b1-445b-8fae-3bec626f20c6",
+                            "updated_at": "2020-05-22T04:30:31+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "6",
+                            "synopsis": "Catie shows off three amazing machines at her track that all only have three wheels. Catie drives an incredible motor trike, and then shows off the fastest electric motorbike in the world. (2018)",
+                            "title": "Three-Wheeled Machines",
+                            "categories": [
+                                "channel_id/ABC COMEDY/ABC Kids NSW",
+                                "genres/Children's",
+                                "classification/G",
+                                "content_type/series",
+                                "season_number/1"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "0fb395ca-0c77-4efb-bc08-41a39dc9086b",
+                                        "url": "http://img-store-prod.switch.tv/images/0fb395ca-0c77-4efb-bc08-41a39dc9086b/1708758_ZW1943A006S00.jpg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/ZW1943A006S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "d9ff70d6-a2e2-4846-88c3-72c92fbcb226",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC COMEDY/ABC Kids NSW",
+                "channel_name": "ABC COMEDY/ABC Kids NSW",
+                "duration": "00:28",
+                "dvb_triplet": "1010:0221:0222",
+                "end": "2020-05-27T10:00:00+00:00",
+                "lcn": 22,
+                "episode_id": "98e8154b-1e3f-4f8c-b580-691e7096a5a7",
+                "start": "2020-05-27T09:32:00+00:00",
+                "tags": [
+                    "captioned",
+                    "blackout"
+                ],
+                "updated_at": "2020-05-22T04:28:41+00:00",
+                "title": "Debra Byrne, Andy Lee, David Hirschfelder & Frank Woodley",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "98e8154b-1e3f-4f8c-b580-691e7096a5a7",
+                            "updated_at": "2020-05-22T04:28:41+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "Joining Adam, Myf and Alan this episode are Debra Byrne, Andy Lee, David Hirschfelder and Frank Woodley. (2005)",
+                            "title": "Debra Byrne, Andy Lee, David Hirschfelder & Frank Woodley",
+                            "categories": [
+                                "channel_id/ABC COMEDY/ABC Kids NSW",
+                                "genres/Entertainment",
+                                "classification/PG",
+                                "content_type/series",
+                                "channel_id/ABC COMEDY/ABC KIDS NSW"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "34b8cebc-4b31-4887-b873-3c66626da356",
+                                        "url": "http://img-store-prod.switch.tv/images/34b8cebc-4b31-4887-b873-3c66626da356/1561615_LE0430V.jpg"
+                                    },
+                                    {
+                                        "id": "5cfe0602-10c9-4163-bacf-71781f3e1ec2",
+                                        "url": "http://img-store-prod.switch.tv/images/5cfe0602-10c9-4163-bacf-71781f3e1ec2/1688538_LE0430V.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/LE0430V038S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "170e0d26-aaa2-4404-a997-6a6fe1b3b7a2",
+                "broadcaster_code": "ABC",
+                "channel_id": "ABC COMEDY/ABC Kids NSW",
+                "channel_name": "ABC COMEDY/ABC Kids NSW",
+                "duration": "00:30",
+                "dvb_triplet": "1010:0221:0222",
+                "end": "2020-05-27T10:30:00+00:00",
+                "lcn": 22,
+                "start": "2020-05-27T10:00:00+00:00",
+                "tags": [
+                    "captioned",
+                    "blackout"
+                ],
+                "updated_at": "2020-05-18T21:30:13+00:00",
+                "title": "Benjamin Northey, Katrina Noorbergen, Greg Behrendt & Denise Scott"
             }
         ]
     ]
