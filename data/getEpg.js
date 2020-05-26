@@ -21,6 +21,7 @@ async function getChannels() {
         details,
     ])
     // console.log("*****channels*****", channels)
+    fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => {})
     return new Map(channels)
 }
 
@@ -28,45 +29,19 @@ async function getChannels() {
 
 async function getEpgs() {
     const channels = await getChannels()
-    fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => {})
     const ids = [...channels.values()].map(details => details.dvb_triplet)
-    // console.log('>>>>>>>>>>>',[...channels.values()][0])
     const results = await Promise.all(ids.map(async id => {
         const channelEpg = await ds.fetchChannelEpg({id, days})
         return [ id,  channelEpg.data ]
 
     }))
     fs.writeFile('./data/epg.json', JSON.stringify(results), 'utf8', () => {})
-    // console.log(new Map(results).keys())
-    // console.log('done', results)
-    return results
+    return new Map(results)
 }
 
-async function download() {
-    const channels = await getChannels()
-    fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => {})
-    // console.log('fffff',[...channels.keys()].forEach(channel => console.log(channels.get(channel))))
-    // const ids = [...channels.values()].map(details => details.dvb_triplet)
-    // const done = await Promise.all(ids.map(id => fetchChannelEpg({id, days})))
-    // // console.log('done', done[1].data.length)
-    // return done
+async function main() {
+    const results = await getEpgs()
+    console.log(`success! - ${results.size} channel epgs fetched`)
 }
 
-
-
-
-
-async function test() {
-    // download()
-    // const epgs = await Promise.all([
-    //     ds.fetchChannelEpg({id:'1010:0221:0220', days:1}),
-    //     ds.fetchChannelEpg({id:'1012:0430:0436', days:1})
-    // ])
-    // console.log(epgs.map(epg => epg.data))
-    // getChannels({region: 'region_vic_melbourne'})
-    const data = await getEpgs()
-    // const epg = data.map(({data}) => data)
-    // console.log(epg)
-}
-
-test()
+main()

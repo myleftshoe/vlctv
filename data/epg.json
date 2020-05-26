@@ -45,7 +45,7 @@
                 "title": "ABC News Tonight"
             },
             {
-                "id": "bf7bd8f3-99fa-4f32-8019-f975bac7cb2f",
+                "id": "0bcba231-cbce-44e6-8ffe-bcee93ed69ad",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -58,16 +58,16 @@
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-20T05:28:16+00:00",
+                "updated_at": "2020-05-26T09:28:15+00:00",
                 "title": "The Business",
                 "related": {
                     "episodes": [
                         {
                             "id": "cb48f781-b524-4a3f-bf99-e4223f51446e",
-                            "updated_at": "2020-05-20T05:28:14+00:00",
+                            "updated_at": "2020-05-26T09:27:52+00:00",
                             "draft": false,
                             "on_air": true,
-                            "synopsis": "As the nation wakes from hibernation, the economic shocks continue to reverberate from the COVID-19 pandemic. Elysse Morgan looks at how it impacts your daily life, your work, how you spend, shop, save, socialise and travel. (2020)",
+                            "synopsis": "Covid-crisis career advice, the PM's 'please explain' to the states over spending on skills and training. And Telstra's call on climate change, boss Andy Penn on why the pandemic is an opportunity. (2020)",
                             "title": "The Business",
                             "categories": [
                                 "channel_id/ABC NEWS",
@@ -132,7 +132,7 @@
                 }
             },
             {
-                "id": "e0b2c459-ff9e-454b-b916-88634f395dde",
+                "id": "6dc53c44-e360-41b7-b37a-f0d817a92f3b",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -145,16 +145,16 @@
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T05:30:34+00:00",
+                "updated_at": "2020-05-26T09:27:51+00:00",
                 "title": "The Drum",
                 "related": {
                     "episodes": [
                         {
                             "id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
-                            "updated_at": "2020-05-18T05:23:23+00:00",
+                            "updated_at": "2020-05-26T09:30:20+00:00",
                             "draft": false,
                             "on_air": true,
-                            "synopsis": "When we're suddenly disconnected, we need to stay in touch more than ever. To know the facts and discuss the details, get your daily dose of the program with Julia Baird and our panel of informed contributors and guests. (2020)",
+                            "synopsis": "Julia Baird joins Peter Strong, Dee Madigan, Stan Grant and Amy Remeikis to discuss the government's 'JobMaker' economic plan, the 3rd anniversary of the Uluru Statement of the Heart, plus the latest from Hong Kong tensions. (2020)",
                             "title": "The Drum",
                             "categories": [
                                 "channel_id/ABC",
@@ -268,7 +268,7 @@
                 }
             },
             {
-                "id": "1429613b-a0b4-4325-b169-a5e557c79935",
+                "id": "64d83e95-e1cc-4438-8958-19b61a29da7f",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -281,23 +281,23 @@
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-25T03:28:48+00:00",
+                "updated_at": "2020-05-26T09:29:14+00:00",
                 "title": 7.3,
                 "related": {
                     "episodes": [
                         {
                             "id": "421e55d0-920c-4172-b54f-b40ccc387bbd",
-                            "updated_at": "2020-05-25T03:28:43+00:00",
+                            "updated_at": "2020-05-26T09:29:15+00:00",
                             "draft": false,
                             "on_air": true,
-                            "synopsis": "Know the latest on coronavirus, how it affects you, your family, community, jobs, and school. Find out what you can do to stop the spread and protect your loved ones, healthcare workers, the young, old, and our most vulnerable. (2020)",
+                            "synopsis": "New rules & routines as some workers begin returning to their offices. The future of casual work a big test for the PM's ambitious industrial relations agenda. Plus Leigh interviews former ABF commissioner Roman Quaedvlieg. (2020)",
                             "title": "7.30",
                             "categories": [
-                                "channel_id/ABC NEWS",
+                                "channel_id/ABC",
                                 "genres/News & Current Affairs",
                                 "classification/NC",
                                 "content_type/series",
-                                "channel_id/ABC"
+                                "channel_id/ABC NEWS"
                             ],
                             "related": {
                                 "images": [
@@ -330,7 +330,7 @@
                 "title": "ABC Late News"
             },
             {
-                "id": "4358c722-539b-40b1-b7a6-6b782d315bf7",
+                "id": "d1b36929-1f5d-429e-b4f2-de35e4655462",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -343,16 +343,16 @@
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-20T05:29:19+00:00",
+                "updated_at": "2020-05-26T09:27:54+00:00",
                 "title": "The Business",
                 "related": {
                     "episodes": [
                         {
                             "id": "cb48f781-b524-4a3f-bf99-e4223f51446e",
-                            "updated_at": "2020-05-20T05:28:14+00:00",
+                            "updated_at": "2020-05-26T09:27:52+00:00",
                             "draft": false,
                             "on_air": true,
-                            "synopsis": "As the nation wakes from hibernation, the economic shocks continue to reverberate from the COVID-19 pandemic. Elysse Morgan looks at how it impacts your daily life, your work, how you spend, shop, save, socialise and travel. (2020)",
+                            "synopsis": "Covid-crisis career advice, the PM's 'please explain' to the states over spending on skills and training. And Telstra's call on climate change, boss Andy Penn on why the pandemic is an opportunity. (2020)",
                             "title": "The Business",
                             "categories": [
                                 "channel_id/ABC NEWS",
@@ -466,7 +466,7 @@
                 }
             },
             {
-                "id": "f1814105-c349-45f0-99c1-e7099a5a0316",
+                "id": "8e8742bc-52ca-46a6-bfd6-0c57424784a9",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -474,42 +474,12 @@
                 "dvb_triplet": "1010:0221:0220",
                 "end": "2020-05-26T16:30:00+00:00",
                 "lcn": 24,
-                "episode_id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
                 "start": "2020-05-26T15:31:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-25T09:28:23+00:00",
-                "title": "The Drum",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
-                            "updated_at": "2020-05-18T05:23:23+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "When we're suddenly disconnected, we need to stay in touch more than ever. To know the facts and discuss the details, get your daily dose of the program with Julia Baird and our panel of informed contributors and guests. (2020)",
-                            "title": "The Drum",
-                            "categories": [
-                                "channel_id/ABC",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/ABC NEWS"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "51c4d1bf-84ab-4740-bbc6-0848d32aaba5",
-                                        "url": "http://img-store-prod.switch.tv/images/51c4d1bf-84ab-4740-bbc6-0848d32aaba5/1679791_NC1907H.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NC2007H082S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:27:21+00:00",
+                "title": "The Drum"
             },
             {
                 "id": "578cfebf-68e2-4f99-9801-499389e8b79c",
@@ -554,7 +524,7 @@
                 }
             },
             {
-                "id": "d92a2315-98cb-4414-be49-33431ebb0b79",
+                "id": "6524fee2-3399-4dcb-934c-8d588db3a17b",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -562,41 +532,12 @@
                 "dvb_triplet": "1010:0221:0220",
                 "end": "2020-05-26T17:00:00+00:00",
                 "lcn": 24,
-                "episode_id": "cb48f781-b524-4a3f-bf99-e4223f51446e",
                 "start": "2020-05-26T16:45:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-20T05:30:42+00:00",
-                "title": "The Business",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "cb48f781-b524-4a3f-bf99-e4223f51446e",
-                            "updated_at": "2020-05-20T05:28:14+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "As the nation wakes from hibernation, the economic shocks continue to reverberate from the COVID-19 pandemic. Elysse Morgan looks at how it impacts your daily life, your work, how you spend, shop, save, socialise and travel. (2020)",
-                            "title": "The Business",
-                            "categories": [
-                                "channel_id/ABC NEWS",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "6a0d828f-4bf4-4916-9e09-5bcfc8f9f310",
-                                        "url": "http://img-store-prod.switch.tv/images/6a0d828f-4bf4-4916-9e09-5bcfc8f9f310/1679786_NC1806H.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NC2006H082S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:27:53+00:00",
+                "title": "The Business"
             },
             {
                 "id": "e12f604b-e4c0-4b0f-b991-9773e6ac453b",
@@ -725,7 +666,7 @@
                 }
             },
             {
-                "id": "82a1936c-1c91-450e-9993-29885a2e20d8",
+                "id": "b3358d39-fd0a-475c-a875-0e3bb77c4241",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -733,15 +674,44 @@
                 "dvb_triplet": "1010:0221:0220",
                 "end": "2020-05-26T18:30:00+00:00",
                 "lcn": 24,
+                "episode_id": "cb48f781-b524-4a3f-bf99-e4223f51446e",
                 "start": "2020-05-26T18:15:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-20T05:28:15+00:00",
-                "title": "The Business"
+                "updated_at": "2020-05-26T09:29:49+00:00",
+                "title": "The Business",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "cb48f781-b524-4a3f-bf99-e4223f51446e",
+                            "updated_at": "2020-05-26T09:27:52+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "Covid-crisis career advice, the PM's 'please explain' to the states over spending on skills and training. And Telstra's call on climate change, boss Andy Penn on why the pandemic is an opportunity. (2020)",
+                            "title": "The Business",
+                            "categories": [
+                                "channel_id/ABC NEWS",
+                                "genres/News & Current Affairs",
+                                "classification/NC",
+                                "content_type/series"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "6a0d828f-4bf4-4916-9e09-5bcfc8f9f310",
+                                        "url": "http://img-store-prod.switch.tv/images/6a0d828f-4bf4-4916-9e09-5bcfc8f9f310/1679786_NC1806H.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/NC2006H082S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
             },
             {
-                "id": "7579f969-5f59-4d38-a461-b334a06d21e7",
+                "id": "2efa5380-e716-49a2-b7f5-944f545e8bb3",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC NEWS",
                 "channel_name": "ABC NEWS",
@@ -749,12 +719,42 @@
                 "dvb_triplet": "1010:0221:0220",
                 "end": "2020-05-26T19:00:00+00:00",
                 "lcn": 24,
+                "episode_id": "421e55d0-920c-4172-b54f-b40ccc387bbd",
                 "start": "2020-05-26T18:30:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-25T03:28:43+00:00",
-                "title": 7.3
+                "updated_at": "2020-05-26T09:28:14+00:00",
+                "title": 7.3,
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "421e55d0-920c-4172-b54f-b40ccc387bbd",
+                            "updated_at": "2020-05-26T09:29:15+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "New rules & routines as some workers begin returning to their offices. The future of casual work a big test for the PM's ambitious industrial relations agenda. Plus Leigh interviews former ABF commissioner Roman Quaedvlieg. (2020)",
+                            "title": "7.30",
+                            "categories": [
+                                "channel_id/ABC",
+                                "genres/News & Current Affairs",
+                                "classification/NC",
+                                "content_type/series",
+                                "channel_id/ABC NEWS"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "c009aaa7-7823-4066-8a67-7a2fa1d2acc3",
+                                        "url": "http://img-store-prod.switch.tv/images/c009aaa7-7823-4066-8a67-7a2fa1d2acc3/1678999_NC1801H.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/NC2001H082S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
             },
             {
                 "id": "277c11ae-803f-4522-8fd6-adc85f312e90",
@@ -2279,12 +2279,12 @@
                     "episodes": [
                         {
                             "id": "51bf9969-1d66-48cb-9432-09330730f854",
-                            "updated_at": "2020-05-26T01:29:39+00:00",
+                            "updated_at": "2020-05-26T09:32:29+00:00",
                             "draft": false,
                             "on_air": true,
                             "episode_number": "106",
-                            "synopsis": "Catch up with the latest news of the day from Melbourne, across Australia and around the world including sport, finance and weather. (2020)",
-                            "title": "Nine Afternoon News",
+                            "synopsis": "This program will focus on everything that matters to the people of Perth, including topical interviews, opinion pieces, traffic updates, weather, and the latest local and breaking news. (2019)",
+                            "title": "Nine News At 4",
                             "categories": [
                                 "channel_id/Channel 9",
                                 "genres/News & Current Affairs",
@@ -6233,17 +6233,17 @@
                 }
             },
             {
-                "id": "d4f0533f-a977-4ab9-b0d5-a2f34562244b",
+                "id": "51e7e19d-92fb-490e-b371-60c35d4ffe6c",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-26T20:30:00+00:00",
+                "end": "2020-05-26T20:29:00+00:00",
                 "lcn": 94,
                 "episode_id": "d658c6a8-766e-4ff4-bbf0-a665e2fd7160",
                 "start": "2020-05-26T20:00:00+00:00",
-                "updated_at": "2020-05-18T21:34:56+00:00",
+                "updated_at": "2020-05-26T09:32:18+00:00",
                 "title": "Return to Lyon",
                 "related": {
                     "episodes": [
@@ -6281,17 +6281,17 @@
                 }
             },
             {
-                "id": "7235685e-dbf8-4ad2-af17-6b2a2f3bd320",
+                "id": "e7a15bf9-e4dd-49ce-9f87-06acffe5abd6",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:31",
                 "dvb_triplet": "1012:0430:0433",
                 "end": "2020-05-26T21:00:00+00:00",
                 "lcn": 94,
                 "episode_id": "7a521986-c442-4222-9aa0-6e47eecbeb34",
-                "start": "2020-05-26T20:30:00+00:00",
-                "updated_at": "2020-05-18T21:35:54+00:00",
+                "start": "2020-05-26T20:29:00+00:00",
+                "updated_at": "2020-05-26T09:31:03+00:00",
                 "title": "Waterfront Living in Florida",
                 "related": {
                     "episodes": [
@@ -6416,20 +6416,20 @@
                 }
             },
             {
-                "id": "8a9097ef-a4e8-4d57-b508-4bd8e5e2b0cf",
+                "id": "85b4275e-a710-4a19-90cf-4aac8027ac54",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:31",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-26T22:30:00+00:00",
+                "end": "2020-05-26T22:31:00+00:00",
                 "lcn": 94,
                 "episode_id": "b87b4060-ad15-45f2-87c7-189ea3d8a559",
                 "start": "2020-05-26T22:00:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:35:57+00:00",
+                "updated_at": "2020-05-26T09:31:14+00:00",
                 "title": "The Garden Gurus",
                 "related": {
                     "episodes": [
@@ -6464,20 +6464,20 @@
                 }
             },
             {
-                "id": "c1e6b2c0-87b5-4f06-b630-088f695ca961",
+                "id": "42d8d86e-ce2d-4715-a77d-07a8fe9bed11",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0433",
                 "end": "2020-05-26T23:00:00+00:00",
                 "lcn": 94,
                 "episode_id": "c9e1531e-ca51-4b2d-895d-a5a7629fd0b0",
-                "start": "2020-05-26T22:30:00+00:00",
+                "start": "2020-05-26T22:31:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-25T03:29:21+00:00",
+                "updated_at": "2020-05-26T09:31:22+00:00",
                 "title": "Delish",
                 "related": {
                     "episodes": [
@@ -6518,20 +6518,20 @@
                 }
             },
             {
-                "id": "d8b3fcac-c575-4641-8c63-e9c5be6562e6",
+                "id": "64c215f3-074f-4bdb-9b7f-a02e5c2bedfe",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:32",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-26T23:30:00+00:00",
+                "end": "2020-05-26T23:32:00+00:00",
                 "lcn": 94,
                 "episode_id": "d936cbd5-fa66-4599-a73c-d18197f7dbcd",
                 "start": "2020-05-26T23:00:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:34:51+00:00",
+                "updated_at": "2020-05-26T09:31:51+00:00",
                 "title": "Teams Team Up",
                 "related": {
                     "episodes": [
@@ -6566,17 +6566,17 @@
                 }
             },
             {
-                "id": "cd55b02d-8032-4f96-8dd5-506f3cab0a6a",
+                "id": "9b1ff571-ba52-4f17-b74c-4504b57f5271",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
                 "duration": "00:30",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T00:00:00+00:00",
+                "end": "2020-05-27T00:02:00+00:00",
                 "lcn": 94,
                 "episode_id": "f373cc21-5528-4bfb-856f-2ec8daa12599",
-                "start": "2020-05-26T23:30:00+00:00",
-                "updated_at": "2020-05-18T21:36:01+00:00",
+                "start": "2020-05-26T23:32:00+00:00",
+                "updated_at": "2020-05-26T09:30:15+00:00",
                 "title": "San Jose All the Way",
                 "related": {
                     "episodes": [
@@ -6611,17 +6611,17 @@
                 }
             },
             {
-                "id": "3effb7a9-7dd1-4d41-901f-5c97d68dd16f",
+                "id": "6f417b8c-d651-47a1-ba8c-43aba7de156d",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
                 "duration": "00:30",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T00:30:00+00:00",
+                "end": "2020-05-27T00:32:00+00:00",
                 "lcn": 94,
                 "episode_id": "d658c6a8-766e-4ff4-bbf0-a665e2fd7160",
-                "start": "2020-05-27T00:00:00+00:00",
-                "updated_at": "2020-05-18T21:34:17+00:00",
+                "start": "2020-05-27T00:02:00+00:00",
+                "updated_at": "2020-05-26T09:31:13+00:00",
                 "title": "Return to Lyon",
                 "related": {
                     "episodes": [
@@ -6659,17 +6659,17 @@
                 }
             },
             {
-                "id": "74be707a-c462-4977-834a-dd93e7cf5472",
+                "id": "0ae24760-793e-4237-93bc-3b3e7ab0c5ce",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T01:00:00+00:00",
+                "end": "2020-05-27T01:01:00+00:00",
                 "lcn": 94,
                 "episode_id": "7a521986-c442-4222-9aa0-6e47eecbeb34",
-                "start": "2020-05-27T00:30:00+00:00",
-                "updated_at": "2020-05-18T21:34:50+00:00",
+                "start": "2020-05-27T00:32:00+00:00",
+                "updated_at": "2020-05-26T09:31:56+00:00",
                 "title": "Waterfront Living in Florida",
                 "related": {
                     "episodes": [
@@ -6706,17 +6706,17 @@
                 }
             },
             {
-                "id": "789f2654-b97b-4b3f-9dc6-29cc75893287",
+                "id": "f761d081-9b99-4dc1-9549-cb4b1b57b4c1",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
                 "duration": "01:00",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T02:00:00+00:00",
+                "end": "2020-05-27T02:01:00+00:00",
                 "lcn": 94,
                 "episode_id": "f2b84263-7c25-4bd6-b83a-b62d49d97c10",
-                "start": "2020-05-27T01:00:00+00:00",
-                "updated_at": "2020-05-18T21:34:34+00:00",
+                "start": "2020-05-27T01:01:00+00:00",
+                "updated_at": "2020-05-26T09:32:32+00:00",
                 "title": "Off-the-Grid Renovation",
                 "related": {
                     "episodes": [
@@ -6751,17 +6751,17 @@
                 }
             },
             {
-                "id": "a1722075-1efa-466e-997e-bee4b7b7c7db",
+                "id": "76437c25-2824-4ddc-ae7c-1108d2e72a00",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "01:00",
+                "duration": "01:02",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T03:00:00+00:00",
+                "end": "2020-05-27T03:03:00+00:00",
                 "lcn": 94,
                 "episode_id": "9ea0df94-4626-4580-a20c-071feb0c984d",
-                "start": "2020-05-27T02:00:00+00:00",
-                "updated_at": "2020-05-18T21:35:32+00:00",
+                "start": "2020-05-27T02:01:00+00:00",
+                "updated_at": "2020-05-26T09:31:58+00:00",
                 "title": "Tower Planning",
                 "related": {
                     "episodes": [
@@ -6795,20 +6795,20 @@
                 }
             },
             {
-                "id": "5a0bf9c3-767d-402c-9f0d-4ac2fbe580bc",
+                "id": "554d9287-4aae-41af-97d5-f909e67c74ef",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
                 "duration": "00:30",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T03:30:00+00:00",
+                "end": "2020-05-27T03:33:00+00:00",
                 "lcn": 94,
                 "episode_id": "a0d9287a-99b9-4466-bb72-d680870c4aaa",
-                "start": "2020-05-27T03:00:00+00:00",
+                "start": "2020-05-27T03:03:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-21T09:36:38+00:00",
+                "updated_at": "2020-05-26T09:31:28+00:00",
                 "title": "Best of Postcards",
                 "related": {
                     "episodes": [
@@ -6853,20 +6853,20 @@
                 }
             },
             {
-                "id": "d93fdf61-23e9-4de1-9687-409d15a8a06e",
+                "id": "a0b8b4f4-dd11-408c-b922-8821ac580c58",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
                 "duration": "00:30",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T04:00:00+00:00",
+                "end": "2020-05-27T04:03:00+00:00",
                 "lcn": 94,
                 "episode_id": "9101b1a6-f70c-4634-8e08-73b97b6221f1",
-                "start": "2020-05-27T03:30:00+00:00",
+                "start": "2020-05-27T03:33:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:34:40+00:00",
+                "updated_at": "2020-05-26T09:32:42+00:00",
                 "title": "Scenic - ERC #2",
                 "related": {
                     "episodes": [
@@ -6899,17 +6899,17 @@
                 }
             },
             {
-                "id": "36108ef8-719f-4458-8279-fcd3fb6a5b04",
+                "id": "ed3a8fb4-5a84-4d40-bd2c-a410e9c3c78b",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "01:00",
+                "duration": "00:58",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T05:00:00+00:00",
+                "end": "2020-05-27T05:01:00+00:00",
                 "lcn": 94,
                 "episode_id": "ba9978cd-3fb8-4402-9232-35100ebef28c",
-                "start": "2020-05-27T04:00:00+00:00",
-                "updated_at": "2020-05-18T21:33:36+00:00",
+                "start": "2020-05-27T04:03:00+00:00",
+                "updated_at": "2020-05-26T09:33:29+00:00",
                 "title": "Saying I Do During Renovation",
                 "related": {
                     "episodes": [
@@ -6947,20 +6947,20 @@
                 }
             },
             {
-                "id": "7c46539a-c1e0-4ce4-9be1-83967bf56135",
+                "id": "11ce3c58-e222-4b3e-83a6-43fb07088744",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "01:00",
+                "duration": "00:59",
                 "dvb_triplet": "1012:0430:0433",
                 "end": "2020-05-27T06:00:00+00:00",
                 "lcn": 94,
                 "episode_id": "90060faa-58a5-4701-a8aa-e8147374e667",
-                "start": "2020-05-27T05:00:00+00:00",
+                "start": "2020-05-27T05:01:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:35:28+00:00",
+                "updated_at": "2020-05-26T09:31:17+00:00",
                 "title": "The Block Sky High",
                 "related": {
                     "episodes": [
@@ -7087,20 +7087,20 @@
                 }
             },
             {
-                "id": "eaf423b8-6c2b-485d-88d0-067ece8b8bb3",
+                "id": "131428b8-a75c-4093-bc30-8eb3143655e7",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "01:00",
+                "duration": "01:03",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T08:00:00+00:00",
+                "end": "2020-05-27T08:03:00+00:00",
                 "lcn": 94,
                 "episode_id": "8aefa0b6-e28e-467c-928d-e96eb6e44674",
                 "start": "2020-05-27T07:00:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:37:18+00:00",
+                "updated_at": "2020-05-26T09:31:19+00:00",
                 "title": "The Party Of A Lifetime",
                 "related": {
                     "episodes": [
@@ -7142,17 +7142,17 @@
                 }
             },
             {
-                "id": "0568bbee-5bf6-4aed-901e-8d1b14dd926e",
+                "id": "9ec88ffd-c1f6-4ac0-bee9-66e395c62d6b",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
                 "duration": "00:30",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T08:30:00+00:00",
+                "end": "2020-05-27T08:33:00+00:00",
                 "lcn": 94,
                 "episode_id": "e41d58d8-e8b3-4120-b885-71a228e41031",
-                "start": "2020-05-27T08:00:00+00:00",
-                "updated_at": "2020-05-18T21:33:46+00:00",
+                "start": "2020-05-27T08:03:00+00:00",
+                "updated_at": "2020-05-26T09:32:39+00:00",
                 "title": "Embracing Life in Brisbane",
                 "related": {
                     "episodes": [
@@ -7187,17 +7187,17 @@
                 }
             },
             {
-                "id": "bcfb51c7-079f-4761-9d33-4ce68bc00474",
+                "id": "b43393ab-604a-4f45-b1f7-efb78c4afe67",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Life",
                 "channel_name": "9Life",
-                "duration": "00:30",
+                "duration": "00:31",
                 "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T09:00:00+00:00",
+                "end": "2020-05-27T09:04:00+00:00",
                 "lcn": 94,
                 "episode_id": "f02afb21-4482-4932-b230-d7726365c3fe",
-                "start": "2020-05-27T08:30:00+00:00",
-                "updated_at": "2020-05-21T07:32:09+00:00",
+                "start": "2020-05-27T08:33:00+00:00",
+                "updated_at": "2020-05-26T09:31:21+00:00",
                 "title": "Ocean View in Okinawa",
                 "related": {
                     "episodes": [
@@ -7229,53 +7229,6 @@
                                 ]
                             },
                             "episode_id": "/HOHUIN_131_HHINT13113H",
-                            "broadcaster": "NINE"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": "e98572d2-e0cc-4b38-ac04-c083d93f00ba",
-                "broadcaster_code": "NINE",
-                "channel_id": "9Life",
-                "channel_name": "9Life",
-                "duration": "00:30",
-                "dvb_triplet": "1012:0430:0433",
-                "end": "2020-05-27T09:30:00+00:00",
-                "lcn": 94,
-                "episode_id": "46295bbb-0684-4c6b-9736-fcfbd07a0286",
-                "start": "2020-05-27T09:00:00+00:00",
-                "updated_at": "2020-05-21T07:29:00+00:00",
-                "title": "Eccentrics in Ohio",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "46295bbb-0684-4c6b-9736-fcfbd07a0286",
-                            "updated_at": "2020-05-18T21:32:23+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "13",
-                            "synopsis": "An eccentric couple seek a unique home in Cincinnati. He needs the house's address to feature the number eight, while she fears that houses over 50 years old may be haunted. (2017)",
-                            "title": "Eccentrics in Ohio",
-                            "categories": [
-                                "channel_id/9Life",
-                                "genres/Lifestyle",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/135"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "04444e9b-0786-4d45-af3e-cebe47d9c0e8",
-                                        "url": "http://img-store-prod.switch.tv/images/04444e9b-0786-4d45-af3e-cebe47d9c0e8/1711588_HOHU135.png",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/HOHU_135_HNT13513H",
                             "broadcaster": "NINE"
                         }
                     ]
@@ -7938,17 +7891,17 @@
                 }
             },
             {
-                "id": "116950bf-b5be-4ed0-ba1b-42a3708ae60c",
+                "id": "97614718-0c59-472f-9617-bbd4c19fd891",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T20:30:00+00:00",
+                "end": "2020-05-26T20:29:00+00:00",
                 "lcn": 92,
                 "episode_id": "f810cebe-ffdb-42dd-95fb-c61cc74d33a5",
                 "start": "2020-05-26T20:00:00+00:00",
-                "updated_at": "2020-05-21T22:34:54+00:00",
+                "updated_at": "2020-05-26T09:29:33+00:00",
                 "title": "Sunshine Blade Instant Heat",
                 "related": {
                     "episodes": [
@@ -7982,17 +7935,17 @@
                 }
             },
             {
-                "id": "4917f0b9-f9f9-4e3b-94e1-78de705d1ba5",
+                "id": "fd9e8c73-9f8e-45e0-be3a-4a01fc89fcd2",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T21:00:00+00:00",
+                "end": "2020-05-26T20:58:00+00:00",
                 "lcn": 92,
                 "episode_id": "fa1b6209-fe22-4556-96bf-163e423d31b9",
-                "start": "2020-05-26T20:30:00+00:00",
-                "updated_at": "2020-05-21T22:34:49+00:00",
+                "start": "2020-05-26T20:29:00+00:00",
+                "updated_at": "2020-05-26T09:32:38+00:00",
                 "title": "Total Gym Fit",
                 "related": {
                     "episodes": [
@@ -8031,17 +7984,17 @@
                 }
             },
             {
-                "id": "f6719c94-3ed0-444c-8692-843120320cb9",
+                "id": "4e275e12-4028-4781-9f5c-8d4505d4dadf",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:37",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T21:30:00+00:00",
+                "end": "2020-05-26T21:35:00+00:00",
                 "lcn": 92,
                 "episode_id": "f60468b3-34c1-4bdf-96e4-ed9f722f6d09",
-                "start": "2020-05-26T21:00:00+00:00",
-                "updated_at": "2020-05-18T21:33:25+00:00",
+                "start": "2020-05-26T20:58:00+00:00",
+                "updated_at": "2020-05-26T09:32:38+00:00",
                 "title": "Positioning Yourself to be Led by God (2)",
                 "related": {
                     "episodes": [
@@ -8073,17 +8026,17 @@
                 }
             },
             {
-                "id": "40a6062e-db12-43fe-b1ec-8b5cda753ff4",
+                "id": "95668a2d-92ce-4103-afa7-3dd023024f6b",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T22:00:00+00:00",
+                "end": "2020-05-26T22:04:00+00:00",
                 "lcn": 92,
                 "episode_id": "c2f57f1a-5711-4a2e-8c57-52969667fbef",
-                "start": "2020-05-26T21:30:00+00:00",
-                "updated_at": "2020-05-21T22:33:58+00:00",
+                "start": "2020-05-26T21:35:00+00:00",
+                "updated_at": "2020-05-26T09:31:26+00:00",
                 "title": "Does It All Drill Bits",
                 "related": {
                     "episodes": [
@@ -8122,17 +8075,17 @@
                 }
             },
             {
-                "id": "7da44792-e0b9-41fa-8127-0b3dcec42fac",
+                "id": "23f03ee8-b31e-471b-8966-6b653456f2cf",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T22:30:00+00:00",
+                "end": "2020-05-26T22:33:00+00:00",
                 "lcn": 92,
                 "episode_id": "f84619a7-ef77-47aa-b6e7-aed5f6827c33",
-                "start": "2020-05-26T22:00:00+00:00",
-                "updated_at": "2020-05-21T22:33:35+00:00",
+                "start": "2020-05-26T22:04:00+00:00",
+                "updated_at": "2020-05-26T09:32:43+00:00",
                 "title": "Perfect Fit Bed",
                 "related": {
                     "episodes": [
@@ -8171,17 +8124,17 @@
                 }
             },
             {
-                "id": "7acb28fc-8cd1-41f5-9f44-a50475855a33",
+                "id": "2bda21bb-1bc2-4cc4-9d03-5e7d01716538",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T23:00:00+00:00",
+                "end": "2020-05-26T23:02:00+00:00",
                 "lcn": 92,
                 "episode_id": "1bc40b29-ccdf-495b-859a-1be5f8e4f7a7",
-                "start": "2020-05-26T22:30:00+00:00",
-                "updated_at": "2020-05-21T22:35:03+00:00",
+                "start": "2020-05-26T22:33:00+00:00",
+                "updated_at": "2020-05-26T09:32:49+00:00",
                 "title": "Thin Lizzy Puffy Eye Remover",
                 "related": {
                     "episodes": [
@@ -8220,17 +8173,17 @@
                 }
             },
             {
-                "id": "fe13af51-3c47-4cd6-ac43-6b0ff3886d96",
+                "id": "74d16dd3-4924-4a60-a5df-037d5ae81573",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
                 "duration": "00:30",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-26T23:30:00+00:00",
+                "end": "2020-05-26T23:32:00+00:00",
                 "lcn": 92,
                 "episode_id": "8acb8d95-f72b-44cc-966a-019d075ebf0f",
-                "start": "2020-05-26T23:00:00+00:00",
-                "updated_at": "2020-05-21T22:33:31+00:00",
+                "start": "2020-05-26T23:02:00+00:00",
+                "updated_at": "2020-05-26T09:30:59+00:00",
                 "title": "Air Roaster Pro",
                 "related": {
                     "episodes": [
@@ -8269,17 +8222,17 @@
                 }
             },
             {
-                "id": "40bca6ea-ec2c-4388-9c4f-1be558ce45e4",
+                "id": "86d2060c-876c-4c6b-97ed-94e6bd60ea76",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T00:00:00+00:00",
+                "end": "2020-05-27T00:01:00+00:00",
                 "lcn": 92,
                 "episode_id": "f810cebe-ffdb-42dd-95fb-c61cc74d33a5",
-                "start": "2020-05-26T23:30:00+00:00",
-                "updated_at": "2020-05-21T22:34:59+00:00",
+                "start": "2020-05-26T23:32:00+00:00",
+                "updated_at": "2020-05-26T09:31:31+00:00",
                 "title": "Sunshine Blade Instant Heat",
                 "related": {
                     "episodes": [
@@ -8313,17 +8266,17 @@
                 }
             },
             {
-                "id": "6e305c80-7df7-4a4d-b5ea-1d80c14eef29",
+                "id": "7b3ad967-21c8-414a-b9e1-a14784e2d308",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
                 "end": "2020-05-27T00:30:00+00:00",
                 "lcn": 92,
                 "episode_id": "f84619a7-ef77-47aa-b6e7-aed5f6827c33",
-                "start": "2020-05-27T00:00:00+00:00",
-                "updated_at": "2020-05-21T22:33:42+00:00",
+                "start": "2020-05-27T00:01:00+00:00",
+                "updated_at": "2020-05-26T09:33:31+00:00",
                 "title": "Perfect Fit Bed",
                 "related": {
                     "episodes": [
@@ -8362,20 +8315,20 @@
                 }
             },
             {
-                "id": "9f1cbbba-8331-4a9a-9d7a-767196932e06",
+                "id": "1239a5f2-6e51-4552-a065-dc311b0ff8b8",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "01:00",
+                "duration": "00:57",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T01:30:00+00:00",
+                "end": "2020-05-27T01:27:00+00:00",
                 "lcn": 92,
                 "episode_id": "d45d6d32-36bc-4ee8-9aa7-9d6adc234077",
                 "start": "2020-05-27T00:30:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:34:55+00:00",
+                "updated_at": "2020-05-26T09:33:28+00:00",
                 "title": "Ellen",
                 "related": {
                     "episodes": [
@@ -8411,17 +8364,17 @@
                 }
             },
             {
-                "id": "7342d82c-3065-46e2-a30f-4a8a8754c309",
+                "id": "941a8064-4dac-48ac-98b0-c12ff6576bf8",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:33",
                 "dvb_triplet": "1012:0430:0436",
                 "end": "2020-05-27T02:00:00+00:00",
                 "lcn": 92,
                 "episode_id": "4a524903-1861-4d03-ae9e-944326ad0065",
-                "start": "2020-05-27T01:30:00+00:00",
-                "updated_at": "2020-05-18T21:36:03+00:00",
+                "start": "2020-05-27T01:27:00+00:00",
+                "updated_at": "2020-05-26T09:31:03+00:00",
                 "title": "Dial M For Martin",
                 "related": {
                     "episodes": [
@@ -8460,17 +8413,17 @@
                 }
             },
             {
-                "id": "fff013d9-dc03-4914-8bd9-7d2c53fb520b",
+                "id": "053b8d36-b8df-4ce6-9b93-b95957577d55",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "01:00",
+                "duration": "00:58",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T03:00:00+00:00",
+                "end": "2020-05-27T02:58:00+00:00",
                 "lcn": 92,
                 "episode_id": "04e6b7a0-7c32-42a7-81ca-c88ddbcc20c3",
                 "start": "2020-05-27T02:00:00+00:00",
-                "updated_at": "2020-05-18T21:36:41+00:00",
+                "updated_at": "2020-05-26T09:33:31+00:00",
                 "title": "South West London",
                 "related": {
                     "episodes": [
@@ -8505,17 +8458,17 @@
                 }
             },
             {
-                "id": "99b37d2d-3665-4414-938c-73ec790f758e",
+                "id": "925222b2-d3c1-4501-bce1-0a719b5a74dd",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:55",
+                "duration": "00:52",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T03:55:00+00:00",
+                "end": "2020-05-27T03:50:00+00:00",
                 "lcn": 92,
                 "episode_id": "28149fa5-c04c-4520-97af-ae5fa7d935eb",
-                "start": "2020-05-27T03:00:00+00:00",
-                "updated_at": "2020-05-22T05:33:12+00:00",
+                "start": "2020-05-27T02:58:00+00:00",
+                "updated_at": "2020-05-26T09:32:40+00:00",
                 "title": "Days of Our Lives",
                 "related": {
                     "episodes": [
@@ -8548,17 +8501,17 @@
                 }
             },
             {
-                "id": "4bb6d6d0-d58f-4d47-ab1d-1ddf0fdc2f54",
+                "id": "c16d0ae9-770a-4812-af0d-caf6b2f51f12",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:55",
+                "duration": "00:59",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T04:50:00+00:00",
+                "end": "2020-05-27T04:49:00+00:00",
                 "lcn": 92,
                 "episode_id": "601fcab4-e02a-408c-b236-7b328698d072",
-                "start": "2020-05-27T03:55:00+00:00",
-                "updated_at": "2020-05-22T05:30:52+00:00",
+                "start": "2020-05-27T03:50:00+00:00",
+                "updated_at": "2020-05-26T09:32:11+00:00",
                 "title": "The Young and the Restless",
                 "related": {
                     "episodes": [
@@ -8592,20 +8545,20 @@
                 }
             },
             {
-                "id": "260684f5-37d5-4707-bed6-d1659efaff83",
+                "id": "27f78c42-2085-4fec-9231-0cbe5008bd38",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "00:30",
+                "duration": "00:29",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T05:20:00+00:00",
+                "end": "2020-05-27T05:18:00+00:00",
                 "lcn": 92,
                 "episode_id": "64238063-6a9b-44d5-98c8-26ad8e127707",
-                "start": "2020-05-27T04:50:00+00:00",
+                "start": "2020-05-27T04:49:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-21T22:33:21+00:00",
+                "updated_at": "2020-05-26T09:32:06+00:00",
                 "title": "Aberystwyth - Part 2",
                 "related": {
                     "episodes": [
@@ -8640,20 +8593,20 @@
                 }
             },
             {
-                "id": "d17f7535-6ebd-4b41-a18c-56ce62f1b02b",
+                "id": "3297eaa3-0eb8-455d-9043-2c0267b53757",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "02:00",
+                "duration": "02:04",
                 "dvb_triplet": "1012:0430:0436",
-                "end": "2020-05-27T07:20:00+00:00",
+                "end": "2020-05-27T07:22:00+00:00",
                 "lcn": 92,
                 "episode_id": "da1cfc4b-b48f-4d04-850c-e39e47b45ee6",
-                "start": "2020-05-27T05:20:00+00:00",
+                "start": "2020-05-27T05:18:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:33:58+00:00",
+                "updated_at": "2020-05-26T09:30:51+00:00",
                 "title": "The Day The Earth Caught Fire",
                 "related": {
                     "episodes": [
@@ -8685,17 +8638,17 @@
                 }
             },
             {
-                "id": "38fb5613-8189-4731-a55f-8de643bbdfc4",
+                "id": "4e77a10e-bd28-435f-8ee7-284fd414a662",
                 "broadcaster_code": "NINE",
                 "channel_id": "9Gem",
                 "channel_name": "9Gem",
-                "duration": "01:10",
+                "duration": "01:08",
                 "dvb_triplet": "1012:0430:0436",
                 "end": "2020-05-27T08:30:00+00:00",
                 "lcn": 92,
                 "episode_id": "cefe01af-2886-4101-b057-7da8b0c4b756",
-                "start": "2020-05-27T07:20:00+00:00",
-                "updated_at": "2020-05-22T05:32:07+00:00",
+                "start": "2020-05-27T07:22:00+00:00",
+                "updated_at": "2020-05-26T09:30:57+00:00",
                 "title": "The Body in the Library (1)",
                 "related": {
                     "episodes": [
@@ -9336,8 +9289,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/ee97785b-63ad-4fa7-9804-4bd4cc84f696/1619288_7DZD2_medium.jpeg"
                                     },
                                     {
-                                        "id": "0bb5129f-3919-4726-a29f-bb6ada246836",
-                                        "url": "http://img-store-prod.switch.tv/images/0bb5129f-3919-4726-a29f-bb6ada246836/1713460_7DZD2_original.jpeg",
+                                        "id": "68d01c40-af8f-41f0-b58b-8ae8bafff5d5",
+                                        "url": "http://img-store-prod.switch.tv/images/68d01c40-af8f-41f0-b58b-8ae8bafff5d5/1713560_BDP_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -9395,8 +9348,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/9b6710b7-ae16-4f5d-998b-b7b99134b273/1700155_BDP_medium.jpeg"
                                     },
                                     {
-                                        "id": "68d01c40-af8f-41f0-b58b-8ae8bafff5d5",
-                                        "url": "http://img-store-prod.switch.tv/images/68d01c40-af8f-41f0-b58b-8ae8bafff5d5/1713560_BDP_original.jpeg",
+                                        "id": "f2766862-de91-4e3b-973e-00f1e7e89fa7",
+                                        "url": "http://img-store-prod.switch.tv/images/f2766862-de91-4e3b-973e-00f1e7e89fa7/1713697_GSD_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -9484,8 +9437,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/4a8fe776-e422-4107-b877-3e179c419337/362756_7_default_channel_logo.jpg"
                                     },
                                     {
-                                        "id": "f2766862-de91-4e3b-973e-00f1e7e89fa7",
-                                        "url": "http://img-store-prod.switch.tv/images/f2766862-de91-4e3b-973e-00f1e7e89fa7/1713697_GSD_original.jpeg",
+                                        "id": "44083638-25ac-4e1f-965b-b0da7559ae80",
+                                        "url": "http://img-store-prod.switch.tv/images/44083638-25ac-4e1f-965b-b0da7559ae80/1713831_NBCT-SHOW_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -9597,8 +9550,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/4a8fe776-e422-4107-b877-3e179c419337/362756_7_default_channel_logo.jpg"
                                     },
                                     {
-                                        "id": "92f7a568-f31b-44fe-a615-00235f2cbdac",
-                                        "url": "http://img-store-prod.switch.tv/images/92f7a568-f31b-44fe-a615-00235f2cbdac/1714127_7ENN20-106_original.jpeg",
+                                        "id": "9608f3c7-0a4b-439d-8b50-a86e91a62cba",
+                                        "url": "http://img-store-prod.switch.tv/images/9608f3c7-0a4b-439d-8b50-a86e91a62cba/1713914_SUNR-SHOW_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -9651,8 +9604,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/4a8fe776-e422-4107-b877-3e179c419337/362756_7_default_channel_logo.jpg"
                                     },
                                     {
-                                        "id": "9608f3c7-0a4b-439d-8b50-a86e91a62cba",
-                                        "url": "http://img-store-prod.switch.tv/images/9608f3c7-0a4b-439d-8b50-a86e91a62cba/1713914_SUNR-SHOW_original.jpeg",
+                                        "id": "92f7a568-f31b-44fe-a615-00235f2cbdac",
+                                        "url": "http://img-store-prod.switch.tv/images/92f7a568-f31b-44fe-a615-00235f2cbdac/1714127_7ENN20-106_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -10487,7 +10440,7 @@
                 }
             },
             {
-                "id": "a8145d6e-d7cf-4fa0-81d2-1ad8b4d099db",
+                "id": "103ea466-38e8-4772-a666-0973f0a88be1",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7TWO",
                 "channel_name": "7TWO",
@@ -10497,7 +10450,7 @@
                 "lcn": 72,
                 "episode_id": "b56b71ae-2a90-4d42-b6f4-a7a04b4abd8e",
                 "start": "2020-05-26T15:58:00+00:00",
-                "updated_at": "2020-05-25T11:30:49+00:00",
+                "updated_at": "2020-05-26T09:34:08+00:00",
                 "title": "Dorset",
                 "related": {
                     "episodes": [
@@ -10773,7 +10726,7 @@
                 }
             },
             {
-                "id": "722853b6-fbb1-489c-87c6-16350788fb19",
+                "id": "4cdf8d8f-8e79-4429-8373-de45ae185bce",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7TWO",
                 "channel_name": "7TWO",
@@ -10786,7 +10739,7 @@
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-25T11:32:30+00:00",
+                "updated_at": "2020-05-26T09:35:19+00:00",
                 "title": "RSPCA Animal Rescue",
                 "related": {
                     "episodes": [
@@ -10888,8 +10841,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/ee97785b-63ad-4fa7-9804-4bd4cc84f696/1619288_7DZD2_medium.jpeg"
                                     },
                                     {
-                                        "id": "0bb5129f-3919-4726-a29f-bb6ada246836",
-                                        "url": "http://img-store-prod.switch.tv/images/0bb5129f-3919-4726-a29f-bb6ada246836/1713460_7DZD2_original.jpeg",
+                                        "id": "68d01c40-af8f-41f0-b58b-8ae8bafff5d5",
+                                        "url": "http://img-store-prod.switch.tv/images/68d01c40-af8f-41f0-b58b-8ae8bafff5d5/1713560_BDP_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -11916,7 +11869,7 @@
         "1013:0503:0533",
         [
             {
-                "id": "3675c27b-2351-4edd-98d1-f22a98af5b30",
+                "id": "e4b65456-77a7-4dbf-8fdc-6bc767326bdf",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7mate",
                 "channel_name": "7mate",
@@ -11926,7 +11879,7 @@
                 "lcn": 73,
                 "episode_id": "abc229bf-0a40-44a4-b518-a5330aa3463c",
                 "start": "2020-05-26T08:01:00+00:00",
-                "updated_at": "2020-05-26T01:32:11+00:00",
+                "updated_at": "2020-05-26T09:35:23+00:00",
                 "title": "A Colonel Of Truth",
                 "related": {
                     "episodes": [
@@ -12618,7 +12571,7 @@
                 }
             },
             {
-                "id": "0ca472dd-8cc1-4075-8967-1f203e46b8c0",
+                "id": "928fc069-d487-4450-b495-5775fdce6f62",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7mate",
                 "channel_name": "7mate",
@@ -12628,7 +12581,7 @@
                 "lcn": 73,
                 "episode_id": "4f5180bf-e5d6-4597-8753-a93b8644bf0a",
                 "start": "2020-05-26T17:04:00+00:00",
-                "updated_at": "2020-05-26T01:31:08+00:00",
+                "updated_at": "2020-05-26T09:33:56+00:00",
                 "title": "Under Fire",
                 "related": {
                     "episodes": [
@@ -12669,7 +12622,7 @@
                 }
             },
             {
-                "id": "eddf19c4-47c6-44c2-a0fc-fd509441281a",
+                "id": "c5ee1c12-d7d2-48fb-a5d0-1755f3d0a6e9",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7mate",
                 "channel_name": "7mate",
@@ -12679,7 +12632,7 @@
                 "lcn": 73,
                 "episode_id": "abc229bf-0a40-44a4-b518-a5330aa3463c",
                 "start": "2020-05-26T18:00:00+00:00",
-                "updated_at": "2020-05-21T03:32:52+00:00",
+                "updated_at": "2020-05-26T09:35:22+00:00",
                 "title": "A Colonel Of Truth",
                 "related": {
                     "episodes": [
@@ -12832,8 +12785,8 @@
                                         "url": "http://img-store-prod.switch.tv/images/ee97785b-63ad-4fa7-9804-4bd4cc84f696/1619288_7DZD2_medium.jpeg"
                                     },
                                     {
-                                        "id": "0bb5129f-3919-4726-a29f-bb6ada246836",
-                                        "url": "http://img-store-prod.switch.tv/images/0bb5129f-3919-4726-a29f-bb6ada246836/1713460_7DZD2_original.jpeg",
+                                        "id": "68d01c40-af8f-41f0-b58b-8ae8bafff5d5",
+                                        "url": "http://img-store-prod.switch.tv/images/68d01c40-af8f-41f0-b58b-8ae8bafff5d5/1713560_BDP_original.jpeg",
                                         "tags": [
                                             "source:epg-ingestion"
                                         ]
@@ -13125,7 +13078,7 @@
                 }
             },
             {
-                "id": "8a2eaa69-fa19-4f35-84c1-105922bcf477",
+                "id": "f2ba915d-b45e-4774-b0ef-b9d75adc6032",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7mate",
                 "channel_name": "7mate",
@@ -13135,7 +13088,7 @@
                 "lcn": 73,
                 "episode_id": "abc229bf-0a40-44a4-b518-a5330aa3463c",
                 "start": "2020-05-27T00:00:00+00:00",
-                "updated_at": "2020-05-21T03:34:05+00:00",
+                "updated_at": "2020-05-26T09:33:53+00:00",
                 "title": "A Colonel Of Truth",
                 "related": {
                     "episodes": [
@@ -13181,7 +13134,7 @@
                 }
             },
             {
-                "id": "055cff8e-4e0d-4210-bae9-423f700d0f66",
+                "id": "7dd480b7-53ab-493d-a86f-a028458863c9",
                 "broadcaster_code": "SEVEN",
                 "channel_id": "7mate",
                 "channel_name": "7mate",
@@ -13191,7 +13144,7 @@
                 "lcn": 73,
                 "episode_id": "11fed9cb-d069-45aa-b11d-f978635b4d00",
                 "start": "2020-05-27T00:59:00+00:00",
-                "updated_at": "2020-05-26T07:29:36+00:00",
+                "updated_at": "2020-05-26T09:33:31+00:00",
                 "title": "Desert Disaster",
                 "related": {
                     "episodes": [
@@ -25073,7 +25026,7 @@
                 }
             },
             {
-                "id": "e3020dda-351c-4697-b540-e944f7cc2a4b",
+                "id": "4761b880-d1e9-4a50-bf52-daebf6b49ab1",
                 "broadcaster_code": "SBS",
                 "channel_id": "NITV",
                 "channel_name": "NITV",
@@ -25081,47 +25034,9 @@
                 "dvb_triplet": "3202:0300:0305",
                 "end": "2020-05-26T22:19:00+00:00",
                 "lcn": 34,
-                "episode_id": "4dfaaef5-5ee3-4036-9587-8c14ccf22fc2",
                 "start": "2020-05-26T22:14:00+00:00",
-                "updated_at": "2020-05-19T05:33:12+00:00",
-                "title": "Let's Go!",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "4dfaaef5-5ee3-4036-9587-8c14ccf22fc2",
-                            "updated_at": "2020-03-27T04:30:27+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "episode_number": "17",
-                            "synopsis": "A high-octane travel series hosted by Grace Koh, who takes up challenges from kids all around Australia to walk, meet, splash, eat and jump around their hometowns.",
-                            "title": "Let's Go!",
-                            "categories": [
-                                "channel_id/NITV",
-                                "genres/Children's",
-                                "classification/G",
-                                "content_type/series",
-                                "season_number/1"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "9f8d7af1-1571-40ae-b21a-f5a9e524a687",
-                                        "url": "http://img-store-prod.switch.tv/images/9f8d7af1-1571-40ae-b21a-f5a9e524a687/451637_sbs_nitv_whitelogo_16x9.png"
-                                    },
-                                    {
-                                        "id": "9bac2f3a-fa0d-4702-92fa-ccc421a4e133",
-                                        "url": "http://img-store-prod.switch.tv/images/9bac2f3a-fa0d-4702-92fa-ccc421a4e133/1708160_P990130.jpg",
-                                        "tags": [
-                                            "source:epg-ingestion"
-                                        ]
-                                    }
-                                ]
-                            },
-                            "episode_id": "/990130",
-                            "broadcaster": "SBS"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:35:57+00:00",
+                "title": "Let's Go!"
             },
             {
                 "id": "0d4606cd-2157-4481-8332-0fad17d1a74a",
@@ -30622,7 +30537,7 @@
         "1010:0231:0231",
         [
             {
-                "id": "f2e37cc9-facb-4d96-8514-83a6bb025cc6",
+                "id": "7557e9b1-ec3e-4f1e-ad6c-5e1f52f33171",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
@@ -30630,45 +30545,15 @@
                 "dvb_triplet": "1010:0231:0231",
                 "end": "2020-05-26T09:00:00+00:00",
                 "lcn": 2,
-                "episode_id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
                 "start": "2020-05-26T08:00:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T05:32:23+00:00",
-                "title": "The Drum",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
-                            "updated_at": "2020-05-18T05:23:23+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "When we're suddenly disconnected, we need to stay in touch more than ever. To know the facts and discuss the details, get your daily dose of the program with Julia Baird and our panel of informed contributors and guests. (2020)",
-                            "title": "The Drum",
-                            "categories": [
-                                "channel_id/ABC",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/ABC NEWS"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "51c4d1bf-84ab-4740-bbc6-0848d32aaba5",
-                                        "url": "http://img-store-prod.switch.tv/images/51c4d1bf-84ab-4740-bbc6-0848d32aaba5/1679791_NC1907H.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NC2007H082S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:28:53+00:00",
+                "title": "The Drum"
             },
             {
-                "id": "f65ec46e-912e-4b2c-b8b0-14f7510e979c",
+                "id": "6f237b11-90be-45c1-ae14-98c75addc6b9",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
@@ -30676,44 +30561,15 @@
                 "dvb_triplet": "1010:0231:0231",
                 "end": "2020-05-26T09:30:00+00:00",
                 "lcn": 2,
-                "episode_id": "57ad16d9-5a77-4c6c-a842-5183c22fc777",
                 "start": "2020-05-26T09:00:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-17T21:32:04+00:00",
-                "title": "ABC News",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "57ad16d9-5a77-4c6c-a842-5183c22fc777",
-                            "updated_at": "2020-05-17T21:32:04+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "News from where you live. Vic news brings you the day's top stories, exclusive investigations and original reporting on the issues that matter to you. Presented by Tamara Oudyn (Sun-Thu) and Mary Gearin (Fri-Sat). (2020)",
-                            "title": "ABC News",
-                            "categories": [
-                                "channel_id/ABC",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "c7695c0c-a2b8-453b-9d40-ee3f65e755cb",
-                                        "url": "http://img-store-prod.switch.tv/images/c7695c0c-a2b8-453b-9d40-ee3f65e755cb/1678884_NU1902V.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NU2002V126S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:29:16+00:00",
+                "title": "ABC News"
             },
             {
-                "id": "6a465c9d-974f-42a5-8786-d554161b36db",
+                "id": "08dd18ac-bf24-4b11-a6d6-693bed5dc3de",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
@@ -30721,51 +30577,21 @@
                 "dvb_triplet": "1010:0231:0231",
                 "end": "2020-05-26T10:02:00+00:00",
                 "lcn": 2,
-                "episode_id": "421e55d0-920c-4172-b54f-b40ccc387bbd",
                 "start": "2020-05-26T09:30:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-25T05:28:25+00:00",
-                "title": 7.3,
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "421e55d0-920c-4172-b54f-b40ccc387bbd",
-                            "updated_at": "2020-05-25T03:28:43+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "Know the latest on coronavirus, how it affects you, your family, community, jobs, and school. Find out what you can do to stop the spread and protect your loved ones, healthcare workers, the young, old, and our most vulnerable. (2020)",
-                            "title": "7.30",
-                            "categories": [
-                                "channel_id/ABC NEWS",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/ABC"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "c009aaa7-7823-4066-8a67-7a2fa1d2acc3",
-                                        "url": "http://img-store-prod.switch.tv/images/c009aaa7-7823-4066-8a67-7a2fa1d2acc3/1678999_NC1801H.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NC2001H082S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:28:55+00:00",
+                "title": 7.3
             },
             {
-                "id": "7d74bd5c-9f3b-410a-b0e7-8a9d7c798b18",
+                "id": "6a5b08f5-5731-45eb-aed7-9983dd274480",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
-                "duration": "00:31",
+                "duration": "00:30",
                 "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T10:33:00+00:00",
+                "end": "2020-05-26T10:32:00+00:00",
                 "lcn": 2,
                 "episode_id": "7795c0d7-0def-4419-ac00-eacf313c4a3f",
                 "start": "2020-05-26T10:02:00+00:00",
@@ -30774,7 +30600,7 @@
                     "coming_up",
                     "catch_up"
                 ],
-                "updated_at": "2020-05-21T09:31:48+00:00",
+                "updated_at": "2020-05-26T09:30:01+00:00",
                 "title": "Carry On Covid",
                 "related": {
                     "episodes": [
@@ -30810,22 +30636,22 @@
                 }
             },
             {
-                "id": "fc0092e3-c05d-4b5d-b23f-c1a82c50ebd5",
+                "id": "8254787f-e214-48a9-962e-48e1a4217290",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
-                "duration": "01:00",
+                "duration": "00:59",
                 "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T11:33:00+00:00",
+                "end": "2020-05-26T11:31:00+00:00",
                 "lcn": 2,
                 "episode_id": "d049dcc4-cded-4b35-9cc6-3d02a3f98ba2",
-                "start": "2020-05-26T10:33:00+00:00",
+                "start": "2020-05-26T10:32:00+00:00",
                 "tags": [
                     "captioned",
                     "coming_up",
                     "catch_up"
                 ],
-                "updated_at": "2020-05-20T21:30:00+00:00",
+                "updated_at": "2020-05-26T09:28:40+00:00",
                 "title": "Mateship",
                 "related": {
                     "episodes": [
@@ -30862,21 +30688,21 @@
                 }
             },
             {
-                "id": "d3746ce1-0ff2-45e4-a497-2f1fdb2dd79f",
+                "id": "9aae1172-bc06-4038-9be0-3d337a4acf93",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
-                "duration": "00:56",
+                "duration": "00:57",
                 "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T12:29:00+00:00",
+                "end": "2020-05-26T12:28:00+00:00",
                 "lcn": 2,
                 "episode_id": "4d5bfa2e-b262-4c9f-9808-7b45390e7dd5",
-                "start": "2020-05-26T11:33:00+00:00",
+                "start": "2020-05-26T11:31:00+00:00",
                 "tags": [
                     "captioned",
                     "dont_miss"
                 ],
-                "updated_at": "2020-05-20T09:29:52+00:00",
+                "updated_at": "2020-05-26T09:27:05+00:00",
                 "title": "Age of Conflict",
                 "related": {
                     "episodes": [
@@ -30913,20 +30739,20 @@
                 }
             },
             {
-                "id": "e025c160-9cc3-453d-968c-c84afe27bff5",
+                "id": "1b0174d4-c446-4d91-8710-72f8fb22599b",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
-                "duration": "00:32",
+                "duration": "00:31",
                 "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T13:01:00+00:00",
+                "end": "2020-05-26T12:59:00+00:00",
                 "lcn": 2,
                 "episode_id": "b5f20d33-d538-4b32-9c11-ed978a1aedbd",
-                "start": "2020-05-26T12:29:00+00:00",
+                "start": "2020-05-26T12:28:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-21T09:32:15+00:00",
+                "updated_at": "2020-05-26T09:28:59+00:00",
                 "title": "ABC Late News",
                 "related": {
                     "episodes": [
@@ -30958,20 +30784,20 @@
                 }
             },
             {
-                "id": "1b264eca-5b90-4adf-b3dc-5637c4219b98",
+                "id": "63c6eef2-64f4-4f8e-971d-410e7687439f",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
-                "duration": "01:04",
+                "duration": "01:07",
                 "dvb_triplet": "1010:0231:0231",
-                "end": "2020-05-26T14:05:00+00:00",
+                "end": "2020-05-26T14:06:00+00:00",
                 "lcn": 2,
                 "episode_id": "0ca0914d-69b3-49b6-83c1-69068ddf38b8",
-                "start": "2020-05-26T13:01:00+00:00",
+                "start": "2020-05-26T12:59:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-26T00:29:35+00:00",
+                "updated_at": "2020-05-26T09:28:16+00:00",
                 "title": "Australia Reimagined",
                 "related": {
                     "episodes": [
@@ -31007,20 +30833,20 @@
                 }
             },
             {
-                "id": "180cba71-deca-478c-8427-c7c1c38ecbbc",
+                "id": "5728c2ba-f60e-4f96-aaef-7b98148956e9",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
-                "duration": "00:47",
+                "duration": "00:46",
                 "dvb_triplet": "1010:0231:0231",
                 "end": "2020-05-26T14:52:00+00:00",
                 "lcn": 2,
                 "episode_id": "2d6a8fd1-98d7-492e-a73d-4f7272feeacc",
-                "start": "2020-05-26T14:05:00+00:00",
+                "start": "2020-05-26T14:06:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:34:03+00:00",
+                "updated_at": "2020-05-26T09:28:54+00:00",
                 "title": "The Eve Of St John",
                 "related": {
                     "episodes": [
@@ -31240,7 +31066,7 @@
                 }
             },
             {
-                "id": "6e50b0bc-0978-430a-a950-0ffc0058e300",
+                "id": "e3b5ac67-3445-4941-8bfc-63907f5fd6d4",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC",
                 "channel_name": "ABC",
@@ -31248,42 +31074,12 @@
                 "dvb_triplet": "1010:0231:0231",
                 "end": "2020-05-26T19:30:00+00:00",
                 "lcn": 2,
-                "episode_id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
                 "start": "2020-05-26T18:30:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:31:27+00:00",
-                "title": "The Drum",
-                "related": {
-                    "episodes": [
-                        {
-                            "id": "9eea37d7-5135-41bd-a95e-cafc743c91ac",
-                            "updated_at": "2020-05-18T05:23:23+00:00",
-                            "draft": false,
-                            "on_air": true,
-                            "synopsis": "When we're suddenly disconnected, we need to stay in touch more than ever. To know the facts and discuss the details, get your daily dose of the program with Julia Baird and our panel of informed contributors and guests. (2020)",
-                            "title": "The Drum",
-                            "categories": [
-                                "channel_id/ABC",
-                                "genres/News & Current Affairs",
-                                "classification/NC",
-                                "content_type/series",
-                                "channel_id/ABC NEWS"
-                            ],
-                            "related": {
-                                "images": [
-                                    {
-                                        "id": "51c4d1bf-84ab-4740-bbc6-0848d32aaba5",
-                                        "url": "http://img-store-prod.switch.tv/images/51c4d1bf-84ab-4740-bbc6-0848d32aaba5/1679791_NC1907H.jpg"
-                                    }
-                                ]
-                            },
-                            "episode_id": "/NC2007H082S00",
-                            "broadcaster": "ABC"
-                        }
-                    ]
-                }
+                "updated_at": "2020-05-26T09:28:11+00:00",
+                "title": "The Drum"
             },
             {
                 "id": "fbce4ab9-f7cb-40d4-9463-3387def157b0",
@@ -32982,20 +32778,20 @@
                 }
             },
             {
-                "id": "decf5187-e9ce-480f-988f-7fd0d20ff633",
+                "id": "ff8d1129-015a-4c44-80cd-9080b33037fb",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
-                "duration": "00:13",
+                "duration": "00:12",
                 "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-26T23:10:00+00:00",
+                "end": "2020-05-26T23:09:00+00:00",
                 "lcn": 23,
                 "episode_id": "c27d54b7-ab00-4efd-93d9-b3fefe759cb3",
                 "start": "2020-05-26T22:57:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:33:40+00:00",
+                "updated_at": "2020-05-26T09:27:59+00:00",
                 "title": "Whodunnit",
                 "related": {
                     "episodes": [
@@ -33027,20 +32823,20 @@
                 }
             },
             {
-                "id": "1c4c59e6-4c4c-41c8-acc1-0f6956f5bafd",
+                "id": "1b5e5fee-0f8a-4f2e-b4f6-ac73b2941b04",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
                 "duration": "00:22",
                 "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-26T23:32:00+00:00",
+                "end": "2020-05-26T23:31:00+00:00",
                 "lcn": 23,
                 "episode_id": "0eb32125-e569-4c3d-a2e6-3e531bec6def",
-                "start": "2020-05-26T23:10:00+00:00",
+                "start": "2020-05-26T23:09:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:32:21+00:00",
+                "updated_at": "2020-05-26T09:28:29+00:00",
                 "title": "Episode 23",
                 "related": {
                     "episodes": [
@@ -33072,20 +32868,20 @@
                 }
             },
             {
-                "id": "33b04440-cf47-4323-a032-bd33184d3889",
+                "id": "98149f65-9b52-4adb-8e7b-063ff073131a",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
-                "duration": "00:29",
+                "duration": "00:30",
                 "dvb_triplet": "1010:0221:0224",
                 "end": "2020-05-27T00:01:00+00:00",
                 "lcn": 23,
                 "episode_id": "dddb87e6-e86d-4644-b113-717fef7835c3",
-                "start": "2020-05-26T23:32:00+00:00",
+                "start": "2020-05-26T23:31:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-18T21:33:28+00:00",
+                "updated_at": "2020-05-26T09:29:41+00:00",
                 "title": "Move It Mobstyle",
                 "related": {
                     "episodes": [
@@ -33988,17 +33784,17 @@
                 }
             },
             {
-                "id": "87c84bc0-cbd1-4e36-bc92-94a295f4d046",
+                "id": "9a82637d-8237-4611-b804-9e2cb59f1028",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
-                "duration": "00:12",
+                "duration": "00:11",
                 "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-27T05:22:00+00:00",
+                "end": "2020-05-27T05:21:00+00:00",
                 "lcn": 23,
                 "episode_id": "6449286a-0dc5-4308-9511-b04ee74c40c3",
                 "start": "2020-05-27T05:10:00+00:00",
-                "updated_at": "2020-05-25T00:29:06+00:00",
+                "updated_at": "2020-05-26T09:28:46+00:00",
                 "title": "Happily Ever Odd",
                 "related": {
                     "episodes": [
@@ -34030,46 +33826,109 @@
                 }
             },
             {
-                "id": "8573b9d5-2f25-4273-bd4b-9270d0983e60",
+                "id": "411561a4-4084-404b-87b4-fdf57e992ef9",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
                 "duration": "00:24",
                 "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-27T05:46:00+00:00",
+                "end": "2020-05-27T05:45:00+00:00",
                 "lcn": 23,
-                "start": "2020-05-27T05:22:00+00:00",
+                "episode_id": "4bc18287-bc30-4389-9485-8ea7cb002de5",
+                "start": "2020-05-27T05:21:00+00:00",
                 "tags": [
                     "captioned"
                 ],
-                "updated_at": "2020-05-20T04:29:50+00:00",
-                "title": "Taylor's Self-Portrait"
+                "updated_at": "2020-05-26T09:28:15+00:00",
+                "title": "Taylor's Self-Portrait",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "4bc18287-bc30-4389-9485-8ea7cb002de5",
+                            "updated_at": "2020-05-20T04:29:50+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "episode_number": "18",
+                            "synopsis": "Taylor scrambles to recover her diary and stop a revealing self-portrait from being sold at a charity auction. (2006)",
+                            "title": "Taylor's Self-Portrait",
+                            "categories": [
+                                "channel_id/ABC ME",
+                                "genres/Entertainment",
+                                "classification/G",
+                                "content_type/series",
+                                "season_number/1"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "609dc24c-674c-406e-a4f2-69ad47f4fbba",
+                                        "url": "http://img-store-prod.switch.tv/images/609dc24c-674c-406e-a4f2-69ad47f4fbba/794404_ZY9276A018S00.jpg"
+                                    }
+                                ]
+                            },
+                            "episode_id": "/ZY9276A018S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
             },
             {
-                "id": "3e472ac9-9caf-4a39-a67a-1c00e79042d7",
+                "id": "bfcf238f-d09a-482e-8a96-8196c92a5840",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
                 "duration": "00:11",
                 "dvb_triplet": "1010:0221:0224",
-                "end": "2020-05-27T05:57:00+00:00",
+                "end": "2020-05-27T05:56:00+00:00",
                 "lcn": 23,
-                "start": "2020-05-27T05:46:00+00:00",
-                "updated_at": "2020-05-21T09:30:09+00:00",
-                "title": "ME@HOME"
+                "episode_id": "20b69afa-ef96-401a-a27e-41fce1daeaf3",
+                "start": "2020-05-27T05:45:00+00:00",
+                "updated_at": "2020-05-26T09:28:54+00:00",
+                "title": "ME@HOME",
+                "related": {
+                    "episodes": [
+                        {
+                            "id": "20b69afa-ef96-401a-a27e-41fce1daeaf3",
+                            "updated_at": "2020-05-21T09:30:09+00:00",
+                            "draft": false,
+                            "on_air": true,
+                            "synopsis": "This program is a daily, fast-paced whip around the country to see how kids and celebs are staying entertained in isolation. (2020)",
+                            "title": "ME@HOME",
+                            "categories": [
+                                "channel_id/ABC ME",
+                                "genres/Children's",
+                                "classification/G",
+                                "content_type/series"
+                            ],
+                            "related": {
+                                "images": [
+                                    {
+                                        "id": "e5d00996-2c17-42d9-ad05-6f60cba190e2",
+                                        "url": "http://img-store-prod.switch.tv/images/e5d00996-2c17-42d9-ad05-6f60cba190e2/1710288_CK2009V008S00.jpg",
+                                        "tags": [
+                                            "source:epg-ingestion"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "episode_id": "/CK2009V028S00",
+                            "broadcaster": "ABC"
+                        }
+                    ]
+                }
             },
             {
-                "id": "90548e45-b3bb-4464-923e-d27414812c4b",
+                "id": "f4cd9f1b-90ec-49bb-980b-36a28746b29a",
                 "broadcaster_code": "ABC",
                 "channel_id": "ABC ME",
                 "channel_name": "ABC ME",
-                "duration": "00:18",
+                "duration": "00:19",
                 "dvb_triplet": "1010:0221:0224",
                 "end": "2020-05-27T06:15:00+00:00",
                 "lcn": 23,
                 "episode_id": "510f8164-4dd6-45f1-abd6-fda6260829e4",
-                "start": "2020-05-27T05:57:00+00:00",
-                "updated_at": "2020-05-25T00:29:11+00:00",
+                "start": "2020-05-27T05:56:00+00:00",
+                "updated_at": "2020-05-26T09:28:19+00:00",
                 "title": "The Fishing Trip",
                 "related": {
                     "episodes": [
