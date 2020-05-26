@@ -20,22 +20,21 @@ async function getChannels() {
         `${lcn}`,
         details,
     ])
-    // console.log("*****channels*****", channels)
-    fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => {})
+    fs.writeFile('./data/channels.json', JSON.stringify(channels), 'utf8', () => { })
     return new Map(channels)
 }
 
+async function getChannelEpg(id) {
+    const channelEpg = await ds.fetchChannelEpg({ id, days })
+    return [id, channelEpg.data]
+}
 
 
 async function getEpgs() {
     const channels = await getChannels()
     const ids = [...channels.values()].map(details => details.dvb_triplet)
-    const results = await Promise.all(ids.map(async id => {
-        const channelEpg = await ds.fetchChannelEpg({id, days})
-        return [ id,  channelEpg.data ]
-
-    }))
-    fs.writeFile('./data/epg.json', JSON.stringify(results), 'utf8', () => {})
+    const results = await Promise.all(ids.map(getChannelEpg))
+    fs.writeFile('./data/epg.json', JSON.stringify(results), 'utf8', () => { })
     return new Map(results)
 }
 
