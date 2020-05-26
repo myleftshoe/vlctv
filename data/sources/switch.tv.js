@@ -50,15 +50,10 @@ async function fetchChannels(region) {
     
     const url = `/channels/region/${region}?${options.join('&')}`
     const json = await getJSON(url)
-    // console.log(url)
-    // console.log(json.data)
-    // console.log(json.data.map(channel => channel.attributes.streams))
     return json.data;
 }
 
 async function fetchChannelEpg({dvbTriplet, days = 1} = {}) {
-
-    console.log('fetching epg', dvbTriplet, days)
 
     const startms = new Date().setMinutes(0,0,0,0)
     const endms = startms + daystoms(days)
@@ -80,7 +75,6 @@ async function fetchChannelEpg({dvbTriplet, days = 1} = {}) {
     const url = `/epgs/${dvbTriplet}?${options.join('&')}`
     const json = await getJSON(url)
     console.log(`fetched epg for ${dvbTriplet} (${json.data.length})`)
-    // console.log(json.data)
     return json;
 }
 
