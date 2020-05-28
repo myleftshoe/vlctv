@@ -1,0 +1,522 @@
+[
+    {
+        "id": 63,
+        "description": "Broken Hill",
+        "name": "Broken Hill",
+        "state": "NSW",
+        "sortOrder": 13,
+        "slug": "broken-hill",
+        "type": "FTA",
+        "timezone": "Australia/Broken_Hill"
+    },
+    {
+        "id": 66,
+        "description": "Central Coast",
+        "name": "Central Coast",
+        "state": "NSW",
+        "sortOrder": 6,
+        "slug": "central-coast",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 67,
+        "description": "Griffith",
+        "name": "Griffith",
+        "state": "NSW",
+        "sortOrder": 12,
+        "slug": "griffith",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 69,
+        "description": "Tamworth",
+        "name": "Tamworth",
+        "state": "NSW",
+        "sortOrder": 6,
+        "slug": "tamworth",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 71,
+        "description": "Wollongong",
+        "name": "Wollongong",
+        "state": "NSW",
+        "sortOrder": 3,
+        "slug": "wollongong",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 73,
+        "description": "Sydney",
+        "name": "Sydney",
+        "state": "NSW",
+        "sortOrder": 1,
+        "slug": "sydney",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 74,
+        "description": "Darwin",
+        "name": "Darwin",
+        "state": "NT",
+        "sortOrder": 1,
+        "slug": "darwin",
+        "type": "FTA",
+        "timezone": "Australia/Darwin"
+    },
+    {
+        "id": 75,
+        "description": "Brisbane",
+        "name": "Brisbane",
+        "state": "QLD",
+        "sortOrder": 1,
+        "slug": "brisbane",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 78,
+        "description": "Gold Coast",
+        "name": "Gold Coast",
+        "state": "QLD",
+        "sortOrder": 2,
+        "slug": "gold-coast",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 79,
+        "description": "Cairns",
+        "name": "Cairns",
+        "state": "QLD",
+        "sortOrder": 9,
+        "slug": "cairns",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 81,
+        "description": "Adelaide",
+        "name": "Adelaide",
+        "state": "SA",
+        "sortOrder": 1,
+        "slug": "adelaide",
+        "type": "FTA",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "id": 82,
+        "description": "Port Augusta",
+        "name": "Port Augusta",
+        "state": "SA",
+        "sortOrder": 4,
+        "slug": "port-augusta",
+        "type": "FTA",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "id": 83,
+        "description": "Riverland",
+        "name": "Riverland",
+        "state": "SA",
+        "sortOrder": 2,
+        "slug": "riverland",
+        "type": "FTA",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "id": 85,
+        "description": "South East SA",
+        "name": "South East SA",
+        "state": "SA",
+        "sortOrder": 5,
+        "slug": "south-east-sa",
+        "type": "FTA",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "id": 86,
+        "description": "Spencer Gulf",
+        "name": "Spencer Gulf",
+        "state": "SA",
+        "sortOrder": 3,
+        "slug": "spencer-gulf",
+        "type": "FTA",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "id": 88,
+        "description": "Hobart",
+        "name": "Hobart",
+        "state": "TAS",
+        "sortOrder": 1,
+        "slug": "hobart",
+        "type": "FTA",
+        "timezone": "Australia/Hobart"
+    },
+    {
+        "id": 90,
+        "description": "Ballarat",
+        "name": "Ballarat",
+        "state": "VIC",
+        "sortOrder": 3,
+        "slug": "ballarat",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 93,
+        "description": "Geelong",
+        "name": "Geelong",
+        "state": "VIC",
+        "sortOrder": 2,
+        "slug": "geelong",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 94,
+        "description": "Melbourne",
+        "name": "Melbourne",
+        "state": "VIC",
+        "sortOrder": 1,
+        "slug": "melbourne",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 95,
+        "description": "Mildura/Sunraysia",
+        "name": "Mildura/Sunraysia",
+        "state": "VIC",
+        "sortOrder": 8,
+        "slug": "mildura-sunraysia",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 98,
+        "description": "Gippsland",
+        "name": "Gippsland",
+        "state": "VIC",
+        "sortOrder": 5,
+        "slug": "gippsland",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 101,
+        "description": "Perth",
+        "name": "Perth",
+        "state": "WA",
+        "sortOrder": 1,
+        "slug": "perth",
+        "type": "FTA",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "id": 102,
+        "description": "Regional WA",
+        "name": "Regional WA",
+        "state": "WA",
+        "sortOrder": 5,
+        "slug": "regional-wa",
+        "type": "FTA",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "id": 106,
+        "description": "Remote and Central",
+        "name": "Remote and Central",
+        "state": "NSW",
+        "sortOrder": 14,
+        "slug": "remote-and-central",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 107,
+        "description": "Remote and Central",
+        "name": "Remote and Central",
+        "state": "SA",
+        "sortOrder": 10,
+        "slug": "remote-and-central",
+        "type": "FTA",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "id": 108,
+        "description": "Regional NT",
+        "name": "Regional NT",
+        "state": "NT",
+        "sortOrder": 10,
+        "slug": "regional-nt",
+        "type": "FTA",
+        "timezone": "Australia/Darwin"
+    },
+    {
+        "id": 114,
+        "description": "Remote and Central",
+        "name": "Remote and Central",
+        "state": "QLD",
+        "sortOrder": 10,
+        "slug": "remote-and-central",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 126,
+        "description": "Canberra",
+        "name": "Canberra",
+        "state": "ACT",
+        "sortOrder": 1,
+        "slug": "canberra",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 168,
+        "description": "Foxtel",
+        "name": "Foxtel",
+        "state": null,
+        "sortOrder": 1000,
+        "slug": "foxtel",
+        "type": "PAY",
+        "timezone": null
+    },
+    {
+        "id": 184,
+        "description": "Newcastle",
+        "name": "Newcastle",
+        "state": "NSW",
+        "sortOrder": 2,
+        "slug": "newcastle",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 192,
+        "description": "Optus TV feat. Foxtel",
+        "name": "Optus TV feat. Foxtel",
+        "state": null,
+        "sortOrder": 1098,
+        "slug": "optus-tv-feat-foxtel",
+        "type": "PAY",
+        "timezone": null
+    },
+    {
+        "id": 253,
+        "description": "Mackay",
+        "name": "Mackay",
+        "state": "QLD",
+        "sortOrder": 7,
+        "slug": "mackay",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 254,
+        "description": "Rockhampton",
+        "name": "Rockhampton",
+        "state": "QLD",
+        "sortOrder": 6,
+        "slug": "rockhampton",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 255,
+        "description": "Sunshine Coast",
+        "name": "Sunshine Coast",
+        "state": "QLD",
+        "sortOrder": 3,
+        "slug": "sunshine-coast",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 256,
+        "description": "Toowoomba",
+        "name": "Toowoomba",
+        "state": "QLD",
+        "sortOrder": 4,
+        "slug": "toowoomba",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 257,
+        "description": "Townsville",
+        "name": "Townsville",
+        "state": "QLD",
+        "sortOrder": 8,
+        "slug": "townsville",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 258,
+        "description": "Wide Bay",
+        "name": "Wide Bay",
+        "state": "QLD",
+        "sortOrder": 5,
+        "slug": "wide-bay",
+        "type": "FTA",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "id": 259,
+        "description": "South Coast",
+        "name": "South Coast",
+        "state": "NSW",
+        "sortOrder": 5,
+        "slug": "south-coast",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 261,
+        "description": "Lismore",
+        "name": "Lismore",
+        "state": "NSW",
+        "sortOrder": 8,
+        "slug": "lismore",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 262,
+        "description": "Orange/Dubbo",
+        "name": "Orange/Dubbo",
+        "state": "NSW",
+        "sortOrder": 10,
+        "slug": "orange-dubbo",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 263,
+        "description": "Taree/Port Macquarie",
+        "name": "Taree/Port Macquarie",
+        "state": "NSW",
+        "sortOrder": 7,
+        "slug": "taree-port-macquarie",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 264,
+        "description": "Wagga Wagga",
+        "name": "Wagga Wagga",
+        "state": "NSW",
+        "sortOrder": 11,
+        "slug": "wagga-wagga",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 266,
+        "description": "Bendigo",
+        "name": "Bendigo",
+        "state": "VIC",
+        "sortOrder": 4,
+        "slug": "bendigo",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 267,
+        "description": "Shepparton",
+        "name": "Shepparton",
+        "state": "VIC",
+        "sortOrder": 6,
+        "slug": "shepparton",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 268,
+        "description": "Albury/Wodonga",
+        "name": "Albury/Wodonga",
+        "state": "VIC",
+        "sortOrder": 7,
+        "slug": "albury-wodonga",
+        "type": "FTA",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "id": 284,
+        "description": "Fetch",
+        "name": "Fetch",
+        "state": null,
+        "sortOrder": 1101,
+        "slug": "fetch",
+        "type": "PAY",
+        "timezone": null
+    },
+    {
+        "id": 292,
+        "description": "Coffs Harbour",
+        "name": "Coffs Harbour",
+        "state": "NSW",
+        "sortOrder": 9,
+        "slug": "coffs-harbour",
+        "type": "FTA",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "id": 293,
+        "description": "Launceston",
+        "name": "Launceston",
+        "state": "TAS",
+        "sortOrder": 2,
+        "slug": "launceston",
+        "type": "FTA",
+        "timezone": "Australia/Hobart"
+    },
+    {
+        "id": 342,
+        "description": "Mandurah",
+        "name": "Mandurah",
+        "state": "WA",
+        "sortOrder": 2,
+        "slug": "mandurah",
+        "type": "FTA",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "id": 343,
+        "description": "Bunbury",
+        "name": "Bunbury",
+        "state": "WA",
+        "sortOrder": 3,
+        "slug": "bunbury",
+        "type": "FTA",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "id": 344,
+        "description": "Albany",
+        "name": "Albany",
+        "state": "WA",
+        "sortOrder": 4,
+        "slug": "albany",
+        "type": "FTA",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "id": 371,
+        "description": "Foxtel Now",
+        "name": "Foxtel Now",
+        "state": null,
+        "sortOrder": 1091,
+        "slug": "foxtel-now",
+        "type": "PAY",
+        "timezone": null
+    }
+]

@@ -1,1 +1,1308 @@
-[["1010:0221:0220",{"id":"e0f367bc-d840-443f-8b55-024ad1d91937","broadcaster_code":"ABC","channel_code":"ABC NEWS","channel_name":"ABC NEWS","lcn":24,"attributes":{"streams":[{"url":"https://iview.abc.net.au/show/abc-news-24/video/NS1413V001S00","type":"deeplinked"},{"url":"https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/6ee5066dcc704c47a663eaf854562e8e/index.m3u8","type":"roku-token"}]},"tags":["region_national"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"d178a912-e746-4ab1-a04d-3da6b370262d","updated_at":"2018-12-19T23:49:36+00:00","draft":false,"height":405,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1738146","url":"http://img-store-prod.switch.tv/images/d178a912-e746-4ab1-a04d-3da6b370262d/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1738146","size":25636,"tags":["channel-logo"],"width":720},{"id":"bbb0a418-0de1-4a7f-ae61-4ab1697d023d","updated_at":"2018-12-19T23:49:37+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/abc_news.png","url":"http://img-store-prod.switch.tv/images/bbb0a418-0de1-4a7f-ae61-4ab1697d023d/abc_news.png","size":17326,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1012:0400:0480",{"id":"f954b68b-558d-4e4b-8777-2c8ec8deee6b","broadcaster_code":"NINE","channel_code":"9HD","channel_name":"9HD","lcn":90,"attributes":{"streams":[{"url":"https://www.9now.com.au/live/channel-9","type":"deeplinked"}],"oztam_publisher_id":"NULL"},"tags":["region_national"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"33e82237-07cc-46e2-95b1-f774223dce2e","updated_at":"2019-01-03T04:17:27+00:00","draft":false,"height":491,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466413","url":"http://img-store-prod.switch.tv/images/33e82237-07cc-46e2-95b1-f774223dce2e/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466413","size":20601,"tags":["channel-logo"],"width":1687},{"id":"0516a37b-3f3f-404c-8e41-f3ccc3e01a1d","updated_at":"2019-01-03T04:17:28+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9hd.png","url":"http://img-store-prod.switch.tv/images/0516a37b-3f3f-404c-8e41-f3ccc3e01a1d/9hd.png","size":14964,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1012:0420:0428",{"id":"a54d0af4-4a73-479f-b335-56465801ca24","broadcaster_code":"NINE","channel_code":"9Go!","channel_name":"9Go!","lcn":93,"attributes":{"streams":[{"url":"https://www.9now.com.au/live/go?referrer=freeviewapp","type":"deeplinked"}],"oztam_publisher_id":"2d5e185b-25eb-4832-853d-21c9e6064ce3"},"tags":["region_national"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"8d8de77f-cc1b-4f3c-b29c-257b99761765","updated_at":"2018-12-19T23:50:02+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466421","url":"http://img-store-prod.switch.tv/images/8d8de77f-cc1b-4f3c-b29c-257b99761765/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466421","size":746530,"tags":["channel-logo"],"width":1024},{"id":"e54faf38-324e-44ee-8b5c-889e485f652f","updated_at":"2018-12-19T23:50:22+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9go!.png","url":"http://img-store-prod.switch.tv/images/e54faf38-324e-44ee-8b5c-889e485f652f/9go%21.png","size":34847,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1012:0430:0430",{"id":"ce09ce10-5df9-47a0-8ca7-209acf2f3392","broadcaster_code":"NINE","channel_code":"Channel 9","channel_name":"Channel 9","lcn":9,"attributes":{"streams":[{"url":"https://www.9now.com.au/live/channel-9?referrer=freeviewapp","type":"deeplinked"}],"oztam_publisher_id":"0aca6cf4-96a4-47b4-a602-11f43b0750c1"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"864c7d30-3275-47ef-a469-6cf6dd443255","updated_at":"2018-12-19T23:50:03+00:00","draft":false,"height":210,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466422","url":"http://img-store-prod.switch.tv/images/864c7d30-3275-47ef-a469-6cf6dd443255/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466422","size":292603,"tags":["channel-logo"],"width":447},{"id":"77ecbf79-e4c3-4728-8d9e-bc117b2535f4","updated_at":"2018-12-19T23:50:16+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/channel_9.png","url":"http://img-store-prod.switch.tv/images/77ecbf79-e4c3-4728-8d9e-bc117b2535f4/channel_9.png","size":17490,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":true}],["1012:0430:0433",{"id":"f8be2a09-f5f3-4b1f-814b-b9530b910066","broadcaster_code":"NINE","channel_code":"9Life","channel_name":"9Life","lcn":94,"attributes":{"streams":[{"url":"https://www.9now.com.au/live/life?referrer=freeviewapp","type":"deeplinked"}],"oztam_publisher_id":"9f4d93c9-664c-4147-9a86-177d82243af2"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"100791f1-8dee-4283-a195-3d8874c89fdb","updated_at":"2018-12-19T23:50:04+00:00","draft":false,"height":570,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466425","url":"http://img-store-prod.switch.tv/images/100791f1-8dee-4283-a195-3d8874c89fdb/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466425","size":708928,"tags":["channel-logo"],"width":1656},{"id":"42d8e990-7424-4cae-8f05-22a56f1a24b8","updated_at":"2018-12-19T23:50:18+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9life.png","url":"http://img-store-prod.switch.tv/images/42d8e990-7424-4cae-8f05-22a56f1a24b8/9life.png","size":30971,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1012:0430:0436",{"id":"6918a674-d52f-4eb7-ba8b-7508df2a5b92","broadcaster_code":"NINE","channel_code":"9Gem","channel_name":"9Gem","lcn":92,"attributes":{"streams":[{"url":"https://www.9now.com.au/live/gem?referrer=freeviewapp","type":"deeplinked"}],"oztam_publisher_id":"fac3e035-8fe1-4231-b6e0-7b1b9403756f"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"63380bed-dfe9-4c40-a7c3-c245ae486537","updated_at":"2018-12-19T23:50:07+00:00","draft":false,"height":570,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466428","url":"http://img-store-prod.switch.tv/images/63380bed-dfe9-4c40-a7c3-c245ae486537/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466428","size":615601,"tags":["channel-logo"],"width":1656},{"id":"910f6c36-a57e-4fe1-949e-2ffe857a9bc0","updated_at":"2018-12-19T23:50:20+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9gem.png","url":"http://img-store-prod.switch.tv/images/910f6c36-a57e-4fe1-949e-2ffe857a9bc0/9gem.png","size":26262,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1013:0503:0530",{"id":"32ca67c6-6912-443c-87e6-ec7ca9ccee91","broadcaster_code":"SEVEN","channel_code":"Seven","channel_name":"Seven","lcn":7,"attributes":{"streams":[{"url":"https://fvlive-sevennetwork.akamaized.net/hls/live/573749/MEL1/masterSD.m3u8","type":"default"},{"url":"https://7plus.com.au/live-tv?channel-id=seven","type":"deeplinked"}],"oztam_publisher_id":"9b477f74-83cc-4337-8a02-cd5c7dacff40"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"02da74fc-f21e-4217-a155-954a360a9f63","updated_at":"2018-12-19T23:50:30+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466469","url":"http://img-store-prod.switch.tv/images/02da74fc-f21e-4217-a155-954a360a9f63/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466469","size":75765,"tags":["channel-logo"],"width":1024},{"id":"070f3933-041e-4023-ac5c-41cb62be0411","updated_at":"2018-12-19T23:51:14+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/seven.png","url":"http://img-store-prod.switch.tv/images/070f3933-041e-4023-ac5c-41cb62be0411/seven.png","size":18165,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":true}],["1013:0503:0532",{"id":"41f35987-7a5f-4a99-83d1-3649f26cefc9","broadcaster_code":"SEVEN","channel_code":"7TWO","channel_name":"7TWO","lcn":72,"attributes":{"streams":[{"url":"https://fvlive-sevennetwork.akamaized.net/hls/live/573750/MEL2/masterSD.m3u8","type":"default"},{"url":"https://7plus.com.au/live-tv?channel-id=7two","type":"deeplinked"}],"oztam_publisher_id":"dd7c95f5-fc91-45b8-921e-fd2fa744195a"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"f846064d-cc74-439e-8e06-c08783e7f29b","updated_at":"2018-12-19T23:50:31+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466471","url":"http://img-store-prod.switch.tv/images/f846064d-cc74-439e-8e06-c08783e7f29b/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466471","size":72487,"tags":["channel-logo"],"width":1024},{"id":"44453b49-2a03-4bf8-a2d1-27aaaebccf22","updated_at":"2018-12-19T23:51:15+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/7two.png","url":"http://img-store-prod.switch.tv/images/44453b49-2a03-4bf8-a2d1-27aaaebccf22/7two.png","size":14568,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1013:0503:0533",{"id":"6be8bc50-4799-4eaa-b958-116277009dd1","broadcaster_code":"SEVEN","channel_code":"7mate","channel_name":"7mate","lcn":73,"attributes":{"streams":[{"url":"https://fvlive-sevennetwork.akamaized.net/hls/live/573751/MEL3/masterSD.m3u8","type":"default"},{"url":"https://7plus.com.au/live-tv?channel-id=7mate","type":"deeplinked"}],"oztam_publisher_id":"d8e477cf-a47c-4e68-93a2-29e45a18aa75"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"3d2c7a80-e620-4494-8ef4-64b0998083c7","updated_at":"2018-12-19T23:50:32+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466472","url":"http://img-store-prod.switch.tv/images/3d2c7a80-e620-4494-8ef4-64b0998083c7/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466472","size":167248,"tags":["channel-logo"],"width":1024}]},"entity_type":"channels","primary":false}],["1013:0503:0535",{"id":"df6ff53c-18d5-40d6-a313-d347aa8c40d1","broadcaster_code":"SEVEN","channel_code":"7flix","channel_name":"7flix","lcn":76,"attributes":{"streams":[{"url":"https://fvlive-sevennetwork.akamaized.net/hls/live/573752/MEL6/masterSD.m3u8","type":"default"},{"url":"https://7plus.com.au/live-tv?channel-id=7flix","type":"deeplinked"}],"oztam_publisher_id":"c3d4ecb6-3a03-463d-8f6a-c775b9405016"},"tags":["region_vic_melbourne"],"updated_at":"2020-04-24T00:01:34+00:00","related":{"images":[{"id":"498e2ea8-1ce8-4077-86a3-2b0eb798460e","updated_at":"2018-12-19T23:50:33+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466474","url":"http://img-store-prod.switch.tv/images/498e2ea8-1ce8-4077-86a3-2b0eb798460e/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466474","size":141409,"tags":["channel-logo"],"width":1024},{"id":"6fdc3dc4-0e5c-4fee-8439-ad6225ca8c64","updated_at":"2018-12-19T23:50:56+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/7flix.png","url":"http://img-store-prod.switch.tv/images/6fdc3dc4-0e5c-4fee-8439-ad6225ca8c64/7flix.png","size":33341,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1014:0603:0631",{"id":"ff801946-d6da-466f-bd14-affd7b28613b","broadcaster_code":"TEN","channel_code":"10 Bold","channel_name":"10 Bold","lcn":1,"attributes":{"streams":[{"url":"https://pubads.g.doubleclick.net/ssai/event/kFt-Ps6tT9WYT6QEb7WEBQ/master.m3u8?iu=/8264/vau-ten/ott/freeview_app","type":"default"}],"oztam_publisher_id":"e0a44116-749e-43fe-b802-e44c34c10fb0"},"tags":["region_vic_melbourne"],"updated_at":"2019-07-25T00:40:40+00:00","related":{"images":[{"id":"2e9d66c3-52c6-47fc-bc2a-d1d64b897d28","updated_at":"2018-12-19T23:51:20+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466555","url":"http://img-store-prod.switch.tv/images/2e9d66c3-52c6-47fc-bc2a-d1d64b897d28/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466555","size":24326,"tags":["channel-logo"],"width":1440},{"id":"84ae1a6f-25a3-4907-acf2-b009b6a272b1","updated_at":"2018-12-19T23:51:32+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/one.png","url":"http://img-store-prod.switch.tv/images/84ae1a6f-25a3-4907-acf2-b009b6a272b1/one.png","size":18767,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1014:0603:0635",{"id":"3669b310-1aa2-4acb-bbc1-e129079023da","broadcaster_code":"TEN","channel_code":"TEN","channel_name":"TEN","lcn":10,"attributes":{"streams":[{"url":"https://pubads.g.doubleclick.net/ssai/event/rVWa-td7QPC_2-DeSfxHgw/master.m3u8?iu=/8264/vau-ten/ott/freeview_app","type":"default"}],"oztam_publisher_id":"244ad3a9-0cee-4988-a0fc-0ea20bbb937a"},"tags":["region_vic_melbourne"],"updated_at":"2019-07-25T00:45:07+00:00","related":{"images":[{"id":"fd77d76c-9902-4cff-9585-2282205662a9","updated_at":"2018-12-19T23:51:21+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466557","url":"http://img-store-prod.switch.tv/images/fd77d76c-9902-4cff-9585-2282205662a9/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466557","size":67678,"tags":["channel-logo"],"width":1440},{"id":"42b81550-eeda-4442-862f-22af4bd5d4b6","updated_at":"2018-12-19T23:51:33+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/ten.png","url":"http://img-store-prod.switch.tv/images/42b81550-eeda-4442-862f-22af4bd5d4b6/ten.png","size":41771,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":true}],["1014:0603:0638",{"id":"b3b306dc-5f1f-423a-987e-2c4760723492","broadcaster_code":"TEN","channel_code":"10 Peach","channel_name":"10 Peach","lcn":11,"attributes":{"streams":[{"url":"https://pubads.g.doubleclick.net/ssai/event/QTtJ0VGKQuC1U36Qv06bRg/master.m3u8?iu=/8264/vau-ten/ott/freeview_app","type":"default"}],"oztam_publisher_id":"77c292b7-df60-4d64-9e9b-79d62cc90a78"},"tags":["region_vic_melbourne"],"updated_at":"2019-03-26T23:09:56+00:00","related":{"images":[{"id":"8e3ddb83-182d-471a-b9a9-19b9ee1e63a9","updated_at":"2018-12-19T23:51:22+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466560","url":"http://img-store-prod.switch.tv/images/8e3ddb83-182d-471a-b9a9-19b9ee1e63a9/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466560","size":29704,"tags":["channel-logo"],"width":1440},{"id":"4a5e01a5-4af7-43e8-87ef-41bae5e0ee8e","updated_at":"2018-12-19T23:51:35+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/eleven.png","url":"http://img-store-prod.switch.tv/images/4a5e01a5-4af7-43e8-87ef-41bae5e0ee8e/eleven.png","size":22720,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["3202:0300:0301",{"id":"030bb909-97e1-4feb-af45-2cb17e2d3c74","broadcaster_code":"SBS","channel_code":"SBS","channel_name":"SBS","lcn":3,"attributes":{"streams":[{"url":"https://sbs-live.akamaized.net/hls/live/2002827/channel1/geo/master.m3u8","type":"default"}],"oztam_publisher_id":"8945fa67-22c1-4613-a1d7-59d4850e1f80"},"tags":["region_national"],"updated_at":"2019-06-19T04:10:28+00:00","related":{"images":[{"id":"f910f0e2-c665-4570-a751-fc6f7d849353","updated_at":"2019-06-19T04:04:28+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466690","url":"http://img-store-prod.switch.tv/images/f910f0e2-c665-4570-a751-fc6f7d849353/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466690","size":68482,"tags":["channel-logo"],"width":1920}]},"entity_type":"channels","primary":true}],["3202:0300:0304",{"id":"ada0e2ed-8e20-4f25-9be8-0ea1bad7d8c2","broadcaster_code":"SBS","channel_code":"SBS Food","channel_name":"SBS Food","lcn":33,"attributes":{"streams":[{"url":"https://sbs-live.akamaized.net/hls/live/2002829/channel3/geo/master.m3u8","type":"default"}],"oztam_publisher_id":"a5533d71-f66b-456c-822d-81a7c6f5786d"},"tags":["region_national"],"updated_at":"2019-02-27T18:54:02+00:00","related":{"images":[{"id":"fabad1eb-a54c-4f7b-b898-92901964cbd1","updated_at":"2018-12-19T23:51:38+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466692","url":"http://img-store-prod.switch.tv/images/fabad1eb-a54c-4f7b-b898-92901964cbd1/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466692","size":44102,"tags":["channel-logo"],"width":1440},{"id":"d0d0ec0f-0969-439e-8d4e-6e994c4c4302","updated_at":"2018-12-19T23:51:39+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/food_network.png","url":"http://img-store-prod.switch.tv/images/d0d0ec0f-0969-439e-8d4e-6e994c4c4302/food_network.png","size":27043,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["3202:0300:0305",{"id":"da851c1e-edae-48f4-80fa-7c679b78ca00","broadcaster_code":"SBS","channel_code":"NITV","channel_name":"NITV","lcn":34,"attributes":{"streams":[{"url":"https://sbs-live.akamaized.net/hls/live/2002826/channel4/geo/master.m3u8","type":"default"}],"oztam_publisher_id":"6cae9dcd-7bed-490a-8609-551fee1ce3d6"},"tags":["region_national"],"updated_at":"2019-02-27T18:49:34+00:00","related":{"images":[{"id":"2354f3e0-a2fd-4b01-890c-26675f6bdc84","updated_at":"2018-12-19T23:51:40+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466693","url":"http://img-store-prod.switch.tv/images/2354f3e0-a2fd-4b01-890c-26675f6bdc84/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466693","size":90768,"tags":["channel-logo"],"width":1024},{"id":"4b8a49f9-7c4b-42db-999c-ccd5195d16d6","updated_at":"2018-12-19T23:51:40+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/nitv.png","url":"http://img-store-prod.switch.tv/images/4b8a49f9-7c4b-42db-999c-ccd5195d16d6/nitv.png","size":28935,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["3202:0300:0307",{"id":"cbeb4a60-9d62-477f-9ab3-5d93ac5df8cc","broadcaster_code":"SBS","channel_code":"SBS World Movies Sydney","channel_name":"SBS World Movies Sydney","lcn":32,"attributes":{"streams":[{"url":"https://sbs-live.akamaized.net/hls/live/2005470/channel5/geo/master.m3u8","type":"default"}],"oztam_publisher_id":"6e10adc9-a9d3-4c23-b50b-b2e29aa29013"},"tags":["region_national"],"updated_at":"2019-07-05T00:20:11+00:00","related":{"images":[{"id":"349e21b6-54c9-4a89-9c9c-e9c6116dd20e","updated_at":"2019-07-05T00:18:03+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=3380879","url":"http://img-store-prod.switch.tv/images/349e21b6-54c9-4a89-9c9c-e9c6116dd20e/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D3380879","size":128327,"tags":["channel-logo","channel-logo-dark"],"width":1920},{"id":"b6091b49-84b5-4929-8f31-cee05a200ad6","updated_at":"2020-05-10T23:27:15+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=3380879","url":"http://img-store-prod.switch.tv/images/b6091b49-84b5-4929-8f31-cee05a200ad6/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D3380879","size":128327,"tags":["channel-logo"],"width":1920}]},"entity_type":"channels","primary":false}],["3202:0300:0303",{"id":"3034cc4e-483e-4fe6-a4f7-3101fb85ff99","broadcaster_code":"SBS","channel_code":"SBS VICELAND HD","channel_name":"SBS VICELAND HD","lcn":31,"attributes":{"streams":[{"url":"https://sbs-live.akamaized.net/hls/live/2002828/channel2/geo/master.m3u8","type":"default"}],"oztam_publisher_id":"3f1d3a7b-44ef-4e0c-932f-58af6fc11e53"},"tags":["region_national"],"updated_at":"2019-07-08T02:17:40+00:00","related":{"images":[{"id":"31ca7ca4-5f69-4804-b819-6149d66dbb11","updated_at":"2019-07-08T01:55:12+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1783633","url":"http://img-store-prod.switch.tv/images/31ca7ca4-5f69-4804-b819-6149d66dbb11/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1783633","size":42800,"tags":["channel-logo"],"width":1920},{"id":"475c2d63-c56a-4d5d-aa0a-abde93f9b2a1","updated_at":"2019-07-08T02:06:34+00:00","draft":false,"height":269,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1783632","url":"http://img-store-prod.switch.tv/images/475c2d63-c56a-4d5d-aa0a-abde93f9b2a1/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1783632","size":11868,"tags":["channel-logo","channel-logo-dark"],"width":672}]},"entity_type":"channels","primary":false}],["1012:0430:0438",{"id":"a1a75c2d-af83-4fd6-b826-c2643314dde8","broadcaster_code":"NINE","channel_code":"9Rush Melbourne","channel_name":"9Rush Melbourne","lcn":96,"attributes":{"streams":[{"type":"website","url":"https://www.9now.com.au/live/rush?referrer=freeviewapp"}],"oztam_publisher_id":"b2acebf1-8ff7-423d-a8b0-8752831639b3"},"tags":["region_vic_melbourne"],"updated_at":"2020-05-05T04:31:09+00:00","related":{"images":[{"id":"48f04ab1-affe-471b-9231-60fddca39499","updated_at":"2020-04-08T04:03:05+00:00","draft":false,"height":570,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=4987051","url":"http://img-store-prod.switch.tv/images/48f04ab1-affe-471b-9231-60fddca39499/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D4987051","size":96360,"tags":["channel-logo"],"width":1656}]},"entity_type":"channels","primary":false}],["1013:0502:0528",{"id":"73859da5-8ad5-4960-a828-ecf8b5658a3b","broadcaster_code":"SEVEN","channel_code":"RACING.COM","channel_name":"RACING.COM","lcn":78,"attributes":{"streams":[{"type":"default","url":"https://fvlive-sevennetwork.akamaized.net/hls/live/573753/RAC/masterSD.m3u8"},{"type":"deeplinked","url":"https://7plus.com.au/live-tv?channel-id=Racing"}],"oztam_publisher_id":"CD2B4476-3443-405C-97E4-53EFA97AFE97"},"tags":["region_national"],"updated_at":"2020-04-24T00:10:25+00:00","related":{"images":[{"id":"0819472d-5ed0-43fa-8025-b7138ea82bf3","updated_at":"2018-12-19T23:50:29+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466468","url":"http://img-store-prod.switch.tv/images/0819472d-5ed0-43fa-8025-b7138ea82bf3/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466468","size":169593,"tags":["channel-logo"],"width":1920},{"id":"3fc21a82-5097-4f29-ad74-8b7194ec71db","updated_at":"2018-12-19T23:50:29+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/racing.com.png","url":"http://img-store-prod.switch.tv/images/3fc21a82-5097-4f29-ad74-8b7194ec71db/racing.com.png","size":20538,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1010:0231:0231",{"id":"f8922c32-9b47-47d8-a4a1-240e9a13bbf3","broadcaster_code":"ABC","channel_code":"ABC","channel_name":"ABC","lcn":2,"attributes":{"streams":[{"type":"deeplinked","url":"https://iview.abc.net.au/show/abc-vic-live-stream"},{"type":"roku-token","url":"https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/4f16fd0d74ca4bfd93ed043330b0c010/index.m3u8"}]},"tags":["region_vic_melbourne"],"updated_at":"2020-05-15T06:51:16+00:00","related":{"images":[{"id":"9a88a547-2d1a-4276-a980-fc02af808dad","updated_at":"2018-12-19T23:49:41+00:00","draft":false,"height":576,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466330","url":"http://img-store-prod.switch.tv/images/9a88a547-2d1a-4276-a980-fc02af808dad/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466330","size":182446,"tags":["channel-logo"],"width":1024},{"id":"44cfc4d1-4db8-411a-b60c-6cb0f18d5987","updated_at":"2018-12-19T23:51:36+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/abc.png","url":"http://img-store-prod.switch.tv/images/44cfc4d1-4db8-411a-b60c-6cb0f18d5987/abc.png","size":32072,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":true}],["1010:0221:0224",{"id":"60558321-700e-4d23-9fee-e8fc99e2bedd","broadcaster_code":"ABC","channel_code":"ABC ME","channel_name":"ABC ME","lcn":23,"attributes":{"streams":[{"type":"deeplinked","url":"https://iview.abc.net.au/show/abc3-live-stream"},{"type":"roku-token","url":"https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/c2a88b3fcefb4920b6b52134a453ed9c/index.m3u8"}]},"tags":["region_national"],"updated_at":"2020-05-15T07:13:21+00:00","related":{"images":[{"id":"72d2d9c3-1e3e-4eae-8f59-19edb307cca8","updated_at":"2018-12-19T23:49:39+00:00","draft":false,"height":1338,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466319","url":"http://img-store-prod.switch.tv/images/72d2d9c3-1e3e-4eae-8f59-19edb307cca8/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466319","size":81134,"tags":["channel-logo"],"width":1280},{"id":"30c2b1f4-51c8-4fd7-b533-96ceac2e0756","updated_at":"2018-12-19T23:49:40+00:00","draft":false,"height":773,"mime_type":"image/png","origin_url":"https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/abc_me.png","url":"http://img-store-prod.switch.tv/images/30c2b1f4-51c8-4fd7-b533-96ceac2e0756/abc_me.png","size":35731,"tags":["channel-logo","channel-logo-dark"],"width":773}]},"entity_type":"channels","primary":false}],["1010:0221:0222",{"id":"6098858a-3ea6-4210-8171-07d18e7ec5c3","broadcaster_code":"ABC","channel_code":"ABC COMEDY/ABC Kids NSW","channel_name":"ABC COMEDY/ABC Kids NSW","lcn":22,"attributes":{"streams":[{"type":"deeplinked","url":"https://iview.abc.net.au/show/abc-kids-live-stream"},{"type":"roku-token","url":"https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/3f2f0885d12e48c8b46683f31e4fd896/index.m3u8"}]},"tags":["region_national"],"updated_at":"2020-05-15T07:14:30+00:00","related":{"images":[{"id":"da868b6c-d324-4467-9c52-b94ae4cb45bb","updated_at":"2020-03-27T01:05:46+00:00","draft":false,"height":1080,"mime_type":"image/png","origin_url":"http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466317","url":"http://img-store-prod.switch.tv/images/da868b6c-d324-4467-9c52-b94ae4cb45bb/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466317","size":156051,"tags":["channel-logo"],"width":1920}]},"entity_type":"channels","primary":false}]]
+[
+    [
+        "1010:0221:0220",
+        {
+            "id": "e0f367bc-d840-443f-8b55-024ad1d91937",
+            "broadcaster_code": "ABC",
+            "channel_code": "ABC NEWS",
+            "channel_name": "ABC NEWS",
+            "lcn": 24,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://iview.abc.net.au/show/abc-news-24/video/NS1413V001S00",
+                        "type": "deeplinked"
+                    },
+                    {
+                        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/6ee5066dcc704c47a663eaf854562e8e/index.m3u8",
+                        "type": "roku-token"
+                    }
+                ]
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "d178a912-e746-4ab1-a04d-3da6b370262d",
+                        "updated_at": "2018-12-19T23:49:36+00:00",
+                        "draft": false,
+                        "height": 405,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1738146",
+                        "url": "http://img-store-prod.switch.tv/images/d178a912-e746-4ab1-a04d-3da6b370262d/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1738146",
+                        "size": 25636,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 720
+                    },
+                    {
+                        "id": "bbb0a418-0de1-4a7f-ae61-4ab1697d023d",
+                        "updated_at": "2018-12-19T23:49:37+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/abc_news.png",
+                        "url": "http://img-store-prod.switch.tv/images/bbb0a418-0de1-4a7f-ae61-4ab1697d023d/abc_news.png",
+                        "size": 17326,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1012:0400:0480",
+        {
+            "id": "f954b68b-558d-4e4b-8777-2c8ec8deee6b",
+            "broadcaster_code": "NINE",
+            "channel_code": "9HD",
+            "channel_name": "9HD",
+            "lcn": 90,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://www.9now.com.au/live/channel-9",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "NULL"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "33e82237-07cc-46e2-95b1-f774223dce2e",
+                        "updated_at": "2019-01-03T04:17:27+00:00",
+                        "draft": false,
+                        "height": 491,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466413",
+                        "url": "http://img-store-prod.switch.tv/images/33e82237-07cc-46e2-95b1-f774223dce2e/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466413",
+                        "size": 20601,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1687
+                    },
+                    {
+                        "id": "0516a37b-3f3f-404c-8e41-f3ccc3e01a1d",
+                        "updated_at": "2019-01-03T04:17:28+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9hd.png",
+                        "url": "http://img-store-prod.switch.tv/images/0516a37b-3f3f-404c-8e41-f3ccc3e01a1d/9hd.png",
+                        "size": 14964,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1012:0420:0428",
+        {
+            "id": "a54d0af4-4a73-479f-b335-56465801ca24",
+            "broadcaster_code": "NINE",
+            "channel_code": "9Go!",
+            "channel_name": "9Go!",
+            "lcn": 93,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://www.9now.com.au/live/go?referrer=freeviewapp",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "2d5e185b-25eb-4832-853d-21c9e6064ce3"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "8d8de77f-cc1b-4f3c-b29c-257b99761765",
+                        "updated_at": "2018-12-19T23:50:02+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466421",
+                        "url": "http://img-store-prod.switch.tv/images/8d8de77f-cc1b-4f3c-b29c-257b99761765/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466421",
+                        "size": 746530,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    },
+                    {
+                        "id": "e54faf38-324e-44ee-8b5c-889e485f652f",
+                        "updated_at": "2018-12-19T23:50:22+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9go!.png",
+                        "url": "http://img-store-prod.switch.tv/images/e54faf38-324e-44ee-8b5c-889e485f652f/9go%21.png",
+                        "size": 34847,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1012:0430:0430",
+        {
+            "id": "ce09ce10-5df9-47a0-8ca7-209acf2f3392",
+            "broadcaster_code": "NINE",
+            "channel_code": "Channel 9",
+            "channel_name": "Channel 9",
+            "lcn": 9,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://www.9now.com.au/live/channel-9?referrer=freeviewapp",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "0aca6cf4-96a4-47b4-a602-11f43b0750c1"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "864c7d30-3275-47ef-a469-6cf6dd443255",
+                        "updated_at": "2018-12-19T23:50:03+00:00",
+                        "draft": false,
+                        "height": 210,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466422",
+                        "url": "http://img-store-prod.switch.tv/images/864c7d30-3275-47ef-a469-6cf6dd443255/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466422",
+                        "size": 292603,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 447
+                    },
+                    {
+                        "id": "77ecbf79-e4c3-4728-8d9e-bc117b2535f4",
+                        "updated_at": "2018-12-19T23:50:16+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/channel_9.png",
+                        "url": "http://img-store-prod.switch.tv/images/77ecbf79-e4c3-4728-8d9e-bc117b2535f4/channel_9.png",
+                        "size": 17490,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": true
+        }
+    ],
+    [
+        "1012:0430:0433",
+        {
+            "id": "f8be2a09-f5f3-4b1f-814b-b9530b910066",
+            "broadcaster_code": "NINE",
+            "channel_code": "9Life",
+            "channel_name": "9Life",
+            "lcn": 94,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://www.9now.com.au/live/life?referrer=freeviewapp",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "9f4d93c9-664c-4147-9a86-177d82243af2"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "100791f1-8dee-4283-a195-3d8874c89fdb",
+                        "updated_at": "2018-12-19T23:50:04+00:00",
+                        "draft": false,
+                        "height": 570,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466425",
+                        "url": "http://img-store-prod.switch.tv/images/100791f1-8dee-4283-a195-3d8874c89fdb/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466425",
+                        "size": 708928,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1656
+                    },
+                    {
+                        "id": "42d8e990-7424-4cae-8f05-22a56f1a24b8",
+                        "updated_at": "2018-12-19T23:50:18+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9life.png",
+                        "url": "http://img-store-prod.switch.tv/images/42d8e990-7424-4cae-8f05-22a56f1a24b8/9life.png",
+                        "size": 30971,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1012:0430:0436",
+        {
+            "id": "6918a674-d52f-4eb7-ba8b-7508df2a5b92",
+            "broadcaster_code": "NINE",
+            "channel_code": "9Gem",
+            "channel_name": "9Gem",
+            "lcn": 92,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://www.9now.com.au/live/gem?referrer=freeviewapp",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "fac3e035-8fe1-4231-b6e0-7b1b9403756f"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "63380bed-dfe9-4c40-a7c3-c245ae486537",
+                        "updated_at": "2018-12-19T23:50:07+00:00",
+                        "draft": false,
+                        "height": 570,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466428",
+                        "url": "http://img-store-prod.switch.tv/images/63380bed-dfe9-4c40-a7c3-c245ae486537/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466428",
+                        "size": 615601,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1656
+                    },
+                    {
+                        "id": "910f6c36-a57e-4fe1-949e-2ffe857a9bc0",
+                        "updated_at": "2018-12-19T23:50:20+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/9gem.png",
+                        "url": "http://img-store-prod.switch.tv/images/910f6c36-a57e-4fe1-949e-2ffe857a9bc0/9gem.png",
+                        "size": 26262,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1013:0503:0530",
+        {
+            "id": "32ca67c6-6912-443c-87e6-ec7ca9ccee91",
+            "broadcaster_code": "SEVEN",
+            "channel_code": "Seven",
+            "channel_name": "Seven",
+            "lcn": 7,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://fvlive-sevennetwork.akamaized.net/hls/live/573749/MEL1/masterSD.m3u8",
+                        "type": "default"
+                    },
+                    {
+                        "url": "https://7plus.com.au/live-tv?channel-id=seven",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "9b477f74-83cc-4337-8a02-cd5c7dacff40"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "02da74fc-f21e-4217-a155-954a360a9f63",
+                        "updated_at": "2018-12-19T23:50:30+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466469",
+                        "url": "http://img-store-prod.switch.tv/images/02da74fc-f21e-4217-a155-954a360a9f63/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466469",
+                        "size": 75765,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    },
+                    {
+                        "id": "070f3933-041e-4023-ac5c-41cb62be0411",
+                        "updated_at": "2018-12-19T23:51:14+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/seven.png",
+                        "url": "http://img-store-prod.switch.tv/images/070f3933-041e-4023-ac5c-41cb62be0411/seven.png",
+                        "size": 18165,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": true
+        }
+    ],
+    [
+        "1013:0503:0532",
+        {
+            "id": "41f35987-7a5f-4a99-83d1-3649f26cefc9",
+            "broadcaster_code": "SEVEN",
+            "channel_code": "7TWO",
+            "channel_name": "7TWO",
+            "lcn": 72,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://fvlive-sevennetwork.akamaized.net/hls/live/573750/MEL2/masterSD.m3u8",
+                        "type": "default"
+                    },
+                    {
+                        "url": "https://7plus.com.au/live-tv?channel-id=7two",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "dd7c95f5-fc91-45b8-921e-fd2fa744195a"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "f846064d-cc74-439e-8e06-c08783e7f29b",
+                        "updated_at": "2018-12-19T23:50:31+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466471",
+                        "url": "http://img-store-prod.switch.tv/images/f846064d-cc74-439e-8e06-c08783e7f29b/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466471",
+                        "size": 72487,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    },
+                    {
+                        "id": "44453b49-2a03-4bf8-a2d1-27aaaebccf22",
+                        "updated_at": "2018-12-19T23:51:15+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/7two.png",
+                        "url": "http://img-store-prod.switch.tv/images/44453b49-2a03-4bf8-a2d1-27aaaebccf22/7two.png",
+                        "size": 14568,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1013:0503:0533",
+        {
+            "id": "6be8bc50-4799-4eaa-b958-116277009dd1",
+            "broadcaster_code": "SEVEN",
+            "channel_code": "7mate",
+            "channel_name": "7mate",
+            "lcn": 73,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://fvlive-sevennetwork.akamaized.net/hls/live/573751/MEL3/masterSD.m3u8",
+                        "type": "default"
+                    },
+                    {
+                        "url": "https://7plus.com.au/live-tv?channel-id=7mate",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "d8e477cf-a47c-4e68-93a2-29e45a18aa75"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "3d2c7a80-e620-4494-8ef4-64b0998083c7",
+                        "updated_at": "2018-12-19T23:50:32+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466472",
+                        "url": "http://img-store-prod.switch.tv/images/3d2c7a80-e620-4494-8ef4-64b0998083c7/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466472",
+                        "size": 167248,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1013:0503:0535",
+        {
+            "id": "df6ff53c-18d5-40d6-a313-d347aa8c40d1",
+            "broadcaster_code": "SEVEN",
+            "channel_code": "7flix",
+            "channel_name": "7flix",
+            "lcn": 76,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://fvlive-sevennetwork.akamaized.net/hls/live/573752/MEL6/masterSD.m3u8",
+                        "type": "default"
+                    },
+                    {
+                        "url": "https://7plus.com.au/live-tv?channel-id=7flix",
+                        "type": "deeplinked"
+                    }
+                ],
+                "oztam_publisher_id": "c3d4ecb6-3a03-463d-8f6a-c775b9405016"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-04-24T00:01:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "498e2ea8-1ce8-4077-86a3-2b0eb798460e",
+                        "updated_at": "2018-12-19T23:50:33+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466474",
+                        "url": "http://img-store-prod.switch.tv/images/498e2ea8-1ce8-4077-86a3-2b0eb798460e/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466474",
+                        "size": 141409,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    },
+                    {
+                        "id": "6fdc3dc4-0e5c-4fee-8439-ad6225ca8c64",
+                        "updated_at": "2018-12-19T23:50:56+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/7flix.png",
+                        "url": "http://img-store-prod.switch.tv/images/6fdc3dc4-0e5c-4fee-8439-ad6225ca8c64/7flix.png",
+                        "size": 33341,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1014:0603:0631",
+        {
+            "id": "ff801946-d6da-466f-bd14-affd7b28613b",
+            "broadcaster_code": "TEN",
+            "channel_code": "10 Bold",
+            "channel_name": "10 Bold",
+            "lcn": 1,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://pubads.g.doubleclick.net/ssai/event/kFt-Ps6tT9WYT6QEb7WEBQ/master.m3u8?iu=/8264/vau-ten/ott/freeview_app",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "e0a44116-749e-43fe-b802-e44c34c10fb0"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2019-07-25T00:40:40+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "2e9d66c3-52c6-47fc-bc2a-d1d64b897d28",
+                        "updated_at": "2018-12-19T23:51:20+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466555",
+                        "url": "http://img-store-prod.switch.tv/images/2e9d66c3-52c6-47fc-bc2a-d1d64b897d28/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466555",
+                        "size": 24326,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1440
+                    },
+                    {
+                        "id": "84ae1a6f-25a3-4907-acf2-b009b6a272b1",
+                        "updated_at": "2018-12-19T23:51:32+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/one.png",
+                        "url": "http://img-store-prod.switch.tv/images/84ae1a6f-25a3-4907-acf2-b009b6a272b1/one.png",
+                        "size": 18767,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1014:0603:0635",
+        {
+            "id": "3669b310-1aa2-4acb-bbc1-e129079023da",
+            "broadcaster_code": "TEN",
+            "channel_code": "TEN",
+            "channel_name": "TEN",
+            "lcn": 10,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://pubads.g.doubleclick.net/ssai/event/rVWa-td7QPC_2-DeSfxHgw/master.m3u8?iu=/8264/vau-ten/ott/freeview_app",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "244ad3a9-0cee-4988-a0fc-0ea20bbb937a"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2019-07-25T00:45:07+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "fd77d76c-9902-4cff-9585-2282205662a9",
+                        "updated_at": "2018-12-19T23:51:21+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466557",
+                        "url": "http://img-store-prod.switch.tv/images/fd77d76c-9902-4cff-9585-2282205662a9/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466557",
+                        "size": 67678,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1440
+                    },
+                    {
+                        "id": "42b81550-eeda-4442-862f-22af4bd5d4b6",
+                        "updated_at": "2018-12-19T23:51:33+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/ten.png",
+                        "url": "http://img-store-prod.switch.tv/images/42b81550-eeda-4442-862f-22af4bd5d4b6/ten.png",
+                        "size": 41771,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": true
+        }
+    ],
+    [
+        "1014:0603:0638",
+        {
+            "id": "b3b306dc-5f1f-423a-987e-2c4760723492",
+            "broadcaster_code": "TEN",
+            "channel_code": "10 Peach",
+            "channel_name": "10 Peach",
+            "lcn": 11,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://pubads.g.doubleclick.net/ssai/event/QTtJ0VGKQuC1U36Qv06bRg/master.m3u8?iu=/8264/vau-ten/ott/freeview_app",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "77c292b7-df60-4d64-9e9b-79d62cc90a78"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2019-03-26T23:09:56+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "8e3ddb83-182d-471a-b9a9-19b9ee1e63a9",
+                        "updated_at": "2018-12-19T23:51:22+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466560",
+                        "url": "http://img-store-prod.switch.tv/images/8e3ddb83-182d-471a-b9a9-19b9ee1e63a9/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466560",
+                        "size": 29704,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1440
+                    },
+                    {
+                        "id": "4a5e01a5-4af7-43e8-87ef-41bae5e0ee8e",
+                        "updated_at": "2018-12-19T23:51:35+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/eleven.png",
+                        "url": "http://img-store-prod.switch.tv/images/4a5e01a5-4af7-43e8-87ef-41bae5e0ee8e/eleven.png",
+                        "size": 22720,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "3202:0300:0301",
+        {
+            "id": "030bb909-97e1-4feb-af45-2cb17e2d3c74",
+            "broadcaster_code": "SBS",
+            "channel_code": "SBS",
+            "channel_name": "SBS",
+            "lcn": 3,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://sbs-live.akamaized.net/hls/live/2002827/channel1/geo/master.m3u8",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "8945fa67-22c1-4613-a1d7-59d4850e1f80"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2019-06-19T04:10:28+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "f910f0e2-c665-4570-a751-fc6f7d849353",
+                        "updated_at": "2019-06-19T04:04:28+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466690",
+                        "url": "http://img-store-prod.switch.tv/images/f910f0e2-c665-4570-a751-fc6f7d849353/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466690",
+                        "size": 68482,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1920
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": true
+        }
+    ],
+    [
+        "3202:0300:0304",
+        {
+            "id": "ada0e2ed-8e20-4f25-9be8-0ea1bad7d8c2",
+            "broadcaster_code": "SBS",
+            "channel_code": "SBS Food",
+            "channel_name": "SBS Food",
+            "lcn": 33,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://sbs-live.akamaized.net/hls/live/2002829/channel3/geo/master.m3u8",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "a5533d71-f66b-456c-822d-81a7c6f5786d"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2019-02-27T18:54:02+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "fabad1eb-a54c-4f7b-b898-92901964cbd1",
+                        "updated_at": "2018-12-19T23:51:38+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466692",
+                        "url": "http://img-store-prod.switch.tv/images/fabad1eb-a54c-4f7b-b898-92901964cbd1/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466692",
+                        "size": 44102,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1440
+                    },
+                    {
+                        "id": "d0d0ec0f-0969-439e-8d4e-6e994c4c4302",
+                        "updated_at": "2018-12-19T23:51:39+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/food_network.png",
+                        "url": "http://img-store-prod.switch.tv/images/d0d0ec0f-0969-439e-8d4e-6e994c4c4302/food_network.png",
+                        "size": 27043,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "3202:0300:0305",
+        {
+            "id": "da851c1e-edae-48f4-80fa-7c679b78ca00",
+            "broadcaster_code": "SBS",
+            "channel_code": "NITV",
+            "channel_name": "NITV",
+            "lcn": 34,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://sbs-live.akamaized.net/hls/live/2002826/channel4/geo/master.m3u8",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "6cae9dcd-7bed-490a-8609-551fee1ce3d6"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2019-02-27T18:49:34+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "2354f3e0-a2fd-4b01-890c-26675f6bdc84",
+                        "updated_at": "2018-12-19T23:51:40+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466693",
+                        "url": "http://img-store-prod.switch.tv/images/2354f3e0-a2fd-4b01-890c-26675f6bdc84/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466693",
+                        "size": 90768,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    },
+                    {
+                        "id": "4b8a49f9-7c4b-42db-999c-ccd5195d16d6",
+                        "updated_at": "2018-12-19T23:51:40+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/nitv.png",
+                        "url": "http://img-store-prod.switch.tv/images/4b8a49f9-7c4b-42db-999c-ccd5195d16d6/nitv.png",
+                        "size": 28935,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "3202:0300:0307",
+        {
+            "id": "cbeb4a60-9d62-477f-9ab3-5d93ac5df8cc",
+            "broadcaster_code": "SBS",
+            "channel_code": "SBS World Movies Sydney",
+            "channel_name": "SBS World Movies Sydney",
+            "lcn": 32,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://sbs-live.akamaized.net/hls/live/2005470/channel5/geo/master.m3u8",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "6e10adc9-a9d3-4c23-b50b-b2e29aa29013"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2019-07-05T00:20:11+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "349e21b6-54c9-4a89-9c9c-e9c6116dd20e",
+                        "updated_at": "2019-07-05T00:18:03+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=3380879",
+                        "url": "http://img-store-prod.switch.tv/images/349e21b6-54c9-4a89-9c9c-e9c6116dd20e/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D3380879",
+                        "size": 128327,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 1920
+                    },
+                    {
+                        "id": "b6091b49-84b5-4929-8f31-cee05a200ad6",
+                        "updated_at": "2020-05-10T23:27:15+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=3380879",
+                        "url": "http://img-store-prod.switch.tv/images/b6091b49-84b5-4929-8f31-cee05a200ad6/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D3380879",
+                        "size": 128327,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1920
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "3202:0300:0303",
+        {
+            "id": "3034cc4e-483e-4fe6-a4f7-3101fb85ff99",
+            "broadcaster_code": "SBS",
+            "channel_code": "SBS VICELAND HD",
+            "channel_name": "SBS VICELAND HD",
+            "lcn": 31,
+            "attributes": {
+                "streams": [
+                    {
+                        "url": "https://sbs-live.akamaized.net/hls/live/2002828/channel2/geo/master.m3u8",
+                        "type": "default"
+                    }
+                ],
+                "oztam_publisher_id": "3f1d3a7b-44ef-4e0c-932f-58af6fc11e53"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2019-07-08T02:17:40+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "31ca7ca4-5f69-4804-b819-6149d66dbb11",
+                        "updated_at": "2019-07-08T01:55:12+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1783633",
+                        "url": "http://img-store-prod.switch.tv/images/31ca7ca4-5f69-4804-b819-6149d66dbb11/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1783633",
+                        "size": 42800,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1920
+                    },
+                    {
+                        "id": "475c2d63-c56a-4d5d-aa0a-abde93f9b2a1",
+                        "updated_at": "2019-07-08T02:06:34+00:00",
+                        "draft": false,
+                        "height": 269,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1783632",
+                        "url": "http://img-store-prod.switch.tv/images/475c2d63-c56a-4d5d-aa0a-abde93f9b2a1/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1783632",
+                        "size": 11868,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 672
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1012:0430:0438",
+        {
+            "id": "a1a75c2d-af83-4fd6-b826-c2643314dde8",
+            "broadcaster_code": "NINE",
+            "channel_code": "9Rush Melbourne",
+            "channel_name": "9Rush Melbourne",
+            "lcn": 96,
+            "attributes": {
+                "streams": [
+                    {
+                        "type": "website",
+                        "url": "https://www.9now.com.au/live/rush?referrer=freeviewapp"
+                    }
+                ],
+                "oztam_publisher_id": "b2acebf1-8ff7-423d-a8b0-8752831639b3"
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-05-05T04:31:09+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "48f04ab1-affe-471b-9231-60fddca39499",
+                        "updated_at": "2020-04-08T04:03:05+00:00",
+                        "draft": false,
+                        "height": 570,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=4987051",
+                        "url": "http://img-store-prod.switch.tv/images/48f04ab1-affe-471b-9231-60fddca39499/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D4987051",
+                        "size": 96360,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1656
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1013:0502:0528",
+        {
+            "id": "73859da5-8ad5-4960-a828-ecf8b5658a3b",
+            "broadcaster_code": "SEVEN",
+            "channel_code": "RACING.COM",
+            "channel_name": "RACING.COM",
+            "lcn": 78,
+            "attributes": {
+                "streams": [
+                    {
+                        "type": "default",
+                        "url": "https://fvlive-sevennetwork.akamaized.net/hls/live/573753/RAC/masterSD.m3u8"
+                    },
+                    {
+                        "type": "deeplinked",
+                        "url": "https://7plus.com.au/live-tv?channel-id=Racing"
+                    }
+                ],
+                "oztam_publisher_id": "CD2B4476-3443-405C-97E4-53EFA97AFE97"
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2020-04-24T00:10:25+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "0819472d-5ed0-43fa-8025-b7138ea82bf3",
+                        "updated_at": "2018-12-19T23:50:29+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466468",
+                        "url": "http://img-store-prod.switch.tv/images/0819472d-5ed0-43fa-8025-b7138ea82bf3/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466468",
+                        "size": 169593,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1920
+                    },
+                    {
+                        "id": "3fc21a82-5097-4f29-ad74-8b7194ec71db",
+                        "updated_at": "2018-12-19T23:50:29+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/racing.com.png",
+                        "url": "http://img-store-prod.switch.tv/images/3fc21a82-5097-4f29-ad74-8b7194ec71db/racing.com.png",
+                        "size": 20538,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1010:0231:0231",
+        {
+            "id": "f8922c32-9b47-47d8-a4a1-240e9a13bbf3",
+            "broadcaster_code": "ABC",
+            "channel_code": "ABC",
+            "channel_name": "ABC",
+            "lcn": 2,
+            "attributes": {
+                "streams": [
+                    {
+                        "type": "deeplinked",
+                        "url": "https://iview.abc.net.au/show/abc-vic-live-stream"
+                    },
+                    {
+                        "type": "roku-token",
+                        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/4f16fd0d74ca4bfd93ed043330b0c010/index.m3u8"
+                    }
+                ]
+            },
+            "tags": [
+                "region_vic_melbourne"
+            ],
+            "updated_at": "2020-05-15T06:51:16+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "9a88a547-2d1a-4276-a980-fc02af808dad",
+                        "updated_at": "2018-12-19T23:49:41+00:00",
+                        "draft": false,
+                        "height": 576,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466330",
+                        "url": "http://img-store-prod.switch.tv/images/9a88a547-2d1a-4276-a980-fc02af808dad/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466330",
+                        "size": 182446,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1024
+                    },
+                    {
+                        "id": "44cfc4d1-4db8-411a-b60c-6cb0f18d5987",
+                        "updated_at": "2018-12-19T23:51:36+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/abc.png",
+                        "url": "http://img-store-prod.switch.tv/images/44cfc4d1-4db8-411a-b60c-6cb0f18d5987/abc.png",
+                        "size": 32072,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": true
+        }
+    ],
+    [
+        "1010:0221:0224",
+        {
+            "id": "60558321-700e-4d23-9fee-e8fc99e2bedd",
+            "broadcaster_code": "ABC",
+            "channel_code": "ABC ME",
+            "channel_name": "ABC ME",
+            "lcn": 23,
+            "attributes": {
+                "streams": [
+                    {
+                        "type": "deeplinked",
+                        "url": "https://iview.abc.net.au/show/abc3-live-stream"
+                    },
+                    {
+                        "type": "roku-token",
+                        "url": "https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/c2a88b3fcefb4920b6b52134a453ed9c/index.m3u8"
+                    }
+                ]
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2020-05-15T07:13:21+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "72d2d9c3-1e3e-4eae-8f59-19edb307cca8",
+                        "updated_at": "2018-12-19T23:49:39+00:00",
+                        "draft": false,
+                        "height": 1338,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466319",
+                        "url": "http://img-store-prod.switch.tv/images/72d2d9c3-1e3e-4eae-8f59-19edb307cca8/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466319",
+                        "size": 81134,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1280
+                    },
+                    {
+                        "id": "30c2b1f4-51c8-4fd7-b533-96ceac2e0756",
+                        "updated_at": "2018-12-19T23:49:40+00:00",
+                        "draft": false,
+                        "height": 773,
+                        "mime_type": "image/png",
+                        "origin_url": "https://s3-ap-southeast-2.amazonaws.com/img-store-prod.switch.tv/channel-dark-logo/abc_me.png",
+                        "url": "http://img-store-prod.switch.tv/images/30c2b1f4-51c8-4fd7-b533-96ceac2e0756/abc_me.png",
+                        "size": 35731,
+                        "tags": [
+                            "channel-logo",
+                            "channel-logo-dark"
+                        ],
+                        "width": 773
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ],
+    [
+        "1010:0221:0222",
+        {
+            "id": "6098858a-3ea6-4210-8171-07d18e7ec5c3",
+            "broadcaster_code": "ABC",
+            "channel_code": "ABC COMEDY/ABC Kids NSW",
+            "channel_name": "ABC COMEDY/ABC Kids NSW",
+            "lcn": 22,
+            "attributes": {
+                "streams": [
+                    {
+                        "type": "deeplinked",
+                        "url": "https://iview.abc.net.au/show/abc-kids-live-stream"
+                    },
+                    {
+                        "type": "roku-token",
+                        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/3f2f0885d12e48c8b46683f31e4fd896/index.m3u8"
+                    }
+                ]
+            },
+            "tags": [
+                "region_national"
+            ],
+            "updated_at": "2020-05-15T07:14:30+00:00",
+            "related": {
+                "images": [
+                    {
+                        "id": "da868b6c-d324-4467-9c52-b94ae4cb45bb",
+                        "updated_at": "2020-03-27T01:05:46+00:00",
+                        "draft": false,
+                        "height": 1080,
+                        "mime_type": "image/png",
+                        "origin_url": "http://downloads.switchmedia.asia/filestore/getimage.php?siteID=288&group=STILL&tag=IMAGE&videoID=1466317",
+                        "url": "http://img-store-prod.switch.tv/images/da868b6c-d324-4467-9c52-b94ae4cb45bb/getimage.php%3FsiteID%3D288%26group%3DSTILL%26tag%3DIMAGE%26videoID%3D1466317",
+                        "size": 156051,
+                        "tags": [
+                            "channel-logo"
+                        ],
+                        "width": 1920
+                    }
+                ]
+            },
+            "entity_type": "channels",
+            "primary": false
+        }
+    ]
+]
