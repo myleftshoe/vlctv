@@ -3,51 +3,62 @@ const bent = require('bent')
 const collect = require('collect.js')
 
 const getJSON = bent('https://www.yourtv.com.au/api', 'json')
-// let raw = require('./results/94.json')
-let raw
-let guide
 
-async function fetch({regionId = 94, day = 'fri', timezone = 'Australia Melbourne' } = {}) {
+class Guide {
 
-    const options = [
-        `day=${day}`,
-        `timezone=${encodeURIComponent(timezone)}`,
-        `region=${regionId}`,
-        `format=json`
-    ]
+    constructor(regionId) {
+        this.regionId = regionId
+        this.raw
+        this.guide
+    }
 
-    const url = `/guide/?${options.join('&')}`
+    async fetch({day = 'fri', timezone = 'Australia Melbourne' } = {}) {
 
-    let data
-    try {
-        data = await getJSON(url)
-    } catch {}
+        const options = [
+            `day=${day}`,
+            `timezone=${encodeURIComponent(timezone)}`,
+            `region=${this.regionId}`,
+            `format=json`
+        ]
 
-    return data
-}
+        const url = `/guide/?${options.join('&')}`
 
-async function convert() {
+        try {
+            this.raw = await getJSON(url)
+        } catch {}
 
-    const channels = raw[0].channels.filter(channel => channel.hasOwnProperty("number")) 
+        return this.raw
+    }
 
-    const guide = channels.map(({number, blocks}) => {
-        const shows = collect(blocks)
-            .pluck('shows').all().flat(1)
-            .map(({id, title, date: start}) => ({id, title, start}))
-        return [number, shows]
-    })
+    async convert() {
 
-    return guide
-}
+        // this.raw = require('./results/94.json')
+        const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number")) 
 
-async function write() {
-    fs.writeFile(`./results/guide.json`, JSON.stringify(guide), 'utf8', () => { })
+        this.guide = channels.map(({number, blocks}) => {
+            const shows = collect(blocks)
+                .pluck('shows').all().flat(1)
+                .map(({id, title, date: start}) => ({id, title, start}))
+            return [number, shows]
+        })
+
+        return this.guide
+    }
+
+    async write() {
+        fs.writeFile(`./results/guide.json`, JSON.stringify(this.guide), 'utf8', () => { })
+    }
+
+    async get() {
+        await this.fetch()
+        await this.convert()
+        await this.write()
+        return this.guide
+    }
 }
 
 async function main() {
-    raw = await fetch()
-    guide = await convert()
-    await write()
+    const guide = await new Guide(94).get()
 }
 
 main()
