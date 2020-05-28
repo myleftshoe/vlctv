@@ -21,7 +21,7 @@ async function fetchChannels(regionId) {
     return data
 }
 
-async function fetchEpg({regionId = 94, day = 'fri', timezone = 'Australia Melbourne' } = {}) {
+async function fetchGuide({regionId = 94, day = 'fri', timezone = 'Australia Melbourne' } = {}) {
     const options = [
         `day=${day}`,
         `timezone=${encodeURIComponent(timezone)}`,
@@ -96,25 +96,21 @@ function extractAiringProps(data) {
     return { start, duration, title, synopsis }
 }
 
-async function getAirings() {
-    // const epg = await readFile('./results/94.json', {encoding: 'utf8'})
-    // console.log(epg.length)
-
+async function convertGuide() {
 
     const channels = regionChannels[0].channels.filter(channel => channel.hasOwnProperty("number")) 
-    // console.log(epg[0])
     const shows = channels.map(({number, blocks}) => {
-        const _blocks = collect(blocks)
-        const shows = _blocks.pluck('shows').all().flat(1)
-        // console.log(shows)
+        const shows = collect(blocks)
+            .pluck('shows').all().flat(1)
+            .map(({id, title, date: start}) => ({id, title, start}))
         return [number, shows]
-        // return shows.map(({id, title, date: start}) => ([number, {id, title, start}]))
-        return shows.map(({id, title, date: start}) => ({ number, id, title, start }))
     })
-    // console.log(shows)
     const showsMap = new Map(shows)
     console.log(showsMap.get(2))
+    fs.writeFile(`./results/epg.json`, JSON.stringify(shows), 'utf8', () => { })
+}
 
+async function getAirings() {
 
     // const collection = collect(epg)
     // const ids = collection.pluck('blocks.*.shows.*.id').all()[0].slice(0,2)
