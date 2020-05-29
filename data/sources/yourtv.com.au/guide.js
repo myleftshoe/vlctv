@@ -13,35 +13,28 @@ class Guide {
     }
 
     async fetch({day = 'fri', timezone = 'Australia Melbourne' } = {}) {
-
         const options = [
             `day=${day}`,
             `timezone=${encodeURIComponent(timezone)}`,
             `region=${this.regionId}`,
             `format=json`
         ]
-
         const url = `/guide/?${options.join('&')}`
-
         try {
             this.raw = await getJSON(url)
         } catch {}
-
         return this.raw
     }
 
     async convert() {
-
         // this.raw = require('./results/94.json')
         const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number")) 
-
         this.guide = channels.map(({number, blocks}) => {
             const shows = collect(blocks)
                 .pluck('shows').all().flat(1)
                 .map(({id, title, date: start}) => ({id, title, start}))
             return [number, shows]
         })
-
         return this.guide
     }
 
