@@ -1,18 +1,23 @@
 const fs = require('fs')
 const bent = require('bent')
 const collect = require('collect.js')
+const { addDays, eachDayOfInterval, format } = require('date-fns')
+
+
+// const { next, addDays, shortWeekdays } = require('./date.js') 
 
 const getJSON = bent('https://www.yourtv.com.au/api', 'json')
 
 class Guide {
 
-    constructor(regionId) {
+    constructor(regionId, days) {
         this.regionId = regionId
         this.raw
         this.guide
+        this.days
     }
 
-    async fetch({day = 'fri', timezone = 'Australia Melbourne' } = {}) {
+    async fetch({day = 'today', timezone = 'Australia Melbourne' } = {}) {
         const options = [
             `day=${day}`,
             `timezone=${encodeURIComponent(timezone)}`,
@@ -43,8 +48,13 @@ class Guide {
     }
 
     async get() {
-        await this.fetch()
-        await this.convert()
+        const today = new Date()
+        const dates = eachDayOfInterval({ start: today, end: addDays(today, 4) }) 
+        const dayNames = dates.map(date => format(date, 'ccc').toLowerCase())
+        const days = ['today', 'tomorrow', ...dayNames.slice(2)]
+        await this.fetch(days[0])
+        await this.convert(dates[0])
+        
         await this.write()
         return this.guide
     }
