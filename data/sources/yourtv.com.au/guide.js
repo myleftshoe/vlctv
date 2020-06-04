@@ -62,7 +62,7 @@ class Guide {
 
         const dates = next(numdays - 1)
         console.log(dates)
-        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase).slice(2)]
+        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
         console.log(days)
 
         const epg = await Promise.all(days.map(async (day, index) => {
@@ -84,7 +84,7 @@ class Guide {
 }
 
 async function main() {
-    const guide = await new Guide(94).get(2)
+    const guide = await new Guide(94).get(1)
 }
 
 main()
