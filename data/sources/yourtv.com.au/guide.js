@@ -1,7 +1,7 @@
 const fs = require('fs')
 const bent = require('bent')
 const collect = require('collect.js')
-// const { addDays, eachDayOfInterval, format } = require('date-fns')
+const { addDays, eachDayOfInterval, format } = require('date-fns')
 
 const { next } = require('lapidate')
 const { convert, toDays, toLowercase } = require('lapidate/convert')
@@ -35,15 +35,18 @@ class Guide {
     async convert(date) {
         // this.raw = require('./results/94.json')
         const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
-        const dateStr = date.toLocaleDateString()
+        date = addDays(date,1)
+        const dateStr = date.toUTCString()
         const guide = channels.map(({ number, blocks }, index) => {
             const shows = collect(blocks)
                 .pluck('shows').all().flat(1)
                 .map(({ id, title, date: time }, index, array) => {
-                    const start = new Date(`${dateStr} ${time}`)
+                    const startStr = dateStr.replace("14:00:00", time)
+                    const start = new Date(startStr)
                     const next = array[index + 1] || {}
-                    const end = new Date(`${dateStr} ${next.date || '23:59'}`)
-                    return { id, title, start, end }
+                    const endStr = dateStr.replace("14:00:00", next.date || '23:59')
+                    const end = new Date(endStr)
+                    return { number, id, title, start, end, time }
                 })
             return [number, shows]
         })
