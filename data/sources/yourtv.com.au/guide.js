@@ -18,7 +18,8 @@ class Guide {
         this.guide
     }
 
-    async fetch({ day = 'today', timezone = 'Australia Melbourne' } = {}) {
+    async fetch({ day = 'today', timezone = 'Australia/Melbourne' } = {}) {
+        console.log(day)
         const options = [
             `day=${day}`,
             `timezone=${encodeURIComponent(timezone)}`,
@@ -63,13 +64,13 @@ class Guide {
         // const dayNames = dates.map(date => format(date, 'ccc').toLowerCase())
         // const days = ['today', 'tomorrow', ...dayNames.slice(2)]
 
-        const dates = next(numdays - 1)
+        const dates = next(numdays)
         console.log(dates)
-        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
+        const days = ['yesterday', 'today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
         console.log(days)
 
         const epg = await Promise.all(days.map(async (day, index) => {
-            await this.fetch(day)
+            await this.fetch({day})
             const result = await this.convert(dates[index])
             console.log(index, result)
             return result
