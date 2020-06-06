@@ -36,7 +36,7 @@ class Guide {
     async convert(date) {
         // this.raw = require('./results/94.json')
         const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
-        date = addDays(date,1)
+        // date = addDays(date,1)
         const dateStr = date.toString()
         console.log(dateStr)
         const guide = channels.map(({ number, blocks }, index) => {
@@ -49,8 +49,8 @@ class Guide {
                     const endStr = dateStr.replace("00:00:00", next.date || '23:59')
                     const end = new Date(endStr)
                     if (start.getTime() > end.getTime()) {
-                        // start = addDays(start, -1)
-                        start.setHours(0,0,0,0)
+                        start = addDays(start, -1)
+                        // start.setHours(0,0,0,0)
                     }
                     return { number, id, title, start, end, time }
                 })
