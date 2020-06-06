@@ -37,16 +37,21 @@ class Guide {
         // this.raw = require('./results/94.json')
         const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
         date = addDays(date,1)
-        const dateStr = date.toUTCString()
+        const dateStr = date.toString()
+        console.log(dateStr)
         const guide = channels.map(({ number, blocks }, index) => {
             const shows = collect(blocks)
                 .pluck('shows').all().flat(1)
                 .map(({ id, title, date: time }, index, array) => {
-                    const startStr = dateStr.replace("14:00:00", time)
-                    const start = new Date(startStr)
+                    const startStr = dateStr.replace("00:00:00", time)
+                    let start = new Date(startStr)
                     const next = array[index + 1] || {}
-                    const endStr = dateStr.replace("14:00:00", next.date || '23:59')
+                    const endStr = dateStr.replace("00:00:00", next.date || '23:59')
                     const end = new Date(endStr)
+                    if (start.getTime() > end.getTime()) {
+                        // start = addDays(start, -1)
+                        start.setHours(0,0,0,0)
+                    }
                     return { number, id, title, start, end, time }
                 })
             return [number, shows]
@@ -66,7 +71,8 @@ class Guide {
 
         const dates = next(numdays)
         console.log(dates)
-        const days = ['yesterday', 'today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
+        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
+        // const days = ['yesterday', 'today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
         console.log(days)
 
         const epg = await Promise.all(days.map(async (day, index) => {
