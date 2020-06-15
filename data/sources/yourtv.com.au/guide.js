@@ -52,7 +52,8 @@ class Guide {
                         start = addDays(start, -1)
                         // start.setHours(0,0,0,0)
                     }
-                    return { number, id, title, start, end, time }
+                    return { id, title, start, end, time }
+                    // return { number, id, title, start, end, time }
                 })
             return [number, shows]
         })
