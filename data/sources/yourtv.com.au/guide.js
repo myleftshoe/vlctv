@@ -42,10 +42,10 @@ class Guide {
                 .pluck('shows').all().flat(1)
                 .map(({ id, title, date: time, width }, index, array) => {
                     const startStr = dateStr.replace("00:00:00", time)
-                    let start = new Date(startStr)
+                    let start = Date.parse(startStr)
                     const next = array[index + 1] || {}
                     const endStr = dateStr.replace("00:00:00", next.date || '23:59')
-                    const end = new Date(endStr)
+                    const end = Date.parse(endStr)
                     // return { id, title, start, end, time }
                     return { number, id, title, start, end, time }
                 })
@@ -78,12 +78,11 @@ class Guide {
 
         // Fix start dates that are 24 hours more than they should be
         const flat1 = flat.map(flat => {
-            let startms = Date.parse(flat.start)
-            const endms = Date.parse(flat.end)
-            if (startms > endms) {
-                startms = startms - 24 * 60 * 60 * 1000
+            let { start, end } = flat
+            if (start > end) {
+                start = start - 24 * 60 * 60 * 1000
             }
-            return { ...flat, start: new Date(startms)}
+            return { ...flat, start}
         })
 
         // Remove duplicate programs with same id and start date
@@ -92,7 +91,7 @@ class Guide {
         // twice - at the end of day 1 and the start of day 2
         const flat2 = flat1.map(flat => {
             const { id, start } = flat
-            return ([`${id}:${Date.parse(start)}`, flat])
+            return ([`${id}:${start}`, flat])
         })
         // Converting to a Map removes the duplicates
         const map = new Map(flat2)
@@ -119,7 +118,7 @@ class Guide {
 }
 
 async function main() {
-    const guide = await new Guide(94).get(2)
+    const guide = await new Guide(94).get(7)
 }
 
 main()
