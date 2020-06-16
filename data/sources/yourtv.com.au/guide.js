@@ -19,7 +19,6 @@ class Guide {
     }
 
     async fetch({ day = 'today', timezone = 'Australia/Melbourne' } = {}) {
-        console.log(day)
         const options = [
             `day=${day}`,
             `timezone=${encodeURIComponent(timezone)}`,
@@ -30,32 +29,27 @@ class Guide {
         try {
             this.raw = await getJSON(url)
         } catch { }
+        // console.log(JSON.stringify(this.raw))
         return this.raw
     }
 
     async convert(date) {
-        // this.raw = require('./results/94.json')
         const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
         // date = addDays(date,1)
         const dateStr = date.toString()
-        console.log(dateStr)
         const guide = channels.map(({ number, blocks }, index) => {
             const shows = collect(blocks)
                 .pluck('shows').all().flat(1)
-                .map(({ id, title, date: time }, index, array) => {
+                .map(({ id, title, date: time, width }, index, array) => {
                     const startStr = dateStr.replace("00:00:00", time)
                     let start = new Date(startStr)
                     const next = array[index + 1] || {}
                     const endStr = dateStr.replace("00:00:00", next.date || '23:59')
                     const end = new Date(endStr)
-                    if (start.getTime() > end.getTime()) {
-                        start = addDays(start, -1)
-                        // start.setHours(0,0,0,0)
-                    }
-                    return { id, title, start, end, time }
-                    // return { number, id, title, start, end, time }
+                    // return { id, title, start, end, time }
+                    return { number, id, title, start, end, time }
                 })
-            return [number, shows]
+            return shows
         })
         return guide
     }
@@ -71,19 +65,49 @@ class Guide {
         // const days = ['today', 'tomorrow', ...dayNames.slice(2)]
 
         const dates = next(numdays)
-        console.log(dates)
         const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
         // const days = ['yesterday', 'today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
-        console.log(days)
+        // console.log(days)
 
         const epg = await Promise.all(days.map(async (day, index) => {
             await this.fetch({day})
             const result = await this.convert(dates[index])
-            console.log(index, result)
             return result
         }))
+        const flat = epg.flat(Infinity)
 
-        console.log(epg)
+        // Fix start dates that are 24 hours more than they should be
+        const flat1 = flat.map(flat => {
+            let startms = Date.parse(flat.start)
+            const endms = Date.parse(flat.end)
+            if (startms > endms) {
+                startms = startms - 24 * 60 * 60 * 1000
+            }
+            return { ...flat, start: new Date(startms)}
+        })
+
+        // Remove duplicate programs with same id and start date
+        // Happens for guides across multiple days for programs  
+        // that end on the following day. These program are included
+        // twice - at the end of day 1 and the start of day 2
+        const flat2 = flat1.map(flat => {
+            const { id, start } = flat
+            return ([`${id}:${Date.parse(start)}`, flat])
+        })
+        // Converting to a Map removes the duplicates
+        const map = new Map(flat2)
+
+        const flat3 = [...map.values()]
+        // console.log(flat3, flat3.length)
+
+        const collection = collect(flat3)
+        const byChannel = collection.groupBy('number')
+        const array = Object.entries(byChannel.all()).reduce((acc, [channel, data]) => {
+            acc.set(channel, data.all())
+            return acc
+        }, new Map())
+
+        fs.writeFile(`./results/epg.json`, JSON.stringify(Array.from(array)), 'utf8', () => { })
         const results = epg.reduce((map, dayEpg, index) => {
             map.set(dates[index], dayEpg)
             return map
@@ -95,7 +119,7 @@ class Guide {
 }
 
 async function main() {
-    const guide = await new Guide(94).get(1)
+    const guide = await new Guide(94).get(2)
 }
 
 main()
