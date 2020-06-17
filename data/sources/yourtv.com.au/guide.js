@@ -65,9 +65,9 @@ class Guide {
         // const days = ['today', 'tomorrow', ...dayNames.slice(2)]
 
         const dates = next(numdays)
-        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
+        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase).slice(2)].slice(0,numdays)
         // const days = ['yesterday', 'today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
-        // console.log(days)
+        console.log(days)
 
         const epg = await Promise.all(days.map(async (day, index) => {
             await this.fetch({day})
@@ -78,7 +78,7 @@ class Guide {
 
         // Fix start dates that are 24 hours more than they should be
         const flat1 = flat.map(flat => {
-            let { start, end } = flat
+            let  { start, end } = flat
             if (start > end) {
                 start = start - 24 * 60 * 60 * 1000
             }
