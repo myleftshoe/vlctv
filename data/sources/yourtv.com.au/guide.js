@@ -34,22 +34,24 @@ class Guide {
     }
 
     async convert(date) {
-        const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
-        const dateStr = date.toString()
-        const guide = channels.map(({ number, blocks }, index) => {
-            const shows = collect(blocks)
-                .pluck('shows').all().flat(1)
-                .map(({ id, title, date: time, width }, index, array) => {
-                    const startStr = dateStr.replace("00:00:00", time)
-                    let start = Date.parse(startStr)
-                    const next = array[index + 1] || {}
-                    const endStr = dateStr.replace("00:00:00", next.date || '23:59')
-                    const end = Date.parse(endStr)
-                    return { number, id, title, start, end, time }
-                })
-            return shows
+        return new Promise((resolve, reject) => {
+            const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
+            const dateStr = date.toString()
+            const guide = channels.map(({ number, blocks }, index) => {
+                const shows = collect(blocks)
+                    .pluck('shows').all().flat(1)
+                    .map(({ id, title, date: time, width }, index, array) => {
+                        const startStr = dateStr.replace("00:00:00", time)
+                        let start = Date.parse(startStr)
+                        const next = array[index + 1] || {}
+                        const endStr = dateStr.replace("00:00:00", next.date || '23:59')
+                        const end = Date.parse(endStr)
+                        return { number, id, title, start, end, time }
+                    })
+                return shows
+            })
+            resolve(guide)
         })
-        return guide
     }
 
     async write() {
