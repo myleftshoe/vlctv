@@ -1,12 +1,15 @@
 const fs = require('fs')
 const bent = require('bent')
 const collect = require('collect.js')
-const { addDays, eachDayOfInterval, format } = require('date-fns')
+const { nextDays, format, today, tomorrow  } = require ('./lib/msd.js')
 
-const { next } = require('lapidate')
-const { convert, toDays, toLowercase } = require('lapidate/convert')
-
-// const { next, addDays, shortWeekdays } = require('./date.js') 
+function dateToDay(date) {
+    switch (date) {
+        case today(): return 'Today'
+        case tomorrow(): return 'Tomorrow'
+        default: return format(date, { weekday: 'short'})
+    }
+}
 
 const getJSON = bent('https://www.yourtv.com.au/api', 'json')
 
@@ -18,7 +21,9 @@ class Guide {
         this.guide
     }
 
-    async fetch({ day = 'today', timezone = 'Australia/Melbourne' } = {}) {
+    async fetch({ date = today(), timezone = 'Australia/Melbourne' } = {}) {
+        const day = dateToDay(date).toLocaleLowerCase()
+        console.log(day)
         const options = [
             `day=${day}`,
             `timezone=${encodeURIComponent(timezone)}`,
@@ -60,12 +65,11 @@ class Guide {
 
     async get(numdays = 1) {
 
-        const dates = next(numdays)
-        const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase).slice(2)].slice(0,numdays)
+        const dates = nextDays(numdays)
 
-        const epg = await Promise.all(days.map(async (day, index) => {
-            await this.fetch({day})
-            const result = await this.convert(dates[index])
+        const epg = await Promise.all(dates.map(async date => {
+            await this.fetch({date})
+            const result = await this.convert(date)
             return result
         }))
         const flat = epg.flat(Infinity)
