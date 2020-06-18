@@ -35,7 +35,6 @@ class Guide {
 
     async convert(date) {
         const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
-        // date = addDays(date,1)
         const dateStr = date.toString()
         const guide = channels.map(({ number, blocks }, index) => {
             const shows = collect(blocks)
@@ -46,7 +45,6 @@ class Guide {
                     const next = array[index + 1] || {}
                     const endStr = dateStr.replace("00:00:00", next.date || '23:59')
                     const end = Date.parse(endStr)
-                    // return { id, title, start, end, time }
                     return { number, id, title, start, end, time }
                 })
             return shows
@@ -59,15 +57,9 @@ class Guide {
     }
 
     async get(numdays = 1) {
-        // const today = new Date()
-        // const dates = eachDayOfInterval({ start: today, end: addDays(today, 4) }) 
-        // const dayNames = dates.map(date => format(date, 'ccc').toLowerCase())
-        // const days = ['today', 'tomorrow', ...dayNames.slice(2)]
 
         const dates = next(numdays)
         const days = ['today', 'tomorrow', ...convert(dates, toDays, toLowercase).slice(2)].slice(0,numdays)
-        // const days = ['yesterday', 'today', 'tomorrow', ...convert(dates, toDays, toLowercase)].slice(0, numdays)
-        console.log(days)
 
         const epg = await Promise.all(days.map(async (day, index) => {
             await this.fetch({day})
