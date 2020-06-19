@@ -3,6 +3,9 @@ const bent = require('bent')
 const collect = require('collect.js')
 const { nextDays, format, today, tomorrow  } = require ('./lib/msd.js')
 
+
+// Helpers
+
 function dateToDay(date) {
     switch (date) {
         case today(): return 'Today'
@@ -10,6 +13,9 @@ function dateToDay(date) {
         default: return format(date, { weekday: 'short'})
     }
 }
+
+const hasOwnProperty = property => object => object.hasOwnProperty(property)
+
 
 const getJSON = bent('https://www.yourtv.com.au/api', 'json')
 
@@ -23,7 +29,6 @@ class Guide {
 
     async fetch({ date = today(), timezone = 'Australia/Melbourne' } = {}) {
         const day = dateToDay(date).toLocaleLowerCase()
-        console.log(day)
         const options = [
             `day=${day}`,
             `timezone=${encodeURIComponent(timezone)}`,
@@ -40,7 +45,7 @@ class Guide {
 
     async convert(date) {
         return new Promise((resolve, reject) => {
-            const channels = this.raw[0].channels.filter(channel => channel.hasOwnProperty("number"))
+            const channels = this.raw[0].channels.filter(hasOwnProperty("number"))
             const dateStr = date.toString()
             const guide = channels.map(({ number, blocks }, index) => {
                 const shows = collect(blocks)
