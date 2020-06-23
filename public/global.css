@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-	color: #333;
+	color: white;
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
@@ -48,7 +48,7 @@ input[type="range"] {
 }
 
 button {
-	color: #333;
+	color: white;
 	background-color: #f4f4f4;
 	outline: none;
 }
