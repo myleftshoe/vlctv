@@ -4,7 +4,7 @@ imports.gi.versions.Gtk = '3.0';
 imports.gi.versions.GdkX11 = '3.0';
 
 // GdkX11 import makes the get_xid() func available on window objects
-const { GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
+const { WebKit2, GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
 const { Player } = imports.Player;
 const { setTimeout, setInterval } = imports.Timers;
 // const epg = imports.epg;
@@ -135,9 +135,13 @@ var AppContent = class AppContent {
         const flowbox = new Gtk.FlowBox()
         scrolledWindow.add(flowbox)
 
-            const channelButton = new ImageButton({})
-            flowbox.add(channelButton)
-            channelButton.connect('clicked', () => this.handleChannelButtonClick(92))
+        const webView = new WebKit2.WebView();
+        webView.load_uri ('http://localhost:3000');
+
+        const channelButton = new ImageButton({})
+        flowbox.add(webView)
+        flowbox.add(channelButton)
+        channelButton.connect('clicked', () => this.handleChannelButtonClick(92))
         return scrolledWindow
     }
 
