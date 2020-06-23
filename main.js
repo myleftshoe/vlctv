@@ -137,6 +137,7 @@ var AppContent = class AppContent {
 
         const webView = new WebKit2.WebView();
         webView.load_uri ('http://localhost:3000');
+        webView.reload_bypass_cache()
 
         const channelButton = new ImageButton({})
         flowbox.add(webView)
