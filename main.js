@@ -4,10 +4,9 @@ imports.gi.versions.Gtk = '3.0';
 imports.gi.versions.GdkX11 = '3.0';
 
 // GdkX11 import makes the get_xid() func available on window objects
-const { WebKit2, GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
+const { WebKit2, GObject, Gtk, Gdk, GdkX11, GdkPixbuf } = imports.gi;
 const { Player } = imports.Player;
 const { setTimeout, setInterval } = imports.Timers;
-const styleSheet = 'styles.css';
 // const epg = imports.epg;
 
 // let onNow = epg.onNow()
@@ -71,19 +70,7 @@ var AppContent = class AppContent {
         this.build()
     }
 
-    loadStyles() {
-        const cssProvider = new Gtk.CssProvider()
-        cssProvider.load_from_path(styleSheet)
-
-        Gtk.StyleContext.add_provider_for_screen(
-            Gdk.Screen.get_default(), 
-            cssProvider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        )
-    }
-
     build() {
-        this.loadStyles()
         this.videoContainer = this.createVideoContainer();
         this.channelOverlay = this.createChannelOverlay();
 
@@ -123,20 +110,6 @@ var AppContent = class AppContent {
         webView.width_request = 1720
         webView.height_request = 800
         webView.set_background_color(new Gdk.RGBA({ red: 0.13, green: .13, blue: .13, alpha: 1 }))
-
-        const css = `* { 
-            background-color: #222;
-            padding: 2px; 
-        }
-`
-        const css_provider = new Gtk.CssProvider()
-        css_provider.load_from_data(css)
-
-        const screen = Gdk.Screen.get_default()
-        Gtk.StyleContext.add_provider_for_screen(
-            screen, css_provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        )
 
         flowbox.add(webView)
         return flowbox

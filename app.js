@@ -1,17 +1,24 @@
 #!/usr/bin/gjs
 
 imports.gi.versions.Gtk = '3.0';
-
-const Gio = imports.gi.Gio;
-const GLib = imports.gi.GLib;
-const Gtk = imports.gi.Gtk;
+imports.searchPath.push(imports.gi.GLib.get_current_dir());
+const { GLib, Gtk, Gdk } = imports.gi;
 
 const APPNAME = 'WatchTV'
-
-// Add application folder to imports path
-imports.searchPath.push(GLib.get_current_dir());
-
 const UI = imports.main;
+const styleSheet = 'styles.css';
+
+function loadStyles() {
+    const cssProvider = new Gtk.CssProvider()
+    cssProvider.load_from_path(styleSheet)
+
+    Gtk.StyleContext.add_provider_for_screen(
+        Gdk.Screen.get_default(), 
+        cssProvider,
+        Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+    )
+}
+loadStyles()
 
 class App {
     constructor(title) {
