@@ -5,7 +5,7 @@ imports.searchPath.push(imports.gi.GLib.get_current_dir());
 const { GLib, Gtk, Gdk } = imports.gi;
 
 const APPNAME = 'WatchTV'
-const UI = imports.main;
+const { AppContent } = imports.main;
 const styleSheet = 'styles.css';
 
 function loadStyles() {
@@ -52,7 +52,7 @@ class App {
             this.window.set_icon_name('application-x-executable');
         }
         this.window.maximize()
-        UI.build(this.window)
+        this.content = new AppContent(this.window)
     };
 }
 
