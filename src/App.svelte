@@ -13,19 +13,21 @@
     main {
         height: 100%;
         width: 100%;
-        background-color: #222;
+        background-color: transparent;
         /* margin:50px; */
         /* padding:50px; */
         overflow: auto;
     }
     div {
-        display:grid;
-        grid-auto-rows: auto;
-        grid-template-columns: 50% 50%; 
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* grid-auto-rows: auto;
+        grid-template-columns: auto;  */
         height: 100%;
     }
     button {
-        /* flex: 1 1 50vw; */
+        flex: 0 1 15vw;
         background-color: #333;
         color:white;
         margin: 8px;

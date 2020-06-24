@@ -125,26 +125,56 @@ var AppContent = class AppContent {
     }
 
     createChannelOverlay() {
-        const scrolledWindow = new Gtk.ScrolledWindow({
+        const flowbox = new Gtk.FlowBox({
             margin_top: 100,
             margin_right: 100,
             margin_bottom: 100,
             margin_left: 100
         })
 
-        const flowbox = new Gtk.FlowBox()
-        scrolledWindow.add(flowbox)
+        // const flowbox = new Gtk.FlowBox()
+        // scrolledWindow.add(flowbox)
 
         const webView = new WebKit2.WebView();
         webView.load_uri ('http://localhost:3000');
         webView.reload_bypass_cache()
-        webView.width_request = 200
+        webView.width_request = 1720
+        webView.fullscreen = true
+        webView.set_background_color(new Gdk.RGBA({red: 0.13, green: .13, blue: .13, alpha: 1}))
+        const provider = new Gtk.CssProvider()
+        provider.load_from_data(`
+            .GtkButton {
+                border: 10px solid red;
+                padding: 50px;
+                background-color: red;
+            }
+        `)
+        Gtk.StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), provider, 600)
+            // Gtk.STYLE_CONTEXT_PRIORITY_APPLICATION)
 
-        const channelButton = new ImageButton({})
+            const css = `* { 
+                padding: 0px; 
+                border: none; 
+                outline-width: 0px;
+            }
+            * {
+                background-color: #222;
+                background-image: none;
+            }`
+            const css_provider = new Gtk.CssProvider()
+            css_provider.load_from_data(css)
+            
+            const context =  Gtk.StyleContext
+            const screen = Gdk.Screen.get_default()
+            context.add_provider_for_screen(screen, css_provider,
+                                            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+
+
+        // const channelButton = new ImageButton({})
         flowbox.add(webView)
-        flowbox.add(channelButton)
-        channelButton.connect('clicked', () => this.handleChannelButtonClick(92))
-        return scrolledWindow
+        // flowbox.add(channelButton)
+        // channelButton.connect('clicked', () => this.handleChannelButtonClick(92))
+        return flowbox
     }
 
     // Event handlers
