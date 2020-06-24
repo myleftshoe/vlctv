@@ -26,7 +26,6 @@ class App {
     }
     onActivate() {
         this.window.show_all();
-        UI.init()
     };    
     onStartup() {
         this.buildUI();

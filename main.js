@@ -7,6 +7,7 @@ imports.gi.versions.GdkX11 = '3.0';
 const { WebKit2, GObject, Gtk, GLib, Gio, Gdk, GdkX11, GdkPixbuf } = imports.gi;
 const { Player } = imports.Player;
 const { setTimeout, setInterval } = imports.Timers;
+const styleSheet = 'styles.css';
 // const epg = imports.epg;
 
 // let onNow = epg.onNow()
@@ -43,11 +44,11 @@ const ImageButton = GObject.registerClass(class ImageButton extends Gtk.Button {
     _init(channelObj) {
         super._init()
         let channel = 92
-        this.id = channel 
+        this.id = channel
 
         const imageFile = `./img/${channel}.png`
-        const box = new Gtk.Box({orientation: Gtk.Orientation.VERTICAL})
-        this.title = new Gtk.Label({label: "92"})
+        const box = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL })
+        this.title = new Gtk.Label({ label: "92" })
         const now = Date.parse(new Date())
 
         this.add(box)
@@ -62,39 +63,6 @@ function build(window) {
 }
 
 let player
-async function init() {
-    // For some reason calling get_xid() here results in window not rendering correctly
-
-    // GdkX11 import makes the get_xid() func available on window objects
-    // const xid = content.window.drawingArea.get_window().get_xid()
-    // print ('drawing area xid', xid)
-    player = new Player(socket)
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')    
-    const response =  await fetch("https://postman-echo.com/get?foo1=bar1&foo2=bar")
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>')
-    // player.start()
-}
 
 var AppContent = class AppContent {
 
@@ -103,7 +71,19 @@ var AppContent = class AppContent {
         this.build()
     }
 
+    loadStyles() {
+        const cssProvider = new Gtk.CssProvider()
+        cssProvider.load_from_path(styleSheet)
+
+        Gtk.StyleContext.add_provider_for_screen(
+            Gdk.Screen.get_default(), 
+            cssProvider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        )
+    }
+
     build() {
+        this.loadStyles()
         this.videoContainer = this.createVideoContainer();
         this.channelOverlay = this.createChannelOverlay();
 
@@ -121,6 +101,11 @@ var AppContent = class AppContent {
         const drawingArea = new Gtk.DrawingArea()
         drawingArea.add_events(Gdk.EventMask.BUTTON_PRESS_MASK)
         drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
+        drawingArea.connect('realize', () => {
+            player = new Player(socket)
+            const file = `./public/img/31.png`
+            player.start(this.videoContainer.get_window().get_xid(), file)
+        })
         return drawingArea
     }
 
@@ -132,48 +117,28 @@ var AppContent = class AppContent {
             margin_left: 100
         })
 
-        // const flowbox = new Gtk.FlowBox()
-        // scrolledWindow.add(flowbox)
-
         const webView = new WebKit2.WebView();
-        webView.load_uri ('http://localhost:3000');
-        webView.reload_bypass_cache()
+        webView.load_uri('http://localhost:3000');
+        // webView.reload_bypass_cache()
         webView.width_request = 1720
-        webView.fullscreen = true
-        webView.set_background_color(new Gdk.RGBA({red: 0.13, green: .13, blue: .13, alpha: 1}))
-        const provider = new Gtk.CssProvider()
-        provider.load_from_data(`
-            .GtkButton {
-                border: 10px solid red;
-                padding: 50px;
-                background-color: red;
-            }
-        `)
-        Gtk.StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), provider, 600)
-            // Gtk.STYLE_CONTEXT_PRIORITY_APPLICATION)
+        webView.height_request = 800
+        webView.set_background_color(new Gdk.RGBA({ red: 0.13, green: .13, blue: .13, alpha: 1 }))
 
-            const css = `* { 
-                padding: 0px; 
-                border: none; 
-                outline-width: 0px;
-            }
-            * {
-                background-color: #222;
-                background-image: none;
-            }`
-            const css_provider = new Gtk.CssProvider()
-            css_provider.load_from_data(css)
-            
-            const context =  Gtk.StyleContext
-            const screen = Gdk.Screen.get_default()
-            context.add_provider_for_screen(screen, css_provider,
-                                            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+        const css = `* { 
+            background-color: #222;
+            padding: 2px; 
+        }
+`
+        const css_provider = new Gtk.CssProvider()
+        css_provider.load_from_data(css)
 
+        const screen = Gdk.Screen.get_default()
+        Gtk.StyleContext.add_provider_for_screen(
+            screen, css_provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        )
 
-        // const channelButton = new ImageButton({})
         flowbox.add(webView)
-        // flowbox.add(channelButton)
-        // channelButton.connect('clicked', () => this.handleChannelButtonClick(92))
         return flowbox
     }
 
