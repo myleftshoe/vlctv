@@ -70,6 +70,9 @@ var AppContent = class AppContent {
         this.build()
     }
 
+    get xid() { 
+        return this.videoContainer.get_window().get_xid()
+    }
     build() {
         this.videoContainer = this.createVideoContainer();
         this.channelOverlay = this.createChannelOverlay();
@@ -90,8 +93,8 @@ var AppContent = class AppContent {
         drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
         drawingArea.connect('realize', () => {
             player = new Player(socket)
-            const file = `./public/img/31.png`
-            player.start(this.videoContainer.get_window().get_xid(), file)
+            const file = `./public/img/30.png`
+            player.start(this.xid, file)
         })
         return drawingArea
     }
@@ -119,7 +122,7 @@ var AppContent = class AppContent {
     handleChannelButtonClick(channel) {
         const file = `./channels/${channel}.xspf`
         if (!player.started)
-            player.start(this.videoContainer.get_window().get_xid(), file)
+            player.start(this.xid, file)
         else
             player.open(file)
         setTimeout(() => this.channelOverlay.hide(), 5000)
