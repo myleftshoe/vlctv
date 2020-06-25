@@ -52,22 +52,27 @@ var AppContent = class AppContent {
     }
 
     createChannelOverlay() {
+        const bin = new Gtk.Box()
+        bin.width_request = 1920
+        bin.height_request = 1200
+
         const flowbox = new Gtk.FlowBox({
-            margin_top: 100,
-            margin_right: 100,
-            margin_bottom: 100,
-            margin_left: 100
+            margin_top: 50,
+            margin_right: 10,
+            margin_bottom: 50,
+            margin_left: 10
         })
 
         const webView = new WebKit2.WebView();
-        webView.load_uri('http://localhost:3000');
-        // webView.reload_bypass_cache()
-        webView.width_request = 1720
-        webView.height_request = 800
+        webView.load_uri('http://localhost:4001');
+        webView.reload_bypass_cache()
+        webView.width_request = 1900
+        // webView.height_request = 1000
         webView.set_background_color(new Gdk.RGBA({ red: 0.13, green: .13, blue: .13, alpha: 1 }))
 
         flowbox.add(webView)
-        return flowbox
+        bin.add(flowbox)
+        return bin
     }
 
     // Event handlers

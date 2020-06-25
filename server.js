@@ -26,7 +26,7 @@ app.get('/open/:channel', (req, res) => {
 
 })
 
-app.listen(3000, err => {
+app.listen(3042, err => {
     if (err) throw err;
-    console.log(`> Running on localhost:3000`);
+    console.log(`> Running on localhost:3042`);
 })
