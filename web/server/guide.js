@@ -1,15 +1,15 @@
 const fs = require('fs')
 const bent = require('bent')
 const collect = require('collect.js')
-const { toDate, nextDays, format, today, tomorrow, addDays } = require('./lib/msd.js')
+const { arrayOf, today, days, toDate, format } = require('@mls44/msdate')
 
 
 // Helpers
 
 function dateToDay(date) {
     switch (date) {
-        case today(): return 'Today'
-        case tomorrow(): return 'Tomorrow'
+        case today: return 'Today'
+        case today + days * 1: return 'Tomorrow'
         default: return format(date, { weekday: 'short' })
     }
 }
@@ -27,7 +27,7 @@ class Guide {
         this.guide
     }
 
-    async fetch({ date = today(), timezone = 'Australia/Melbourne' } = {}) {
+    async fetch({ date = today, timezone = 'Australia/Melbourne' } = {}) {
         const day = dateToDay(date).toLocaleLowerCase()
         const options = [
             `day=${day}`,
@@ -57,7 +57,7 @@ class Guide {
                         const endStr = dateStr.replace("00:00:00", next.date || '23:59')
                         const end = Date.parse(endStr)
                         if (start > end)
-                            start = addDays(-1)(start)
+                            start = start - days * 1
                         return { number, id, title, start, end, time }
                     })
                 return [number, shows]
@@ -72,7 +72,7 @@ class Guide {
 
     async get(numdays = 1) {
 
-        const dates = nextDays(numdays)
+        const dates = arrayOf(days, numdays).from(today)
 
         const epg = await Promise.all(dates.map(async date => {
             await this.fetch({ date })
