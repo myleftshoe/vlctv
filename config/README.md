@@ -17,5 +17,5 @@ sudo systemctl enable vlctv
 * (To disable the service)
 
 ```bash
-sudo systemctl enable vlctv
+sudo systemctl disable vlctv
 ```
