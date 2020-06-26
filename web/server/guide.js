@@ -71,16 +71,12 @@ class Guide {
     }
 
     async get(numdays = 1) {
-
         const dates = arrayOf(days, numdays).from(today)
-
-        const epg = await Promise.all(dates.map(async date => {
+        this.guide = await Promise.all(dates.map(async date => {
             await this.fetch({ date })
-            const result = await this.convert(date)
-            return result
+            return this.convert(date)
         }))
-        this.guide = epg
-        await this.write()
+        this.write()
         return this.guide
     }
 }
