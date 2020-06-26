@@ -1,0 +1,17 @@
+# Put this file in /lib/systemd/system/
+[Unit]
+Description=vlctv web server
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Environment=NODE_PORT=4001
+Type=simple
+User=paul
+#ExecStart=/usr/bin/node /home/paul/Development/vlctv/web/server.js
+WorkingDirectory=/home/paul/Development/vlctv/web
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+# Put this file in ~/.local/share/applications/
+[Desktop Entry]
+Comment=VLCTV Gtk Application
+Terminal=false
+Name=VLCTV
+Path=/home/paul/Development/vlctv/
+Exec=/bin/bash -c 'cd /home/paul/Development/vlctv && ./vlctv'
+Type=Application
+Icon=/home/paul/Development/vlctv/img/tv.png
+Categories=Video;
