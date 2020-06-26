@@ -22,7 +22,7 @@ var AppContent = class AppContent {
         this.build()
     }
 
-    get xid() { 
+    get xid() {
         return this.videoContainer.get_window().get_xid()
     }
     build() {
@@ -109,7 +109,7 @@ var AppContent = class AppContent {
             }
             default: { }
         }
-        print(Gdk.keyval_name(keyval))
+        print(`(gtk.main.js) handleKeypress: ${Gdk.keyval_name(keyval)}`)
         // keyHandlers[keyval] && keyHandlers[keyval]()
     }
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "---------------------------"
-echo "$@"
-echo "$@" | nc -q0 -U socket
+echo "sendcommand.sh $@"
+echo $PWD
+echo "$@" | nc -q0 -U ../socket
 

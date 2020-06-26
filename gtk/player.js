@@ -11,6 +11,7 @@ function sendCommand(string) {
 var Player = class Player {
 
     constructor(socket) {
+        print(socket)
         this.fullscreen = false;
         this.started = false;
         this.socket = socket;
