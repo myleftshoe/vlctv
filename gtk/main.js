@@ -45,7 +45,7 @@ var AppContent = class AppContent {
         drawingArea.connect('button_press_event', () => this.handleDrawingAreaClick())
         drawingArea.connect('realize', () => {
             player = new Player(socket)
-            const file = `../tv.1920x1200.png`
+            const file = `../img/tv.1920x1200.png`
             player.start(this.xid, file)
         })
         return drawingArea
