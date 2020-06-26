@@ -22,7 +22,8 @@ app.get('/open/:channel', (req, res) => {
     sendCommand('add', `channels/${channel}.xspf`)
 })
 
-const port = 4001
+const port = process.env.NODE_PORT || 4001;
+
 app.listen(port, err => {
     if (err) throw err;
     console.log(`(server.js) listening on localhost:${port}`);
