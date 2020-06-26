@@ -67,7 +67,7 @@ class Guide {
     }
 
     async write() {
-        fs.writeFile(`./results/guide.json`, JSON.stringify(this.guide), 'utf8', () => { })
+        fs.writeFile(`./guide.json`, JSON.stringify(this.guide), 'utf8', () => { })
     }
 
     async get(numdays = 1) {
