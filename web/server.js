@@ -17,18 +17,19 @@ app.get('/pause', (req, res) => {
 
 app.get('/open/:channel', (req, res) => {
     const { channel } = req.params
-    console.log(`sendCommand.sh open: ${channel}`)
     res.end('ok')
     sendCommand('clear')
     sendCommand('add', `channels/${channel}.xspf`)
 })
 
-app.listen(4001, err => {
+const port = 4001
+app.listen(port, err => {
     if (err) throw err;
-    console.log(`> Running on localhost:4001`);
+    console.log(`(server.js) listening on localhost:${port}`);
 })
 
-const basedir = '..'
 function sendCommand(cmd, arg = '') {
-    exec(`${basedir}/sendCommand.sh ${cmd} ${basedir}/${arg}`)
+    const cmdline = `../sendCommand.sh ${cmd} ../${arg}`
+    console.log(cmdline)
+    exec(cmdline)
 }
