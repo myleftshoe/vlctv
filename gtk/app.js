@@ -4,7 +4,7 @@ imports.gi.versions.Gtk = '3.0';
 imports.searchPath.push(imports.gi.GLib.get_current_dir());
 const { GLib, Gtk, Gdk } = imports.gi;
 
-const APPNAME = 'WatchTV'
+const APPNAME = 'VLCTV'
 const { AppContent } = imports.main;
 const styleSheet = 'styles.css';
 
