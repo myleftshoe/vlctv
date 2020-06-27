@@ -1,6 +1,20 @@
 const polka = require('polka')
 const sirv = require('sirv')
 const { exec } = require("child_process");
+const { fetchGuide } = require('./server/guide')
+const cron = require('node-cron');
+
+let guide = ['No data']
+
+async function getGuide() {
+    guide = await fetchGuide()
+    console.log(guide.length)
+}
+
+// Get guide immediatetly then at 1am every day (in case computer is never powered down)
+// getGuide()
+getGuide()
+cron.schedule('0 1 * * *', getGuide)
 
 const app = polka();
 
@@ -8,6 +22,10 @@ const { server } = app.use(sirv('public'));
 
 app.get('/', (req, res) => {
     res.end('Hello world!');
+})
+
+app.get('/guide', (req, res) => {
+    res.end(JSON.stringify(guide))
 })
 
 app.get('/pause', (req, res) => {

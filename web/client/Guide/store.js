@@ -1,6 +1,14 @@
-import data from './epg.js'
 
-const _guide = new Map(data)
+
+let data
+
+async function fetchData() {
+    const response = await fetch('guide')
+    const json = await response.json()
+    data = new Map(json)
+}
+
+export const hasData = fetchData()
 
 export const guide = {
     get(date) {
@@ -15,7 +23,7 @@ const pxPerMin = 6
 class DailyGuide {
 
     constructor(date) {
-        this.data = new Map([..._guide.get(date).filter(([channel]) => !excludedChannels.has(channel))])
+        this.data = new Map([...data.get(date).filter(([channel]) => !excludedChannels.has(channel))])
     }
     
     get channels() { return [...this.data.keys()] }

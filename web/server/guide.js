@@ -81,8 +81,9 @@ class Guide {
     }
 }
 
-async function main() {
-    const guide = await new Guide(94).get(7)
+async function fetchGuide() {
+    return new Guide(94).get(7)
 }
 
-main()
+// fetchGuide()
+module.exports = { fetchGuide }

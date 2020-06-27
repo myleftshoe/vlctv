@@ -19,6 +19,7 @@
     "@mls44/msdate": "^2.1.0",
     "bent": "^7.3.6",
     "collect.js": "^4.27.3",
+    "node-cron": "^2.0.3",
     "polka": "^0.5.2",
     "sirv-cli": "^0.4.4"
   }
