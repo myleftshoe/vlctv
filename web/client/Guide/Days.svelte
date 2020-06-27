@@ -52,8 +52,8 @@
 
 <ul>
     {#each dates as date}
-        <li class:selected={date === selected}>
-            <button on:click={handleClick} data-date={date}>
+        <li class:selected={date === selected} tabindex="0" data-date={date} on:click={handleClick} on:focus={handleClick}>
+            <button tabindex="-1">
                 <span class='weekday'>{date === today ? 'today' : format(date, { weekday: 'short'})}</span>
                 <span>{format(date, { day: 'numeric'})}</span>
             </button>
