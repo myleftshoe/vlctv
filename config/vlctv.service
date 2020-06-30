@@ -2,7 +2,8 @@
 [Unit]
 Description=vlctv web server
 Documentation=https://example.com
-After=network.target
+After=network-online.target
+Wants=network-online.target
 
 [Service]
 Environment=NODE_PORT=4001
@@ -10,8 +11,9 @@ Type=simple
 User=paul
 #ExecStart=/usr/bin/node /home/paul/Development/vlctv/web/server.js
 WorkingDirectory=/home/paul/Development/vlctv/web
-ExecStart=/usr/bin/node server.js
+ExecStart=/home/paul/.nvm/versions/node/v12.16.3/bin/node server.js
 Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
+
