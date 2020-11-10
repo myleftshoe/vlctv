@@ -64,7 +64,7 @@ var AppContent = class AppContent {
         })
 
         const webView = new WebKit2.WebView();
-        webView.load_uri('http://localhost:4001');
+        webView.load_uri('http://localhost:4006');
         webView.reload_bypass_cache()
         webView.width_request = 1900
         // webView.height_request = 1000

@@ -11,7 +11,7 @@ async function getGuide() {
     console.log(guide.length)
 }
 
-// Get guide immediatetly then at 1am every day (in case computer is never powered down)
+// Get guide immediately then at 1am every day (in case computer is never powered down)
 // getGuide()
 getGuide()
 cron.schedule('0 1 * * *', getGuide)
@@ -40,7 +40,7 @@ app.get('/open/:channel', (req, res) => {
     sendCommand('add', `channels/${channel}.xspf`)
 })
 
-const port = process.env.NODE_PORT || 4001;
+const port = process.env.NODE_PORT || 4006;
 
 app.listen(port, err => {
     if (err) throw err;

@@ -5,17 +5,17 @@
 	<info>http://wirbel.htpc-forum.de</info>
 	<trackList>
 		<track>
-			<title>10 Shake</title>
-			<location>dvb-t://frequency=219500000</location>
+			<title>9Rush Melbourne</title>
+			<location>dvb-t://frequency=191625000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=1539</vlc:option>
+				<vlc:option>dvb-ts-id=1072</vlc:option>
 				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>32</vlc:id>
-				<vlc:option>program=1587</vlc:option>
+				<vlc:id>25</vlc:id>
+				<vlc:option>program=1081</vlc:option>
 			</extension>
 		</track>
     </trackList>

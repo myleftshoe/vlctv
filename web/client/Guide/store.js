@@ -16,7 +16,7 @@ export const guide = {
     }
 }
 
-const excludedChannels = new Set([14, 15, 75, 78, 73, 94, 96, 23, 33, 44, 72, 7, 92, 10])
+const excludedChannels = new Set([16, 17, 23, 33, 75, 78, 92, 94, 95, 96, 97])
 
 const pxPerMin = 6
 

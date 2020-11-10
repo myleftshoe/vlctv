@@ -15,7 +15,7 @@
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
 				<vlc:id>26</vlc:id>
-				<vlc:option>program=1585</vlc:option>
+				<vlc:option>program=1591</vlc:option>
 			</extension>
 		</track>
     </trackList>

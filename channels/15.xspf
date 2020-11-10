@@ -5,7 +5,7 @@
 	<info>http://wirbel.htpc-forum.de</info>
 	<trackList>
 		<track>
-			<title>SpreeTV</title>
+			<title>10 HD</title>
 			<location>dvb-t://frequency=219500000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
@@ -14,8 +14,8 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>31</vlc:id>
-				<vlc:option>program=1593</vlc:option>
+				<vlc:id>32</vlc:id>
+				<vlc:option>program=1588</vlc:option>
 			</extension>
 		</track>
     </trackList>

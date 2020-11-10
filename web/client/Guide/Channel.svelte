@@ -50,5 +50,5 @@
 </style>
 
 <li class="ripple" on:click={handleClick} data-channel={channel}>
-    <img src={`./img/${channel}.png`} alt="Channel logo"/>
+    <img src={`./img/${channel}.png`} alt={channel}/>
 </li>
