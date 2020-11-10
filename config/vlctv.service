@@ -6,7 +6,7 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
-Environment=NODE_PORT=4001
+Environment=NODE_PORT=4006
 Type=simple
 User=paul
 #ExecStart=/usr/bin/node /home/paul/Development/vlctv/web/server.js
